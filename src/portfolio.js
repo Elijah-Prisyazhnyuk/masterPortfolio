@@ -9,7 +9,8 @@ const settings = {
 const seo = {
   title: "Elijah's Portfolio",
   description:
-  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in data science and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, optimizes, and programs microcontrollers and IoT devices to solve real-world industry problems."  og: {
+  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in data science and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, optimizes, and programs microcontrollers and IoT devices to solve real-world industry problems.",
+  og: {
     title: "Elijah Prisyazhnyuk Portfolio",
     type: "website",
     url: "https://elijah-pris.vercel.app/",
@@ -22,7 +23,8 @@ const greeting = {
   logo_name: "ElijahPris",
   nickname: "@ElijahPris",
   subTitle:
-"I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in data science and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, optimizes, and programs microcontrollers and IoT devices to solve real-world industry problems."  resumeLink:
+  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in data science and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, optimizes, and programs microcontrollers and IoT devices to solve real-world industry problems.",
+  resumeLink:
     "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
   portfolio_repository: "https://github.com/Elijah-Prisyazhnyuk/masterPortfolio",
   githubProfile: "https://github.com/Elijah-Prisyazhnyuk",

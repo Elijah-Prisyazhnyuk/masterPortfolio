@@ -9,9 +9,7 @@ export default class FullStackImg extends Component {
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 666.66669 666.66669"
    height="666.66669"
-   width="666.66669"
-   xml:space="preserve"
-   version="1.1">
+   width="666.66669">
    <title>Embedded Engineer</title>
 	<clipPath
        id="clipPath18"

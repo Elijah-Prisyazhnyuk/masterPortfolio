@@ -19,9 +19,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Elijah Prisyazhnyuk",
+  logo_name: "ElijahPris",
+  nickname: "@ElijahPris",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:

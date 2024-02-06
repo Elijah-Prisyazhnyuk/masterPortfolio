@@ -28,6 +28,7 @@
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
+  justify-content: space-around;
 }
 
 .greeting-text {

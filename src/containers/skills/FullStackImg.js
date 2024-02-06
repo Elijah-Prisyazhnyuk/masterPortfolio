@@ -61,7 +61,7 @@ export default class FullStackImg extends Component {
        id="clipPath1558"
        clipPathUnits="userSpaceOnUse"><path
          id="path1556"
-         d="M 0,500 H 500 V 0 H 0 Z" /></clipPath></defs><g
+         d="M 0,500 H 500 V 0 H 0 Z" /></clipPath><g
      transform="matrix(1.3333333,0,0,-1.3333333,0,666.66667)"
      id="g10"><g
        id="g12"><g

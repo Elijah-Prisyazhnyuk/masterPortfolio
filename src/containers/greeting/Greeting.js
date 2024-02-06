@@ -35,12 +35,12 @@ export default function Greeting(props) {
             </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          {/*<div className="greeting-image-div">
             <img
 							alt="Yes, it's me"
 							src={"../../assests/images/Portfolio.png"}
-						></img>
-          </div>
+              ></img>
+          </div>*/}
         </div>
       </div>
     </Fade>

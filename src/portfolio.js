@@ -157,7 +157,7 @@ const skills = {
       ],
     },
     {
-      title: "Data Science & AI",
+      title: "Machine Learning & Data analysis",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",

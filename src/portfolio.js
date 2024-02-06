@@ -75,8 +75,8 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Embedded Engineer",
+      fileName: "EmbeddedEngineerImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
         "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
@@ -202,7 +202,7 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "3D & Web designer",
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",

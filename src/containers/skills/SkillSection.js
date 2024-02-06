@@ -3,10 +3,10 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import EmbeddedEngineerImg from "./fullstack.svg"
-import DataScienceImg from "./data_science.svg";
-import CloudInfraImg from "./cloud_infrastructure.svg";
-import DesignImg from "./ui_ux_design.svg";
+import EmbeddedEngineerImg from "../../src/assests/images/fullstack.svg"
+import DataScienceImg from "../../src/assests/images/data_science.svg";
+import CloudInfraImg from "../../src/assests/images/cloud_infrastructure.svg";
+import DesignImg from "../../src/assests/images/ui_ux_design.svg";
 
 
 
@@ -22,7 +22,7 @@ class SkillSection extends Component {
                 <div className="skills-image-div">
                   <img
                     alt="Ashutosh is Analysing Data"
-                    src={require(`../../assests/images/${skill.imagePath}`)}
+                    src={require({skill.imagePath})
                   ></img>
                 </div>
               </Fade>

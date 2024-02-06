@@ -22,7 +22,7 @@ class SkillSection extends Component {
                 <div className="skills-image-div">
                   <img
                     alt="Ashutosh is Analysing Data"
-                    src={require('${skill.fileName}')}
+                    src={skill.fileName}
                   ></img>
                 </div>
               </Fade>

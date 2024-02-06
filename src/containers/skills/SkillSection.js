@@ -9,7 +9,7 @@ function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <img alt="Ashutosh is Analysing Data" src={require(`../../assests/images/data_science.svg`)} ></img>;
   else if (props.fileName === "EmbeddedEngineerImg")
-    return <img alt="Ashutosh is Analysing Data" src={require(`../../assests/images/cloud_infrastructure.svg`)} ></img>
+    return <img alt="Ashutosh is Analysing Data" src={require(`../../assests/images/embedded.svg`)} ></img>
   return <img alt="Ashutosh is Analysing Data" src={require(`../../assests/images/3d_design.svg`)} ></img>
 }
 

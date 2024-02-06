@@ -3,11 +3,17 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import EmbeddedEngineerImg from "../../src/assests/images/fullstack.svg"
-import DataScienceImg from "../../src/assests/images/data_science.svg";
-import CloudInfraImg from "../../src/assests/images/cloud_infrastructure.svg";
-import DesignImg from "../../src/assests/images/ui_ux_design.svg";
 
+
+function GetSkillSvg(props) {
+  if (props.fileName === "DataScienceImg")
+    return <img alt="Ashutosh is Analysing Data" src={require(`../../assests/images/data_science.svg`)} ></img>;
+  else if (props.fileName === "EmbeddedEngineerImg")
+    return <img alt="Ashutosh is Analysing Data" src={require(`../../assests/images/fullstack.svg`)} ></img>;
+  else if (props.fileName === "CloudInfraImg")
+    return <img alt="Ashutosh is Analysing Data" src={require(`../../assests/images/cloud_infrastructure.svg`)} ></img>
+  return <img alt="Ashutosh is Analysing Data" src={require(`../../assests/images/ui_ux_design.svg`)} ></img>
+}
 
 
 class SkillSection extends Component {
@@ -20,10 +26,7 @@ class SkillSection extends Component {
             <div key={i} className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
-                  <img
-                    alt="Ashutosh is Analysing Data"
-                    src={require(skill.fileName)}
-                  ></img>
+                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
 

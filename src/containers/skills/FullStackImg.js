@@ -5,16 +5,13 @@ export default class FullStackImg extends Component {
     const theme = this.props.theme;
     return (
       <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
+   id="f0a8f4ba-cc2b-4400-9e08-d246a0bad060"
+   data-name="Layer 1"
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 666.66669 666.66669"
    height="666.66669"
    width="666.66669"
    xml:space="preserve"
-   id="svg2"
    version="1.1">
    <title>Embedded Engineer</title>
 	<clipPath
@@ -2399,7 +2396,8 @@ export default class FullStackImg extends Component {
            id="g1922"><path
              id="path1924"
              style="fill:none;stroke:#1a2e35;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 0,0 c 0,-0.652 -0.529,-1.182 -1.182,-1.182 -0.653,0 -1.182,0.53 -1.182,1.182 0,0.653 0.529,1.183 1.182,1.183 C -0.529,1.183 0,0.653 0,0 Z" /></g></g></g></g></svg>
+             d="m 0,0 c 0,-0.652 -0.529,-1.182 -1.182,-1.182 -0.653,0 -1.182,0.53 -1.182,1.182 0,0.653 0.529,1.183 1.182,1.183 C -0.529,1.183 0,0.653 0,0 Z" /></g></g></g></g>
+		     </svg>
     );
   }
 }

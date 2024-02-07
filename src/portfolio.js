@@ -100,11 +100,8 @@ const skills = {
           imageSrc: "STM32.svg"
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          skillName: "Arduino",
+          imageSrc: "Arduino.svg"
         },
         {
           skillName: "NodeJS",

@@ -113,7 +113,7 @@ const skills = {
         },
         {
           skillName: "My Home OS - EndeavourOS",
-          imageSrc: "EndeavourOS_logo.svg"
+          imageSrc: "EndeavourOS_Logo.svg"
         },
       ],
     },

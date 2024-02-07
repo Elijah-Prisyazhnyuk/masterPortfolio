@@ -84,7 +84,7 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "MATLAB",
+          skillName: "MATLAB & Simulink",
           imageSrc: "matlab-512.svg",
         },
         {
@@ -104,39 +104,16 @@ const skills = {
           imageSrc: "Arduino.svg"
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
+          skillName: "Thingspeak",
+          imageSrc: "Thingspeak_logo.png"
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
+          skillName: "Linux",
+          imageSrc: "Linux.svg"
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          skillName: "My Home OS - EndeavourOS",
+          imageSrc: "EndeavourOS_logo.svg"
         },
       ],
     },

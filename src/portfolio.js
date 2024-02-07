@@ -84,11 +84,8 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
+          skillName: "MATLAB",
+          imageSrc: "matlab-512.svg",
         },
         {
           skillName: "CSS3",

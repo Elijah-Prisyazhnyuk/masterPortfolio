@@ -104,6 +104,10 @@ const skills = {
           imageSrc: "Arduino.svg"
         },
         {
+          skillName: "Thonny - Micropython IDE",
+          imageSrc: "Thonny_logo.svg"
+        },
+        {
           skillName: "Thingspeak",
           imageSrc: "Thingspeak_logo.png"
         },

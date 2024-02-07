@@ -105,7 +105,7 @@ const skills = {
         },
         {
           skillName: "Thonny - Micropython IDE",
-          imageSrc: "Thonny_logo.svg"
+          imageSrc: "Thonny_logo.png"
         },
         {
           skillName: "Thingspeak",

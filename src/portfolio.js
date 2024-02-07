@@ -88,26 +88,16 @@ const skills = {
           imageSrc: "matlab-512.svg",
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
+          skillName: "Altium Designer",
+          imageSrc: "Altium.svg"
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
+          skillName: "KiCAD",
+          imageSrc: "KiCad-Logo.svg"
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          skillName: "STM32CubeMX",
+          imageSrc: "STM32.svg"
         },
         {
           skillName: "ReactJS",

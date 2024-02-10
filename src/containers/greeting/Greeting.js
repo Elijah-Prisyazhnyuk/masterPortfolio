@@ -32,10 +32,12 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img className="avatar"
-							alt="Yes, it's me"
-							src={require(`../../assests/images/portfolio.png`)}
+            <div className="avatar">
+              <img
+							  alt="Yes, it's me"
+							  src={require(`../../assests/images/portfolio.png`)}
               />
+            </div>
             <div className="button-greeting-div">
               <Button text="Contact me" theme={theme} href="contact" />
               <Button text="See my resume" theme={theme} newTab={true} href={greeting.resumeLink} />

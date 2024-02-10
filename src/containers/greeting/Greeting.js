@@ -32,7 +32,7 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
+            <img className="avatar"
 							alt="Yes, it's me"
 							src={require(`../../assests/images/portfolio.png`)}
               />

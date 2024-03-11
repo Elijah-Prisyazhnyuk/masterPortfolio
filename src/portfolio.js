@@ -265,8 +265,8 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "Siberian State Industrial University",
+      subtitle: "Bachelor's degree in Industrial Electronics",
       logo_path: "iiitk_logo.png",
       alt_name: "SibSIU",
       duration: "2018 - 2022",
@@ -275,11 +275,11 @@ const degrees = {
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://sibsiu.ru/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Machine learning & Big Data analisys",
+      title: "South Ural State University",
+      subtitle: "Unfinished Master's degree in Machine learning & Big Data analisys",
       logo_path: "iu_logo.png",
       alt_name: "SUSU",
       duration: "2022 - 2023",
@@ -288,7 +288,7 @@ const degrees = {
         "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
         "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.susu.ru/en",
     },
   ],
 };

@@ -267,7 +267,7 @@ const degrees = {
     {
       title: "Siberian State Industrial University",
       subtitle: "Bachelor's degree in Industrial Electronics",
-      logo_path: "iiitk_logo.png",
+      logo_path: "sibsiu.png",
       alt_name: "SibSIU",
       duration: "2018 - 2022",
       descriptions: [
@@ -280,7 +280,7 @@ const degrees = {
     {
       title: "South Ural State University",
       subtitle: "Unfinished Master's degree in Machine learning & Big Data analisys",
-      logo_path: "iu_logo.png",
+      logo_path: "susu.png",
       alt_name: "SUSU",
       duration: "2022 - 2023",
       descriptions: [

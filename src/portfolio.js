@@ -284,9 +284,9 @@ const degrees = {
       alt_name: "SUSU",
       duration: "2022 - 2023",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ It was an enriching experience, filled with a wealth of new knowledge and skills at the forefront of science and technology.",
+        "⚡ Lectures and practical sessions were conducted in an engaging manner by professors with significant academic achievements.",
+        "😔 Unfortunately, I had to interrupt my studies a year before graduation due to trip to the USA.",
       ],
       website_link: "https://www.susu.ru/en",
     },
@@ -296,7 +296,9 @@ const degrees = {
       logo_path: "US.png",
       alt_name: "US",
       duration: "2023 - 2024",
-      descriptions: [],
+      descriptions: [
+        "🌍 It was the second and longest trip to the USA.",
+      ],
       website_link: "",
     },
     {

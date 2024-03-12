@@ -271,9 +271,9 @@ const degrees = {
       alt_name: "SibSIU",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ I have studied basic electrical engineering subjects like power electronics, embedded systems, electronic components, semiconductor devices, analog and digital integrated circuits, process control systems, industrial automation and etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied basic electrical engineering subjects like power electronics, embedded systems, electronic components, semiconductor devices, math, analog and digital integrated circuits, process control systems, industrial automation and etc.",
+        "⚡ During my time in this гniversity, I have developed a number of valuable professional relationships. Through collaborative research and participation in conferences, I was able to contribute to the publication of several articles in scientific journals and in the Russian Science Citation Index.",
+        "⚡ I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship from the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
       ],
       website_link: "https://sibsiu.ru/",
     },
@@ -289,6 +289,15 @@ const degrees = {
         "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
       website_link: "https://www.susu.ru/en",
+    },
+    {
+      title: "Trip to USA",
+      subtitle: "Six months of immersion in advanced English",
+      logo_path: "US.png",
+      alt_name: "US",
+      duration: "2023 - 2024",
+      descriptions: [],
+      website_link: "",
     },
   ],
 };

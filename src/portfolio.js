@@ -273,7 +273,7 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic electrical engineering subjects like power electronics, embedded systems, electronic components, semiconductor devices, math, analog and digital integrated circuits, process control systems, industrial automation and etc.",
         "⚡ During my time in this гniversity, I have developed a number of valuable professional relationships. Through collaborative research and participation in conferences, I was able to contribute to the publication of several articles in scientific journals and in the Russian Science Citation Index.",
-        "⚡ I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship from the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
+        "🏆 I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship from the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
       ],
       website_link: "https://sibsiu.ru/",
     },
@@ -307,8 +307,11 @@ const degrees = {
       logo_path: "clark.png",
       alt_name: "Clark_college",
       duration: "2023 - 2024",
-      descriptions: [],
-      website_link: "",
+      descriptions: [
+        "⚡ High scores on the placement test in math (Alex test) allowed me to enroll without taking additional exams such as English, and to take more advanced courses",
+        "⚡ Admission to college also allowed me to take free courses on software such as Tableau",
+      ],
+      website_link: "https://www.clark.edu/",
     },
   ],
 };

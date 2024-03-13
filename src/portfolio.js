@@ -171,9 +171,9 @@ const skills = {
       title: "3D & Web designer",
       fileName: "DesignImg",
       skills: [
+        "⚡ Creating and designing 3D models and prototypes using CAD software",
         "⚡ Designing attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
       ],
       softwareSkills: [
         {

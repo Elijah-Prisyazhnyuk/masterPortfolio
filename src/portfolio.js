@@ -292,7 +292,7 @@ const certifications = {
       subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://elijah-pris.vercel.app/",
       alt_name: "EVRAZ",
       color_code: "#8C151599",
     },
@@ -319,7 +319,7 @@ const certifications = {
       subtitle: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+        "https://elijah-pris.vercel.app/",
       alt_name: "CS_certificate",
       color_code: "#1F70C199",
     },
@@ -328,7 +328,7 @@ const certifications = {
       subtitle: "Certificate of participation in the II round of the Olympiad for the discipline \"Culture Science\"",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+        "https://elijah-pris.vercel.app/",
       alt_name: "Culture_certificate",
       color_code: "#D83B0199",
     },
@@ -337,7 +337,7 @@ const certifications = {
       subtitle: "I place in University round of the Olympiad for the discipline \"Computer Science\"",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+        "https://elijah-pris.vercel.app/",
       alt_name: "Diploma",
       color_code: "#1F70C199",
     },

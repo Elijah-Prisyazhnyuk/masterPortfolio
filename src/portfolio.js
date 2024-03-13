@@ -322,7 +322,7 @@ const certifications = {
     {
       title: "III degree Diploma",
       subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
-      logo_path: "stanford_logo.png",
+      logo_path: "",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
       alt_name: "EVRAZ",
@@ -331,7 +331,7 @@ const certifications = {
     {
       title: "ALEKS Placement Math test",
       subtitle: "79/100 Math Placement Assessment proctored test",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "",
       certificate_link:
         "https://www-awu.aleks.com/alekscgi/x/Isl.exe/153G76PXL6QWrJhTSB-ZUhv7Nbm28fgdixj_yJiwIACfpT95owKJRC7yjOVPAoj7uyaRdVW6nDgmgH_zlXncrO2aBPxWQ5NqgC7s1RdKcp54mqwNb/Placement_Assessment_Results.pdf?1cx_4_BkUiVxBTF9zFRJJbzF92yqZgv1BzX3ti06yGg6FjEYdT7IPqNF7ltCXK5MWpc5ZUD2WCq7U66K4PhNxeW2Nq3Gb56OCukPRNHxMvdmGIOgN0hyoYei6Ejut_k6Ne1xB7mq0QYy3Mo7WpcKWElWqI-rnO8Sos2Wy02tUO8F3LmV1wK7AqHDyGw9Kqn0L8LGT3bmvIj1k1Ac__o",
       alt_name: "ALEKS",
@@ -340,7 +340,7 @@ const certifications = {
     {
       title: "Scholarship of the Russian Federal Government",
       subtitle: "The scholarship of the government of the Russian Federation for priority areas of modernization and technological development in the Russian economy.",
-      logo_path: "google_logo.png",
+      logo_path: "",
       certificate_link:
         "https://www.sibsiu.ru/studentu/novosti-i-meropriyatiya/?ELEMENT_ID=16988",
       alt_name: "Scholarship",
@@ -349,7 +349,7 @@ const certifications = {
     {
       title: "Сertificate",
       subtitle: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
-      logo_path: "ibm_logo.png",
+      logo_path: "",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
       alt_name: "CS_certificate",
@@ -358,7 +358,7 @@ const certifications = {
     {
       title: "Certificate",
       subtitle: "Certificate of participation in the II round of the Olympiad for the discipline \"Culture Science\"",
-      logo_path: "microsoft_logo.png",
+      logo_path: "",
       certificate_link:
         "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
       alt_name: "Culture_certificate",
@@ -367,7 +367,7 @@ const certifications = {
     {
       title: "I degree Diploma",
       subtitle: "I place in University round of the Olympiad for the discipline \"Computer Science\"",
-      logo_path: "ibm_logo.png",
+      logo_path: "",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
       alt_name: "Diploma",
@@ -499,22 +499,6 @@ const publications = {
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
   ],
 };
 
@@ -522,7 +506,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
@@ -531,7 +515,7 @@ const contactPageData = {
     subtitle:
       "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
     locality: "Kanodar",
-    country: "IN",
+    country: "RU",
     region: "Gujarat",
     postalCode: "385520",
     streetAddress: "Ambavadi vas",

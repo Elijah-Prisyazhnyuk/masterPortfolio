@@ -212,7 +212,22 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    
+    {
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
+      style: {
+        color: "#F79F1B",
+      },
+      profileLink: "https://leetcode.com/layman_brother/",
+    },
+    {
+      siteName: "Kaggle",
+      iconifyClassname: "simple-icons:kaggle",
+      style: {
+        color: "#20BEFF",
+      },
+      profileLink: "https://www.kaggle.com/laymanbrother",
+    },
   ],
 };
 

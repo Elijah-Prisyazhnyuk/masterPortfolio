@@ -172,8 +172,16 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "MySQL",
+          imageSrc: "MySQL.svg",
+        },
+        {
+          skillName: "PostgreSQL",
+          imageSrc: "PostgreSQL.svg",
+        },
+        {
+          skillName: "Bash",
+          imageSrc: "Bash.svg",
         },
       ],
     },

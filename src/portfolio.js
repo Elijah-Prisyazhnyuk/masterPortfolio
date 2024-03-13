@@ -273,7 +273,7 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic electrical engineering subjects like power electronics, embedded systems, electronic components, semiconductor devices, math, analog and digital integrated circuits, process control systems, industrial automation and etc.",
         "⚡ During my time in this гniversity, I have developed a number of valuable professional relationships. Through collaborative research and participation in conferences, I was able to contribute to the publication of several articles in scientific journals and in the Russian Science Citation Index.",
-        "🏆 I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship from the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
+        "🏆 I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship of the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
       ],
       website_link: "https://sibsiu.ru/",
     },
@@ -319,25 +319,25 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
+      title: "III degree Diploma",
+      subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
       logo_path: "stanford_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+      alt_name: "EVRAZ",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "ALEKS Placement math test",
+      subtitle: "79/100 Math Placement Assessment proctored test",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://www-awu.aleks.com/alekscgi/x/Isl.exe/153G76PXL6QWrJhTSB-ZUhv7Nbm28fgdixj_yJiwIACfpT95owKJRC7yjOVPAoj7uyaRdVW6nDgmgH_zlXncrO2aBPxWQ5NqgC7s1RdKcp54mqwNb/Placement_Assessment_Results.pdf?1cx_4_BkUiVxBTF9zFRJJbzF92yqZgv1BzX3ti06yGg6FjEYdT7IPqNF7ltCXK5MWpc5ZUD2WCq7U66K4PhNxeW2Nq3Gb56OCukPRNHxMvdmGIOgN0hyoYei6Ejut_k6Ne1xB7mq0QYy3Mo7WpcKWElWqI-rnO8Sos2Wy02tUO8F3LmV1wK7AqHDyGw9Kqn0L8LGT3bmvIj1k1Ac__o",
+      alt_name: "ALEKS",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
+      title: "Scholarship of the Russian Federal Government",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
       certificate_link:

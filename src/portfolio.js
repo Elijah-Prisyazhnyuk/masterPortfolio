@@ -292,7 +292,7 @@ const certifications = {
       subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://elijah-pris.vercel.app/",
+        "https://drive.google.com/file/d/1SJ5-icna_lkDWMurHjFYhpXQCnTPWtc5/view?usp=sharing",
       alt_name: "EVRAZ",
       color_code: "#8C151599",
     },
@@ -319,7 +319,7 @@ const certifications = {
       subtitle: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://elijah-pris.vercel.app/",
+        "https://drive.google.com/file/d/1OBbGsw7mmuT1OHZ6oUaOOtS43nVWZE-v/view?usp=sharing",
       alt_name: "CS_certificate",
       color_code: "#1F70C199",
     },
@@ -328,7 +328,7 @@ const certifications = {
       subtitle: "Certificate of participation in the II round of the Olympiad for the discipline \"Culture Science\"",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://elijah-pris.vercel.app/",
+        "https://drive.google.com/file/d/1sqSN3hO3-OAtreOiL3AEYYNJF0GCWC00/view?usp=sharing",
       alt_name: "Culture_certificate",
       color_code: "#D83B0199",
     },
@@ -337,7 +337,7 @@ const certifications = {
       subtitle: "I place in University round of the Olympiad for the discipline \"Computer Science\"",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://elijah-pris.vercel.app/",
+        "https://drive.google.com/file/d/1vYnoj_qy_hVXoPYbcSobgeH9QQfT64IA/view?usp=sharing",
       alt_name: "Diploma",
       color_code: "#1F70C199",
     },

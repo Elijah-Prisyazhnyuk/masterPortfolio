@@ -214,13 +214,6 @@ const skills = {
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
           skillName: "Gimp",
           imageSrc: "Gimp.svg",
         },

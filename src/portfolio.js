@@ -107,6 +107,10 @@ const skills = {
           imageSrc: "STM32.svg"
         },
         {
+          skillName: "STM",
+          imageSrc: "STM.svg",
+        },
+        {
           skillName: "Arduino",
           imageSrc: "Arduino.svg"
         },
@@ -191,6 +195,10 @@ const skills = {
           imageSrc: "Blender.png",
         },
         {
+          skillName: "FreeCAD",
+          imageSrc: "FreeCAD.svg",
+        },
+        {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
           style: {
@@ -207,6 +215,14 @@ const skills = {
         {
           skillName: "Gimp",
           imageSrc: "Gimp.svg",
+        },
+        {
+          skillName: "React.js",
+          imageSrc: "Reactjs.svg",
+        },
+        {
+          skillName: "Flask",
+          imageSrc: "Flask.svg",
         },
       ],
     },

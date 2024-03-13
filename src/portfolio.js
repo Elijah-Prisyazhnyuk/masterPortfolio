@@ -183,11 +183,8 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
+          skillName: "KOMPAS 3D",
+          imageSrc: "kompas3d.png",
         },
         {
           skillName: "Figma",

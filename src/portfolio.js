@@ -218,7 +218,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/ElijahPris/",
     },
     {
       siteName: "Kaggle",
@@ -226,7 +226,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/elijahprisiazhniuk",
     },
   ],
 };
@@ -481,14 +481,14 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+      "Russia, Chelyabinsk region, Chelyabinsk, Dzerzhinskogo street 97/b - 454078",
     locality: "Chelyabinsk",
     country: "RU",
-    region: "Ch",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
+    region: "Chelyabinsk region",
+    postalCode: "454078",
+    streetAddress: "Dzerzhninskogo street, 97/b",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://maps.app.goo.gl/M5re4r8Tdjp4ZuBn9",
   },
   phoneSection: {
     title: "",

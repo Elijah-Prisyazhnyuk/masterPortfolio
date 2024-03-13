@@ -53,6 +53,12 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
+    name: "Telegram",
+    link: "https://github.com/Elijah-Prisyazhnyuk",
+    imageSrc: "Telegram_classic.svg", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
     name: "Gmail",
     link: "mailto:elijah.zhn@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
@@ -109,10 +115,6 @@ const skills = {
           imageSrc: "Thonny_logo.png"
         },
         {
-          skillName: "Thingspeak",
-          imageSrc: "Thingspeak_logo.png"
-        },
-        {
           skillName: "Linux",
           imageSrc: "Linux.svg"
         },
@@ -152,6 +154,10 @@ const skills = {
           style: {
             backgroundColor: "transparent",
           },
+        },
+                {
+          skillName: "Thingspeak",
+          imageSrc: "Thingspeak_logo.png"
         },
         {
           skillName: "Python",

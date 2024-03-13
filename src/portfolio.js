@@ -78,9 +78,10 @@ const skills = {
       title: "Embedded Engineer",
       fileName: "EmbeddedEngineerImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives",
+        "⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits",
+        "⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions",
+        "⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB",
       ],
       softwareSkills: [
         {
@@ -125,9 +126,9 @@ const skills = {
       title: "Machine Learning & Data analysis",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Collecting, processing, and analyzing data from various sensors and IoT devices",
+        "⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies",
+        "⚡ Implementation of machine learning models in various MCUs",
       ],
       softwareSkills: [
         {
@@ -170,7 +171,7 @@ const skills = {
       title: "3D & Web designer",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Designing attractive user interface for mobile and web applications",
         "⚡ Customizing logo designs and building logos from scratch",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
@@ -272,7 +273,7 @@ const degrees = {
       duration: "2018 - 2022",
       descriptions: [
         "⚡ I have studied basic electrical engineering subjects like power electronics, embedded systems, electronic components, semiconductor devices, math, analog and digital integrated circuits, process control systems, industrial automation and etc.",
-        "⚡ During my time in this гniversity, I have developed a number of valuable professional relationships. Through collaborative research and participation in conferences, I was able to contribute to the publication of several articles in scientific journals and in the Russian Science Citation Index.",
+        "⚡ During my time in this university, I have developed a number of valuable professional relationships. Through collaborative research and participation in conferences, I was able to contribute to the publication of several articles in scientific journals and in the Russian Science Citation Index.",
         "🏆 I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship of the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
       ],
       website_link: "https://sibsiu.ru/",
@@ -328,7 +329,7 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "ALEKS Placement math test",
+      title: "ALEKS Placement Math test",
       subtitle: "79/100 Math Placement Assessment proctored test",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:

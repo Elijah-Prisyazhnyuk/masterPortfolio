@@ -221,38 +221,6 @@ const competitiveSites = {
       profileLink: "https://leetcode.com/layman_brother/",
     },
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
       style: {
@@ -322,7 +290,7 @@ const certifications = {
     {
       title: "III degree Diploma",
       subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
-      logo_path: "",
+      logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
       alt_name: "EVRAZ",
@@ -331,7 +299,7 @@ const certifications = {
     {
       title: "ALEKS Placement Math test",
       subtitle: "79/100 Math Placement Assessment proctored test",
-      logo_path: "",
+      logo_path: "google_logo.png",
       certificate_link:
         "https://www-awu.aleks.com/alekscgi/x/Isl.exe/153G76PXL6QWrJhTSB-ZUhv7Nbm28fgdixj_yJiwIACfpT95owKJRC7yjOVPAoj7uyaRdVW6nDgmgH_zlXncrO2aBPxWQ5NqgC7s1RdKcp54mqwNb/Placement_Assessment_Results.pdf?1cx_4_BkUiVxBTF9zFRJJbzF92yqZgv1BzX3ti06yGg6FjEYdT7IPqNF7ltCXK5MWpc5ZUD2WCq7U66K4PhNxeW2Nq3Gb56OCukPRNHxMvdmGIOgN0hyoYei6Ejut_k6Ne1xB7mq0QYy3Mo7WpcKWElWqI-rnO8Sos2Wy02tUO8F3LmV1wK7AqHDyGw9Kqn0L8LGT3bmvIj1k1Ac__o",
       alt_name: "ALEKS",
@@ -340,7 +308,7 @@ const certifications = {
     {
       title: "Scholarship of the Russian Federal Government",
       subtitle: "The scholarship of the government of the Russian Federation for priority areas of modernization and technological development in the Russian economy.",
-      logo_path: "",
+      logo_path: "google_logo.png",
       certificate_link:
         "https://www.sibsiu.ru/studentu/novosti-i-meropriyatiya/?ELEMENT_ID=16988",
       alt_name: "Scholarship",
@@ -349,7 +317,7 @@ const certifications = {
     {
       title: "Сertificate",
       subtitle: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
-      logo_path: "",
+      logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
       alt_name: "CS_certificate",
@@ -358,7 +326,7 @@ const certifications = {
     {
       title: "Certificate",
       subtitle: "Certificate of participation in the II round of the Olympiad for the discipline \"Culture Science\"",
-      logo_path: "",
+      logo_path: "google_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
       alt_name: "Culture_certificate",
@@ -367,7 +335,7 @@ const certifications = {
     {
       title: "I degree Diploma",
       subtitle: "I place in University round of the Olympiad for the discipline \"Computer Science\"",
-      logo_path: "",
+      logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
       alt_name: "Diploma",

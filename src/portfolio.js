@@ -54,9 +54,9 @@ const socialMediaLinks = [
   },
   {
     name: "Telegram",
-    link: "https://github.com/Elijah-Prisyazhnyuk",
-    imageSrc: "Telegram_classic.svg", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    link: "https://t.me/ElijahPris",
+    imageSrc: "fa-telegram", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#3db0e3", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "Gmail",

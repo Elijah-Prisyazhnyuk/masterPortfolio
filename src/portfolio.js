@@ -506,7 +506,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "",
+    profile_image_path: "portfolio.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
@@ -514,9 +514,9 @@ const contactPageData = {
     title: "Address",
     subtitle:
       "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
+    locality: "Chelyabinsk",
     country: "RU",
-    region: "Gujarat",
+    region: "Ch",
     postalCode: "385520",
     streetAddress: "Ambavadi vas",
     avatar_image_path: "address_image.svg",

@@ -187,6 +187,10 @@ const skills = {
           imageSrc: "kompas3d.png",
         },
         {
+          skillName: "Blender",
+          imageSrc: "Blender.png",
+        },
+        {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
           style: {
@@ -201,11 +205,8 @@ const skills = {
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
+          skillName: "Gimp",
+          imageSrc: "Gimp.svg",
         },
       ],
     },

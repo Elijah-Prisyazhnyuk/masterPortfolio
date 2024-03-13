@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Elijah's Portfolio.",
   description:
-  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in data science and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, optimizes, and programs microcontrollers and IoT devices to solve real-world industry problems.",
+  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in data science and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
   og: {
     title: "Elijah Prisyazhnyuk Portfolio",
     type: "website",

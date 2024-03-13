@@ -55,7 +55,7 @@ const socialMediaLinks = [
   {
     name: "Telegram",
     link: "https://t.me/ElijahPris",
-    imageSrc: "fa-telegram", // Reference https://fontawesome.com/icons/github?style=brands
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#3db0e3", // Reference https://simpleicons.org/?q=github
   },
   {

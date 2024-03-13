@@ -153,13 +153,6 @@ const skills = {
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-                {
           skillName: "Thingspeak",
           imageSrc: "Thingspeak_logo.png"
         },

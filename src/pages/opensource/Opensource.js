@@ -1,23 +1,19 @@
-import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import OpensourceCharts from "../../containers/opensourceCharts/OpensourceCharts";
-import Organizations from "../../containers/organizations/Organizations";
-import TopButton from "../../components/topButton/TopButton";
-import "./Opensource.css";
+import React from "react";
+import { Header, HobbiesCard, TopButton, Footer } from "../../components";
+import { HobbiesSection } from "../../containers";
 
-class Opensource extends Component {
-  render() {
-    return (
-      <div className="opensource-main">
-        <Header theme={this.props.theme} />
-        <Organizations theme={this.props.theme} />
-        <OpensourceCharts theme={this.props.theme} />
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
-      </div>
-    );
-  }
-}
+const Hobbies = (props) => {
+  const theme = props.theme;
 
-export default Opensource;
+  return (
+    <div className="main-page">
+      <Header theme={theme} />
+      <HobbiesSection theme={theme} />
+      <HobbiesCard theme={theme} />
+      <Footer theme={theme} onToggle={props.onToggle} />
+      <TopButton theme={theme} />
+    </div>
+  );
+};
+
+export default Hobbies;

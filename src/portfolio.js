@@ -477,6 +477,36 @@ const publications = {
   ],
 };
 
+/********************              Hobbies         ********************/
+
+const hobbies = {
+  title: "Hobbies",
+  subTitle: "I spend my leisure with my hobbies!",
+  hobbies: [
+    {
+      title: "Reading Books",
+      description: "I love to read sci-fi and detective books!",
+      image_path: "Reading.png",
+    },
+    {
+      title: "Writing",
+      description: "I write poems and stories when I get free times!",
+      image_path: "Writing.png",
+    },
+    {
+      title: "Memeing",
+      description:
+        "I have a collection of meme templates and I use them to generate memes!",
+      image_path: "Memeing.png",
+    },
+    {
+      title: "Listening Music",
+      description: "I am a fan of Alan Walker and Linkin Park!",
+      image_path: "Music.png",
+    },
+  ],
+};
+
 // Contact Page
 const contactPageData = {
   contactSection: {

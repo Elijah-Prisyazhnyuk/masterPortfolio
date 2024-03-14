@@ -9,8 +9,6 @@ const HobbiesCard = (props) => {
     <div className="hobbies-card">
       <Fade bottom duration={2000} distance="40px">
         <div className="hobbies-card-body-div">
-          {hobbies.hobbies.map((hobbiesdata) => {
-            return (
               <div className="hobbies-data" key={hobbies.title}>
                 <div className="hobbies-heading">
                   <Fade left duration={2000}>
@@ -18,13 +16,13 @@ const HobbiesCard = (props) => {
                       className="hobbies-card-title"
                       style={{ color: theme.text }}
                     >
-                      {hobbiesdata.title}
+                      {hobbies.title}
                     </div>
                     <div
                       className="hobbies-card-subtitle"
                       style={{ color: theme.secondaryText }}
                     >
-                      {hobbiesdata.description}
+                      {hobbies.description}
                     </div>
                   </Fade>
                 </div>
@@ -33,13 +31,11 @@ const HobbiesCard = (props) => {
                     <img
                       className="hobbies-image"
                       src={require(`../../assets/images/${hobbies["image_path"]}`)}
-                      alt={hobbiesdata.title}
+                      alt={hobbies.title}
                     />
                   </div>
                 </Fade>
               </div>
-            );
-          })}
         </div>
       </Fade>
     </div>

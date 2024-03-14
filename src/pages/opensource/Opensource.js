@@ -1,6 +1,9 @@
 import React from "react";
-import { Header, HobbiesCard, TopButton, Footer } from "../../components";
-import HobbiesSection from "../../containers/hobbiesSection/HobbiesSection.js";
+import Header from "../../components/header/Header";
+import HobbiesCard from "../../components/hobbiesCard/HobbiesCard";
+import TopButton from "../../components/topButton/TopButton";
+import Footer from "../../components/footer/Footer";
+import HobbiesSection from "../../containers/hobbiesSection/HobbiesSection";
 
 const Hobbies = (props) => {
   const theme = props.theme;

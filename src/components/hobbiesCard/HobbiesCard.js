@@ -1,30 +1,28 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import { hobbies } from "../../portfolio";
 import "./HobbiesCard.css";
 
 const HobbiesCard = (props) => {
-  const theme = props.theme;
+  const hobbies = this.props.degree;
+  const theme = this.props.theme;
   return (
     <div className="hobbies-card">
       <Fade bottom duration={2000} distance="40px">
         <div className="hobbies-card-body-div">
-          {hobbies.hobbies.map((hobbiesdata) => {
-            return (
-              <div className="hobbies-data" key={hobbiesdata.title}>
+              <div className="hobbies-data" key={hobbies.title}>
                 <div className="hobbies-heading">
                   <Fade left duration={2000}>
                     <div
                       className="hobbies-card-title"
                       style={{ color: theme.text }}
                     >
-                      {hobbiesdata.title}
+                      {hobbies.title}
                     </div>
                     <div
                       className="hobbies-card-subtitle"
                       style={{ color: theme.secondaryText }}
                     >
-                      {hobbiesdata.description}
+                      {hobbies.description}
                     </div>
                   </Fade>
                 </div>
@@ -32,14 +30,12 @@ const HobbiesCard = (props) => {
                   <div className="hobbies-card-img">
                     <img
                       className="hobbies-image"
-                      src={require(`../../assets/images/${hobbiesdata["image_path"]}`)}
-                      alt={hobbiesdata.title}
+                      src={require(`../../assests/images/${hobbies.logo_path}`)}
+                      alt={hobbies.title}
                     />
                   </div>
                 </Fade>
               </div>
-            );
-          })}
         </div>
       </Fade>
     </div>

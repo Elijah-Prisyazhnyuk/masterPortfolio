@@ -33,7 +33,7 @@ class HobbiesCard extends Component {
                   <div className="hobbies-card-img">
                     <img
                       className="hobbies-image"
-                      src={require(`../../assets/images/${hobbiesdata["image_path"]}`)}
+                      src={require(`../../assests/images/${hobbiesdata["image_path"]}`)}
                       alt={hobbiesdata.title}
                     />
                   </div>

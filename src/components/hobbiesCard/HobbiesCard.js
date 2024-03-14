@@ -11,7 +11,7 @@ const HobbiesCard = (props) => {
         <div className="hobbies-card-body-div">
           {hobbies.hobbies.map((hobbiesdata) => {
             return (
-              <div className="hobbies-data" key={hobbiesdata.title}>
+              <div className="hobbies-data" key={hobbies.title}>
                 <div className="hobbies-heading">
                   <Fade left duration={2000}>
                     <div
@@ -32,7 +32,7 @@ const HobbiesCard = (props) => {
                   <div className="hobbies-card-img">
                     <img
                       className="hobbies-image"
-                      src={require(`../../assets/images/${hobbiesdata["image_path"]}`)}
+                      src={require(`../../assets/images/${hobbies["image_path"]}`)}
                       alt={hobbiesdata.title}
                     />
                   </div>

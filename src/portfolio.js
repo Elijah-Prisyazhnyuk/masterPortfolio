@@ -405,7 +405,7 @@ const experience = {
           duration: "Feb 2021 - May 2021",
           location: "Russia, Novokuznetsk, Coke and Chemical Shop",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "It was a challenging, yet very interesting and hands-on competition in two rounds. The first round focused on \"Risk Hunting\", and the second involved solving the practical technical challenge of freezing coke on the coke ramp. The scientific and technical conference spanned several months, and through well-coordinated teamwork, our group was able to win a prize and achieve our objectives. My contribution to the team included mathematical modeling of technical solutions using CAD, CFD, and FEM analysis, as well as visual representation of the results.",
           color: "#ee3c26",
         },
       ],
@@ -421,7 +421,7 @@ const experience = {
           duration: "Jun 2023 - Now",
           location: "World Wide Web",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "I am exploring new opportunities through the use of platforms such as UpWork and Fiverr. I am available to provide my services in the following areas: STM32 development, Arduino programming, MATLAB, React.js development and Tableau data visualization.",
           color: "#4285F4",
         },
         {
@@ -432,7 +432,7 @@ const experience = {
           duration: "Sep 2019 - May 2022",
           location: "Russia, Novokuznetsk",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+            "From the second year onwards, and until the completion of my studies, I have actively accepted orders for assistance with academic work, such as tests, lab work, scientific research and graduation projects. Due to the high quality of my work, I have received a large volume of orders.",
           color: "#D83B01",
         },
       ],

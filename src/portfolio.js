@@ -374,7 +374,7 @@ const experience = {
           title: "Your job offer may be here",
           company: "Your company may be here",
           company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
+          logo_path: "list.png",
           duration: "Now - further",
           location: "Somewhere in Chelyabinsk",
           description:
@@ -414,23 +414,23 @@ const experience = {
       title: "Freelance",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
+          title: "Online Freelance",
+          company: "Upwork, Freelance",
           company_url: "https://about.google/",
           logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          duration: "Jun 2023 - Now",
+          location: "World Wide Web",
           description:
             "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
           color: "#4285F4",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          title: "Academic Freelance",
+          company: "SibSIU",
+          company_url: "https://sibsiu.ru/",
+          logo_path: "sibsiu.png",
+          duration: "Sep 2019 - May 2022",
+          location: "Russia, Novokuznetsk",
           description:
             "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
           color: "#D83B01",

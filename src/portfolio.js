@@ -371,14 +371,14 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
+          title: "Your job offer may be here",
+          company: "Your company may be here",
           company_url: "https://legatohealthtech.com/",
           logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          duration: "Now - further",
+          location: "Somewhere in Chelyabinsk",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "I am looking for a offer in the field of industrial, converter or embedded electronics",
           color: "#0879bf",
         },
       ],
@@ -387,22 +387,22 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
+          title: "CAD Engineer Designer Intern",
+          company: "EVRAZ WSMP",
+          company_url: "https://www.evraz.com/ru/company/assets/steel/",
           logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          duration: "Aug 2021 - Sep 2021",
+          location: "Russia, Novokuznetsk, Regional Design and Engineering Center",
           description:
             "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
           color: "#000000",
         },
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
+          title: "Participant of the 95th Scientific and Technical Conference \"Your Challenge\"",
+          company: "EVRAZ WSMP",
+          company_url: "https://www.evraz.com/ru/company/assets/steel/",
           logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
+          duration: "Feb 2021 - May 2021",
           location: "Gurgaon, Haryana",
           description:
             "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
@@ -411,7 +411,7 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Freelance",
       experiences: [
         {
           title: "Google Explore ML Facilitator",

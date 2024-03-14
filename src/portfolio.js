@@ -485,23 +485,23 @@ const hobbies = {
   hobbies: [
     {
       title: "Reading Books",
-      description: "I love to read sci-fi and detective books!",
+      description: "!",
       image_path: "Reading.png",
     },
     {
       title: "Writing",
-      description: "I write poems and stories when I get free times!",
+      description: "!",
       image_path: "Writing.png",
     },
     {
       title: "Memeing",
       description:
-        "I have a collection of meme templates and I use them to generate memes!",
+        "!",
       image_path: "Memeing.png",
     },
     {
       title: "Listening Music",
-      description: "I am a fan of Alan Walker and Linkin Park!",
+      description: "!",
       image_path: "Music.png",
     },
   ],

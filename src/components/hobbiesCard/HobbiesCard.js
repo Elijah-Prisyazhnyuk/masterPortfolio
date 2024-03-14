@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import { Fade } from "react-reveal";
 import "./HobbiesCard.css";
 
-const HobbiesCard = (props) => {
+class HobbiesCard extends Component {
+  render() {
   const hobbies = this.props.degree;
   const theme = this.props.theme;
   return (
@@ -41,5 +42,6 @@ const HobbiesCard = (props) => {
     </div>
   );
 };
+}
 
 export default HobbiesCard;

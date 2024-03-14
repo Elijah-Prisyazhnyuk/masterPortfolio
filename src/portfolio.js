@@ -543,6 +543,7 @@ export {
   degrees,
   certifications,
   experience,
+  hobbies,
   projectsHeader,
   publicationsHeader,
   publications,

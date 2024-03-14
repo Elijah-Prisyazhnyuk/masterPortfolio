@@ -200,13 +200,6 @@ const skills = {
           imageSrc: "FreeCAD.svg",
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
           skillName: "Gimp",
           imageSrc: "Gimp.svg",
         },
@@ -460,26 +453,26 @@ const publications = {
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name: "Virtual reality glove",
-      createdAt: "2020-03-06T00:00:00Z",
-      description: "Virtual reality glove concept using pneumatic drive",
+      createdAt: "2020-11-26T00:00:00Z",
+      description: "Virtual reality glove concept using pneumatic drive with feedback",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://library.sibsiu.ru/LibrArticlesSectionsEditionsFiles.asp?lngSection=22&lngEdition=8116",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Simulation of the Patch Antenna LTE MIMO",
+      createdAt: "2021-05-12T00:00:00Z",
+      description: "Simulation of the receiving and transmitting patch antenna \"F-20\" LTE MIMO 4X4 1800Mhz",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://elibrary.ru/item.asp?id=48031211",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "The inheritance of the \"Arthurian legend\"",
+      createdAt: "2020-05-19T00:00:00Z",
+      description: "The inheritance of the \"Arthurian legend\" in pop and rock music in the USA and Great Britain",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://elibrary.ru/item.asp?id=44587770",
     },
   ],
 };

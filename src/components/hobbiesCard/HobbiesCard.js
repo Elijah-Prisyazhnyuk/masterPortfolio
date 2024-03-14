@@ -4,7 +4,7 @@ import "./HobbiesCard.css";
 
 class HobbiesCard extends Component {
   render() {
-  const hobbies = this.props.degree;
+  const hobbies = this.props.hobbies;
   const theme = this.props.theme;
   return (
     <div className="hobbies-card">

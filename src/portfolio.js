@@ -460,7 +460,7 @@ const publications = {
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name: "Virtual reality glove",
-      createdAt: "2020-03-06T16:26:54Z",
+      createdAt: "2020-03-06T00:00:00Z",
       description: "Virtual reality glove concept using pneumatic drive",
       url:
         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",

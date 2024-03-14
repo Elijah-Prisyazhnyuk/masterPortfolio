@@ -417,7 +417,7 @@ const experience = {
           title: "Online Freelance",
           company: "Upwork, Freelance",
           company_url: "https://about.google/",
-          logo_path: "google_logo.png",
+          logo_path: "UPWK.svg",
           duration: "Jun 2023 - Now",
           location: "World Wide Web",
           description:

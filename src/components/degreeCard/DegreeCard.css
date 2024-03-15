@@ -81,6 +81,20 @@
   box-shadow: 5px 5px 5px #d9dbdf;
 }
 
+.doc-btn {
+  /* background-color: #6c63ff99; */
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 0px;
+  float: left;
+}
+
+.doc-btn:hover {
+  /* background-color:#6c63ffcc; */
+}
+
 .visit-btn {
   /* background-color: #6c63ff99; */
   display: inline-block;

@@ -280,6 +280,8 @@ const degrees = {
         "🏆 I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship of the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
       ],
       website_link: "https://sibsiu.ru/",
+      document_link: "https://sibsiu.ru/",
+      button_text: "Diploma",
     },
     {
       title: "South Ural State University",
@@ -293,6 +295,8 @@ const degrees = {
         "😔 Unfortunately, I had to interrupt my studies a year before graduation due to trip to the USA.",
       ],
       website_link: "https://www.susu.ru/en",
+      document_link: "https://sibsiu.ru/",
+      button_text: "Documents",
     },
     {
       title: "Trip to USA",
@@ -304,6 +308,8 @@ const degrees = {
         "🌍 It was the second and longest trip to the USA.",
       ],
       website_link: "",
+      document_link: "",
+      button_text: "",
     },
     {
       title: "Clark College",
@@ -316,6 +322,8 @@ const degrees = {
         "⚡ Admission to college also allowed me to take free courses on software such as Tableau",
       ],
       website_link: "https://www.clark.edu/",
+      document_link: "https://sibsiu.ru/",
+      button_text: "Documents",
     },
   ],
 };

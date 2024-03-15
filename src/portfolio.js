@@ -96,7 +96,7 @@ const skills = {
         },
         {
           skillName: "GNU Octave",
-          imageSrc: "GNU Octave.svg",
+          imageSrc: "GNU_Octave.svg",
         },
         {
           skillName: "Altium Designer",
@@ -226,6 +226,14 @@ const skills = {
         {
           skillName: "React.js",
           imageSrc: "Reactjs.svg",
+        },
+        {
+          skillName: "Codepen",
+          imageSrc: "codepen.svg",
+        },
+        {
+          skillName: "Django",
+          imageSrc: "Django.svg",
         },
         {
           skillName: "Flask",

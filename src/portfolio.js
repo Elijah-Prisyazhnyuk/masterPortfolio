@@ -95,6 +95,10 @@ const skills = {
           imageSrc: "matlab-512.svg",
         },
         {
+          skillName: "GNU Octave",
+          imageSrc: "GNU Octave.svg",
+        },
+        {
           skillName: "Altium Designer",
           imageSrc: "Altium.svg"
         },
@@ -109,6 +113,10 @@ const skills = {
         {
           skillName: "STM",
           imageSrc: "STM.svg",
+        },
+        {
+          skillName: "Schneider Electric",
+          imageSrc: "Schneider_Electric.svg"
         },
         {
           skillName: "Arduino",
@@ -187,6 +195,18 @@ const skills = {
         "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
       ],
       softwareSkills: [
+        {
+          skillName: "AutoCAD",
+          imageSrc: "AutoCAD.svg",
+        },
+        {
+          skillName: "Autodesk",
+          imageSrc: "Autodesk.svg",
+        },
+        {
+          skillName: "SOLIDWORKS",
+          imageSrc: "SOLIDWORKS.svg",
+        },
         {
           skillName: "KOMPAS 3D",
           imageSrc: "kompas3d.png",
@@ -297,7 +317,7 @@ const certifications = {
     {
       title: "III degree Diploma",
       subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
-      logo_path: "google_logo.png",
+      logo_path: "EVZ.svg",
       certificate_link:
         "https://drive.google.com/file/d/1SJ5-icna_lkDWMurHjFYhpXQCnTPWtc5/view?usp=sharing",
       alt_name: "EVRAZ",

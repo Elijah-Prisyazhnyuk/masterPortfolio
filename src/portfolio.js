@@ -356,7 +356,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship and Freelance",
   description:
-    "I have experience of working with different data sources from online marketplaces and social networks. Junior Data Analyst with strong Electrical Engineer background. Prefer a data mining, visualization and creating specialized AI tools. I have experience of working for a large industrial company such as EVRAZ as a design engineer. I also have experience in academic freelance assignments related to MatLAB, IoT, Proteus. ",
+    "Skilled in industrial and converter electronics, I utilize a combination of embedded microprocessor devices, machine learning techniques, and web-based interfaces in my projects. I have experience with Python and MATLAB for mathematical modeling, simulation, and reporting. My key quality is the ability to respond and adapt to changing priorities quickly and efficiently. ",
   header_image_path: "experience.svg",
   sections: [
     {

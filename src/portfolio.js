@@ -31,14 +31,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
@@ -342,7 +334,7 @@ const certifications = {
     {
       title: "ALEKS Placement Math test",
       subtitle: "79/100 Math Placement Assessment proctored test",
-      logo_path: "google_logo.png",
+      logo_path: "aleks.png",
       certificate_link:
         "https://www-awu.aleks.com/alekscgi/x/Isl.exe/153G76PXL6QWrJhTSB-ZUhv7Nbm28fgdixj_yJiwIACfpT95owKJRC7yjOVPAoj7uyaRdVW6nDgmgH_zlXncrO2aBPxWQ5NqgC7s1RdKcp54mqwNb/Placement_Assessment_Results.pdf?1cx_4_BkUiVxBTF9zFRJJbzF92yqZgv1BzX3ti06yGg6FjEYdT7IPqNF7ltCXK5MWpc5ZUD2WCq7U66K4PhNxeW2Nq3Gb56OCukPRNHxMvdmGIOgN0hyoYei6Ejut_k6Ne1xB7mq0QYy3Mo7WpcKWElWqI-rnO8Sos2Wy02tUO8F3LmV1wK7AqHDyGw9Kqn0L8LGT3bmvIj1k1Ac__o",
       alt_name: "ALEKS",
@@ -351,7 +343,7 @@ const certifications = {
     {
       title: "Scholarship of the Russian Federal Government",
       subtitle: "The scholarship of the government of the Russian Federation for priority areas of modernization and technological development in the Russian economy.",
-      logo_path: "google_logo.png",
+      logo_path: "rf.png",
       certificate_link:
         "https://www.sibsiu.ru/studentu/novosti-i-meropriyatiya/?ELEMENT_ID=16988",
       alt_name: "Scholarship",
@@ -360,7 +352,7 @@ const certifications = {
     {
       title: "Сertificate",
       subtitle: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
-      logo_path: "google_logo.png",
+      logo_path: "sibsiu.png",
       certificate_link:
         "https://drive.google.com/file/d/1OBbGsw7mmuT1OHZ6oUaOOtS43nVWZE-v/view?usp=sharing",
       alt_name: "CS_certificate",
@@ -369,7 +361,7 @@ const certifications = {
     {
       title: "Certificate",
       subtitle: "Certificate of participation in the II round of the Olympiad for the discipline \"Culture Science\"",
-      logo_path: "google_logo.png",
+      logo_path: "sibsiu.png",
       certificate_link:
         "https://drive.google.com/file/d/1sqSN3hO3-OAtreOiL3AEYYNJF0GCWC00/view?usp=sharing",
       alt_name: "Culture_certificate",
@@ -549,7 +541,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "portfolio.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours.",
+      "Contact me for any queries or collaboration. I am always available for a chat. You can also ask me about my projects, research or anything you want to know.",
   },
   addressSection: {
     title: "Address",

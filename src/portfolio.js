@@ -522,13 +522,13 @@ const hobbies = {
       image_path: "Writing.png",
     },
     {
-      title: "Memeing",
+      title: "Art",
       description:
         "!",
       image_path: "Memeing.png",
     },
     {
-      title: "Listening Music",
+      title: "Traveling Music",
       description: "!",
       image_path: "Music.png",
     },

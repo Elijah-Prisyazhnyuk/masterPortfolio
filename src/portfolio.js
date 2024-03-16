@@ -345,7 +345,7 @@ const certifications = {
       subtitle: "The scholarship of the government of the Russian Federation for priority areas of modernization and technological development in the Russian economy.",
       logo_path: "rf.png",
       certificate_link:
-        "https://www.sibsiu.ru/studentu/novosti-i-meropriyatiya/?ELEMENT_ID=16988",
+        "https://drive.google.com/file/d/19sMVp7eDLWRDMD0diPxd62C49ne_8ffS/view?usp=sharing",
       alt_name: "Scholarship",
       color_code: "#0C9D5899",
     },
@@ -394,7 +394,7 @@ const experience = {
         {
           title: "Your job offer may be here",
           company: "Your company may be here",
-          company_url: "https://legatohealthtech.com/",
+          company_url: "https://elijah-pris.vercel.app/contact",
           logo_path: "list.png",
           duration: "Now - further",
           location: "Somewhere in Chelyabinsk",

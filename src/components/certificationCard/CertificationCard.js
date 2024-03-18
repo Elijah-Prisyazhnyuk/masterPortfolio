@@ -34,7 +34,7 @@ class CertificationCard extends Component {
                 <h3 className="content-title" style={{ color: theme.body, opacity: currentLang === 'ru' ? 1 : 0, transition: 'opacity 400ms'}}>
                   Сертификаты
                 </h3>
-                <h3 className="content-title" style={{ color: theme.body, opacity: currentLang === 'en' ? 1 : 0, transition: 'opacity 400ms'}}>
+                <h3 className="content-title" style={{ color: theme.body, opacity: currentLang === 'de' ? 1 : 0, transition: 'opacity 400ms'}}>
                   ???
                 </h3>
               </div>

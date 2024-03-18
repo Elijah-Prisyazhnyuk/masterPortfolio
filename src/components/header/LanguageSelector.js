@@ -43,9 +43,9 @@ const LanguageSelector = () => {
       </div>
       <div className="options">
         <ul className="options-list">
-          <li onClick={() => handleLangChange('en')} className={currentLang === 'English' ? 'selected' : ''}>English</li>
-          <li onClick={() => handleLangChange('ru')} className={currentLang === 'Russian' ? 'selected' : ''}>Русский</li>
-          <li onClick={() => handleLangChange('de')} className={currentLang === 'German' ? 'selected' : ''}>Deutsch</li>
+          <li onClick={() => handleLangChange('en')} className={currentLang === 'en' ? 'selected' : ''}>English</li>
+          <li onClick={() => handleLangChange('ru')} className={currentLang === 'ru' ? 'selected' : ''}>Русский</li>
+          <li onClick={() => handleLangChange('de')} className={currentLang === 'de' ? 'selected' : ''}>Deutsch</li>
         </ul>
         <div id="trans-circle">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">

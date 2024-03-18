@@ -4,9 +4,9 @@ import { Fade } from "react-reveal";
 
 class CertificationCard extends Component {
   render() {
+    const currentLang = localStorage.getItem('currentLang') || 'en';
     const certificate = this.props.certificate;
     const theme = this.props.theme;
-    const currentLang = this.props.currentLang
     return (
       <Fade bottom duration={2000} distance="20px">
         <div className="cert-card">

@@ -109,9 +109,7 @@ class Header extends Component {
                   Contact Me
                 </NavLink>
               </li>
-              <li>
                 <LanguageSelector/>
-              </li>
             </ul>
           </header>
         </div>

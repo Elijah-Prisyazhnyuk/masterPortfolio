@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 
 const LanguageSelector = () => {
   const [currentLang, setCurrentLang] = useState(localStorage.getItem('currentLang') || 'en');
@@ -8,10 +8,7 @@ const LanguageSelector = () => {
     localStorage.setItem('currentLang', newLang);
   };
   
-  useEffect(() => {
-    document.getElementById('content').className = currentLang;
-  }, [currentLang]);
-  
+ 
   return (
       <div className="switch">
         <div className="current">

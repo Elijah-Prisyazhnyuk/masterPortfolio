@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import LanguageSelector from './LanguageSelector';
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -14,6 +15,14 @@ const onMouseOut = (event) => {
   const el = event.target;
   el.style.backgroundColor = "transparent";
 };
+
+const languages = [
+  { code: 'jp', name: 'Japanese' },
+  { code: 'en', name: 'English' },
+  { code: 'sp', name: 'Spanish' },
+  { code: 'ar', name: 'Arabic' },
+  { code: 'hi', name: 'Hindi' }
+];
 
 class Header extends Component {
   render() {
@@ -109,33 +118,7 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <div className="switch">
-                  <div className="current">
-                    <span>en</span>
-                    <em className="arrow">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                        <title>ic_arrow_drop_down_18px</title>
-                        <g fill="#FFFFFF">
-                          <path d="M5 8l4 4 4-4z"></path>
-                        </g>
-                      </svg>
-                    </em>
-                  </div>
-                  <div className="options">
-                    <ul class="options-list">
-                      <li data-lang="en">English</li>
-                      <li data-lang="no">Русский</li>
-                      <li data-lang="sv">Deutsch</li>
-                    </ul>
-                    <div id="trans-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"> 
-                        <g id="circle" fill="none" fill-rule="evenodd"> 
-                          <circle id="bg" cx="60" cy="60" r="60" fill="#FFFFFF"/> 
-                        </g> 
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+                <LanguageSelector languages={languages} />
               </li>
             </ul>
           </header>

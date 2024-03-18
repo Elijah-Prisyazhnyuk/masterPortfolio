@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Certifications.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
+import { useLanguage } from "../src/components/header/LanguageSelector";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 
 class Certifications extends Component {
@@ -19,7 +20,7 @@ class Certifications extends Component {
         </div>
         <div className="certs-body-div">
           {certifications.certifications.map((cert) => {
-            return <CertificationCard certificate={cert} lang={lang} theme={theme} />;
+            return <CertificationCard certificate={cert} lang={useLanguage} theme={theme} />;
           })}
         </div>
       </div>

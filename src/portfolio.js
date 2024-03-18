@@ -272,7 +272,7 @@ const degrees = {
         "🏆 I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship of the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
       ],
       website_link: "https://sibsiu.ru/",
-      document_link: "https://sibsiu.ru/",
+      document_link: "https://drive.google.com/file/d/1i_uL0ZgaQb10vlNBEMh091r4yDgPHcSe/view?usp=sharing",
       button_text: "Diploma",
     },
     {
@@ -287,7 +287,7 @@ const degrees = {
         "😔 Unfortunately, I had to interrupt my studies a year before graduation due to trip to the USA.",
       ],
       website_link: "https://www.susu.ru/en",
-      document_link: "https://sibsiu.ru/",
+      document_link: "https://www.susu.ru/en",
       button_text: "Documents",
     },
     {
@@ -314,7 +314,7 @@ const degrees = {
         "⚡ Admission to college also allowed me to take free courses on software such as Tableau",
       ],
       website_link: "https://www.clark.edu/",
-      document_link: "https://sibsiu.ru/",
+      document_link: "https://www.clark.edu/",
       button_text: "Documents",
     },
   ],

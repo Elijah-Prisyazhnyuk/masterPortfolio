@@ -16,14 +16,6 @@ const onMouseOut = (event) => {
   el.style.backgroundColor = "transparent";
 };
 
-const languages = [
-  { code: 'jp', name: 'Japanese' },
-  { code: 'en', name: 'English' },
-  { code: 'sp', name: 'Spanish' },
-  { code: 'ar', name: 'Arabic' },
-  { code: 'hi', name: 'Hindi' }
-];
-
 class Header extends Component {
   render() {
     const theme = this.props.theme;
@@ -118,7 +110,7 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <LanguageSelector languages={languages} />
+                <LanguageSelector/>
               </li>
             </ul>
           </header>

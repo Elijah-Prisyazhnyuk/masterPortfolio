@@ -49,8 +49,8 @@ const LanguageSelector = ({ languages }) => {
     <div className="options">
       <ul class="options-list">
         <li data-lang="en">English</li>
-        <li data-lang="no">Русский</li>
-        <li data-lang="sv">Deutsch</li>
+        <li data-lang="ru">Русский</li>
+        <li data-lang="de">Deutsch</li>
       </ul>
       <div id="trans-circle">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"> 

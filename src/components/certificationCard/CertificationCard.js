@@ -6,6 +6,7 @@ class CertificationCard extends Component {
   render() {
     const certificate = this.props.certificate;
     const theme = this.props.theme;
+    const currentLang = this.props.currentLang
     return (
       <Fade bottom duration={2000} distance="20px">
         <div className="cert-card">
@@ -27,8 +28,14 @@ class CertificationCard extends Component {
                 />
               </div>
               <div className="content-details fadeIn-top">
-                <h3 className="content-title" style={{ color: theme.body }}>
+                <h3 className="content-title" style={{ color: theme.body, opacity: currentLang === 'en' ? 1 : 0, transition: 'opacity 400ms'}}>
                   Certificate
+                </h3>
+                <h3 className="content-title" style={{ color: theme.body, opacity: currentLang === 'ru' ? 1 : 0, transition: 'opacity 400ms'}}>
+                  Сертификаты
+                </h3>
+                <h3 className="content-title" style={{ color: theme.body, opacity: currentLang === 'en' ? 1 : 0, transition: 'opacity 400ms'}}>
+                  ???
                 </h3>
               </div>
             </a>

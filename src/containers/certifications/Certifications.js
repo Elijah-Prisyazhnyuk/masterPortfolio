@@ -3,6 +3,7 @@ import "./Certifications.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
+import { currentLang } from "../../components/header/LanguageSelector";
 
 class Certifications extends Component {
   render() {

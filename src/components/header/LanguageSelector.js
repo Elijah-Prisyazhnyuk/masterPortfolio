@@ -1,8 +1,13 @@
 import React, { useState} from 'react';
 
 const LanguageSelector = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(localStorage.getItem('currentLang') || 'en');
   
+  const toggleDropdown = () => {
+    setIsDropdownOpen(prevState => !prevState);
+  };
+
   const handleLangChange = (newLang) => {
     setCurrentLang(newLang);
     localStorage.setItem('currentLang', newLang);
@@ -10,8 +15,8 @@ const LanguageSelector = () => {
   
  
   return (
-      <div className="switch">
-        <div className="current">
+      <div className={`switch ${isDropdownOpen ? 'show-options anim-options show-shadow' : ''}`}>
+        <div className="current" onClick={toggleDropdown}>
           <span>{currentLang}</span>
           <em className="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">

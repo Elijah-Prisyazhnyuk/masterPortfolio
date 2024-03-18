@@ -3,11 +3,11 @@ import "./Certifications.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
-import { currentLang } from "../../components/header/LanguageSelector";
 
 class Certifications extends Component {
   render() {
     const theme = this.props.theme;
+    const lang = this.props.currentLang;
     return (
       <div className="main" id="certs">
         <div className="certs-header-div">
@@ -19,7 +19,7 @@ class Certifications extends Component {
         </div>
         <div className="certs-body-div">
           {certifications.certifications.map((cert) => {
-            return <CertificationCard certificate={cert} theme={theme} />;
+            return <CertificationCard certificate={cert} lang={lang} theme={theme} />;
           })}
         </div>
       </div>

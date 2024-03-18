@@ -1,4 +1,7 @@
-import React, { useState, useEffect } from 'react';
+/* global useContext */
+import React, { createContext, useState, useEffect } from 'react';
+
+const LanguageContext = createContext();
 
 const LanguageSelector = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -29,6 +32,7 @@ const LanguageSelector = () => {
   };
 
   return (
+    <LanguageContext.Provider value={{ currentLang, handleLangChange }}>
     <div className={`switch ${isDropdownOpen ? 'show-options anim-options show-shadow' : ''}`}>
       <div className="current" onClick={toggleDropdown}>
         <span>{currentLang}</span>
@@ -56,7 +60,11 @@ const LanguageSelector = () => {
         </div>
       </div>
     </div>
+    </LanguageContext.Provider>
   );
 };
 
+export const useLanguage = () => {
+  return useContext(LanguageContext);
+};
 export default LanguageSelector;

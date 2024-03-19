@@ -9,15 +9,15 @@ import { LanguageSelector } from '../src/components/header/LanguageSelector';
 function App() {
   return (
     <ThemeProvider theme={chosenTheme}>
-      <LanguageSelector>
       
       <>
         <GlobalStyles />
+        <LanguageSelector>
         <div>
           <Main theme={chosenTheme}/>
         </div>
+        </LanguageSelector>
       </>
-      </LanguageSelector>
     </ThemeProvider>
   );
 }

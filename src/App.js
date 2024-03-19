@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
 import { LanguageSelector } from '../src/components/header/LanguageSelector';
-import Certifications from "./containers/certifications/Certifications";
+
 
 function App() {
   return (
@@ -13,11 +13,10 @@ function App() {
       
       <>
         <GlobalStyles />
-          <LanguageSelector>
-            <Certifications/>
-          </LanguageSelector>
         <div>
+        <LanguageSelector>
           <Main theme={chosenTheme}/>
+          </LanguageSelector>
         </div>
       </>
     </ThemeProvider>

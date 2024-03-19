@@ -6,7 +6,7 @@ import { useLanguage } from "../../components/header/LanguageSelector";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 
 const Certifications = ({ theme }) => {
-  const { currentLang } = useLanguage();
+  const { currentLang, handleLangChange } = useLanguage();
 
   return (
     <div className="main" id="certs">

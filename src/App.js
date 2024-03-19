@@ -4,7 +4,7 @@ import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
-import { LanguageProvider } from './components/header/LanguageSelector';
+import { LanguageProvider } from '../src/components/header/LanguageSelector';
 
 function App() {
   return (

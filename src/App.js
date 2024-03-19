@@ -4,12 +4,12 @@ import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
-import { LanguageProvider } from '../src/components/header/LanguageSelector';
+import { LanguageSelector } from '../src/components/header/LanguageSelector';
 
 function App() {
   return (
     <ThemeProvider theme={chosenTheme}>
-      <LanguageProvider>
+      <LanguageSelector>
       
       <>
         <GlobalStyles />
@@ -17,7 +17,7 @@ function App() {
           <Main theme={chosenTheme}/>
         </div>
       </>
-      </LanguageProvider>
+      </LanguageSelector>
     </ThemeProvider>
   );
 }

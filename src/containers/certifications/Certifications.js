@@ -2,13 +2,12 @@ import React, { Component } from "react";
 import "./Certifications.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
-import { useLanguage } from "../src/components/header/LanguageSelector";
+import useLanguage from "../../components/header/LanguageSelector";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 
 class Certifications extends Component {
   render() {
     const theme = this.props.theme;
-    const lang = this.props.currentLang;
     return (
       <div className="main" id="certs">
         <div className="certs-header-div">

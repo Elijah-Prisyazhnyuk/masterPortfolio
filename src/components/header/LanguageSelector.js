@@ -1,7 +1,7 @@
 /* global useContext */
 import React, { createContext, useState, useEffect, useContext} from 'react';
 
-const LanguageContext = createContext();
+export const LanguageContext = createContext();
 
 const LanguageSelector = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

@@ -3,7 +3,7 @@ import React, { createContext, useState, useEffect, useContext} from 'react';
 
 const LanguageContext = createContext();
 
-export const LanguageSelector = () => {
+const LanguageSelector = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState(localStorage.getItem('currentLang') || 'en');
 

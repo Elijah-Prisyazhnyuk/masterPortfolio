@@ -59,17 +59,16 @@ class SkillSection extends Component {
                   </Fade>
                   <Fade left duration={2000}>
                     <div>
-                      {skill.skills.map((skillSentence) => {
-                        return skillSentence.en.map((sentence, index) => (
+                      {skill.skills.en.map((sentence) => {
+                        return (
                         <p
-                          key={index}
-                          id={lang === 'ru' ? 'ru' : 'hide'}
+                          /*id={lang === 'ru' ? 'ru' : 'hide'}*/
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                           >
                             {sentence}
                         </p>
-                        ));
+                        );
                       })}
                     </div>
                   </Fade>
@@ -105,19 +104,18 @@ class SkillSection extends Component {
                   </Fade>
                   <Fade right duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
-                      return skillSentence.en.map((sentence, index) => (
-                       <p
-                         key={index}
-                        /*id={lang === 'ru' ? 'ru' : 'hide'}*/
-                        className="subTitle skills-text"
-                        style={{ color: theme.secondaryText }}
-                        >
-                          {sentence}
-                      </p>
-                      ));
-                    })}
-                  </div>
+                      {skill.skills.en.map((sentence) => {
+                        return (
+                        <p
+                          /*id={lang === 'ru' ? 'ru' : 'hide'}*/
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                          >
+                            {sentence}
+                        </p>
+                        );
+                      })}
+                    </div>
                   </Fade>
                 </div>
               ) : (

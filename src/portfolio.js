@@ -84,10 +84,10 @@ const skills = {
       skills: [
         {
           en: [
-            ["⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives"],
-            ["⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits"],
-            ["⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions"],
-            ["⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB"],
+            "⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives",
+            "⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits",
+            "⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions",
+            "⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB",
           ]
         },
         {
@@ -162,9 +162,9 @@ const skills = {
       skills: [
         {
           en: [
-            ["⚡ Collecting, processing, and analyzing data from various sensors and IoT devices"],
-            ["⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies"],
-            ["⚡ Implementation of machine learning models in various MCUs"],
+            "⚡ Collecting, processing, and analyzing data from various sensors and IoT devices",
+            "⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies",
+            "⚡ Implementation of machine learning models in various MCUs",
           ]
         },
         {
@@ -232,9 +232,9 @@ const skills = {
       skills: [
         {
           en: [
-            ["⚡ Creating and designing 3D models and prototypes using CAD software"],
-            ["⚡ Designing attractive user interface for mobile and web applications"],
-            ["⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution"],
+            "⚡ Creating and designing 3D models and prototypes using CAD software",
+            "⚡ Designing attractive user interface for mobile and web applications",
+            "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
           ]
         },
         {

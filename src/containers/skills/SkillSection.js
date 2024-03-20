@@ -58,8 +58,8 @@ class SkillSection extends Component {
                     <SoftwareSkill logos={skill.softwareSkills} />
                   </Fade>
                   <Fade left duration={2000}>
-                    <div>
-                      {skill.skills.en.map((sentence) => {
+                  <div>
+                      {skill.skills.find(skill => skill.en)?.en.map((sentence) => {
                         return (
                         <p
                           /*id={lang === 'ru' ? 'ru' : 'hide'}*/
@@ -104,7 +104,7 @@ class SkillSection extends Component {
                   </Fade>
                   <Fade right duration={2000}>
                   <div>
-                      {skill.skills.en.map((sentence) => {
+                      {skill.skills.find(skill => skill.en)?.en.map((sentence) => {
                         return (
                         <p
                           /*id={lang === 'ru' ? 'ru' : 'hide'}*/

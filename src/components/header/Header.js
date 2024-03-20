@@ -18,8 +18,6 @@ const onMouseOut = (event) => {
 
 class Header extends Component {
   render() {
-    const lang = this.props.store.currentLang;
-    console.log("2st: ", lang);
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
     return (

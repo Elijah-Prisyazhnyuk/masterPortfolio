@@ -509,7 +509,7 @@ const certifications = {
       title_ru: "Стипендия Правительства РФ",
       title_de: "",
       subtitle: "The scholarship of the government of the Russian Federation for priority areas of modernization and technological development in the Russian economy.",
-      subtitle_ru: "Стипендия Пра",
+      subtitle_ru: "Стипендия Правительства РФ по приоритетным направлениям модернизации и технологического развития Российской экономики.",
       subtitle_de: "",
       logo_path: "rf.png",
       certificate_link:
@@ -519,10 +519,10 @@ const certifications = {
     },
     {
       title: "Сertificate",
-      title_ru: "",
+      title_ru: "Сертификат",
       title_de: "",
       subtitle: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
-      subtitle_ru: "",
+      subtitle_ru: "Сертификат за участие во II (заключительном) туре Интернет-олимпиады по дисциплине \"Информатика\"",
       subtitle_de: "",
       logo_path: "sibsiu.png",
       certificate_link:
@@ -532,10 +532,10 @@ const certifications = {
     },
     {
       title: "Certificate",
-      title_ru: "",
+      title_ru: "Сертификат",
       title_de: "",
       subtitle: "Certificate of participation in the II round of the Olympiad for the discipline \"Culture Science\"",
-      subtitle_ru: "",
+      subtitle_ru: "Сертификат за участие во II туре Интернет-олимпиады по дисциплине \"Культурология\"",
       subtitle_de: "",
       logo_path: "sibsiu.png",
       certificate_link:
@@ -562,36 +562,49 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  title_ru: "",
+  title_ru: "Опыт",
   title_de: "",
   subtitle: "Internship and Freelance",
+  subtitle_ru: "",
+  subtitle_de: "",
   description:
     "Skilled in industrial and converter electronics, I utilize a combination of embedded microprocessor devices, machine learning techniques, and web-based interfaces in my projects. I have experience with Python and MATLAB for mathematical modeling, simulation, and reporting. My key quality is the ability to respond and adapt to changing priorities quickly and efficiently. ",
+  description_ru: "",
+  description_de: "",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
-      title_ru: "",
+      title_ru: "Работа",
       title_de: "",
       work: true,
       experiences: [
         {
           title: "Your job offer may be here",
-          title_ru: "",
+          title_ru: "Ваша вакансия может быть здесь!",
           title_de: "",
           company: "Your company may be here",
+          company_ru: "Ваша компания может быть здесь!",
+          company_de: "",
           company_url: "https://elijah-pris.vercel.app/contact",
           logo_path: "list.png",
           duration: "Now - further",
+          duration_ru: "",
+          duration_de: "",
           location: "Somewhere in Chelyabinsk",
-          description:
-            "I am looking for a offer in the field of industrial, converter or embedded electronics",
+          location_ru: "Где-то в Челябинске",
+          location_de: "",
+          description: "I am looking for a offer in the field of industrial, converter or embedded electronics",
+          description_ru: "",
+          description_de: "",
           color: "#0879bf",
         },
       ],
     },
     {
       title: "Internships",
+      title_ru: "",
+      title_de: "",
       experiences: [
         {
           title: "CAD Engineer Designer Intern",
@@ -601,9 +614,15 @@ const experience = {
           company_url: "https://www.evraz.com/ru/company/assets/steel/",
           logo_path: "EVZ.svg",
           duration: "Aug 2021 - Sep 2021",
+          duration_ru: "",
+          duration_de: "",
           location: "Russia, Novokuznetsk, Regional Design and Engineering Center",
+          location_ru: "",
+          location_de: "",
           description:
             "After winning the scientific and technical conference, the participants of the winning teams were given the opportunity to select a department for practical training. I worked with the team on designing and making edits to AutoCAD. Our team focused primarily on the design of power supply and grounding systems. It was a comfortable working environment, and I enjoyed working with the team.",
+          description_ru: "",
+          description_de: "",
           color: "#000000",
         },
         {
@@ -613,16 +632,24 @@ const experience = {
           company: "EVRAZ WSMP",
           company_url: "https://www.evraz.com/ru/company/assets/steel/",
           logo_path: "EVZ.svg",
+          duration_ru: "",
+          duration_de: "",
           duration: "Feb 2021 - May 2021",
           location: "Russia, Novokuznetsk, Coke and Chemical Shop",
+          location_ru: "",
+          location_de: "",
           description:
             "It was a challenging, yet very interesting and hands-on competition in two rounds. The first round focused on \"Risk Hunting\", and the second involved solving the practical technical challenge of freezing coke on the coke ramp. The scientific and technical conference spanned several months, and through well-coordinated teamwork, our group was able to win a prize and achieve our objectives. My contribution to the team included mathematical modeling of technical solutions using CAD, CFD, and FEM analysis, as well as visual representation of the results.",
+          description_ru: "",
+          description_de: "",
           color: "#ee3c26",
         },
       ],
     },
     {
       title: "Freelance",
+      title_ru: "",
+      title_de: "",
       experiences: [
         {
           title: "Online Freelance",
@@ -632,9 +659,15 @@ const experience = {
           company_url: "https://about.google/",
           logo_path: "UPWK.svg",
           duration: "Jun 2023 - Now",
+          duration_ru: "",
+          duration_de: "",
           location: "World Wide Web",
+          location_ru: "",
+          location_de: "",
           description:
             "I am exploring new opportunities through the use of platforms such as UpWork and Fiverr. I am available to provide my services in the following areas: STM32 development, Arduino programming, MATLAB, React.js development and Tableau data visualization.",
+          description_ru: "",
+          description_de: "",
           color: "#4285F4",
         },
         {
@@ -645,9 +678,15 @@ const experience = {
           company_url: "https://sibsiu.ru/",
           logo_path: "sibsiu.png",
           duration: "Sep 2019 - May 2022",
+          duration_ru: "",
+          duration_de: "",
           location: "Russia, Novokuznetsk",
+          location_ru: "",
+          location_de: "",
           description:
             "From the second year onwards, and until the completion of my studies, I have actively accepted orders for assistance with academic work, such as tests, lab work, scientific research and graduation projects. Due to the high quality of my work, I have received a large volume of orders.",
+          description_ru: "",
+          description_de: "",
           color: "#D83B01",
         },
       ],
@@ -662,6 +701,8 @@ const projectsHeader = {
   title_de: "",
   description:
     "My projects makes use of vast variety of latest technology tools and academic research. My passion for advanced and innovative technologies such as augmented reality (AR), virtual reality (VR), 3D and artificial intelligence (AI) is evident in the projects I have worked on.",
+  description_ru: "",
+  description_de: "",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -671,6 +712,8 @@ const publicationsHeader = {
   title_de: "",
   description:
     "I have worked on and published a few research papers and publications of my own.",
+  description_ru: "",
+  description_de: "",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -681,6 +724,8 @@ const publications = {
       name: "Virtual reality glove",
       createdAt: "2020-11-26T00:00:00Z",
       description: "Virtual reality glove concept using pneumatic drive with feedback",
+      description_ru: "",
+      description_de: "",
       url:
         "https://library.sibsiu.ru/LibrArticlesSectionsEditionsFiles.asp?lngSection=22&lngEdition=8116",
     },
@@ -689,6 +734,8 @@ const publications = {
       name: "Simulation of the Patch Antenna LTE MIMO",
       createdAt: "2021-05-12T00:00:00Z",
       description: "Simulation of the receiving and transmitting patch antenna \"F-20\" LTE MIMO 4X4 1800Mhz",
+      description_ru: "",
+      description_de: "",
       url:
         "https://elibrary.ru/item.asp?id=48031211",
     },
@@ -697,6 +744,8 @@ const publications = {
       name: "The inheritance of the \"Arthurian legend\"",
       createdAt: "2020-05-19T00:00:00Z",
       description: "The inheritance of the \"Arthurian legend\" in pop and rock music in the USA and Great Britain",
+      description_ru: "",
+      description_de: "",
       url:
         "https://elibrary.ru/item.asp?id=44587770",
     },
@@ -710,12 +759,16 @@ const hobbies = {
   title_ru: "",
   title_de: "",
   subTitle: "I spend my leisure with my hobbies!",
+  subTitle_ru: "",
+  subTitle_de: "",
   hobbies: [
     {
       title: "Reading Books",
       title_ru: "",
       title_de: "",
       description: "!",
+      description_ru: "",
+      description_de: "",
       image_path: "Reading.png",
     },
     {
@@ -723,6 +776,8 @@ const hobbies = {
       title_ru: "",
       title_de: "",
       description: "!",
+      description_ru: "",
+      description_de: "",
       image_path: "Writing.png",
     },
     {
@@ -731,6 +786,8 @@ const hobbies = {
       title_de: "",
       description:
         "!",
+      description_ru: "",
+      description_de: "",
       image_path: "Memeing.png",
     },
     {
@@ -738,6 +795,8 @@ const hobbies = {
       title_ru: "",
       title_de: "",
       description: "!",
+      description_ru: "",
+      description_de: "",
       image_path: "Music.png",
     },
   ],
@@ -750,8 +809,9 @@ const contactPageData = {
     title_ru: "",
     title_de: "",
     profile_image_path: "portfolio.png",
-    description:
-      "Contact me for any queries or collaboration. I am always available for a chat. You can also ask me about my projects, research or anything you want to know.",
+    description: "Contact me for any queries or collaboration. I am always available for a chat. You can also ask me about my projects, research or anything you want to know.",
+    description_ru: "",
+    description_de: "",
   },
   addressSection: {
     title: "Address",
@@ -759,6 +819,8 @@ const contactPageData = {
     title_de: "",
     subtitle:
       "Russia, Chelyabinsk region, Chelyabinsk, Dzerzhinskogo street 97/b - 454078",
+    subtitle_ru: "",
+    subtitle_de: "",
     locality: "Chelyabinsk",
     country: "RU",
     region: "Chelyabinsk region",
@@ -770,6 +832,8 @@ const contactPageData = {
   phoneSection: {
     title: "+7(951)-571-64-50",
     subtitle: "",
+    subtitle_ru: "",
+    subtitle_de: "",
   },
 };
 

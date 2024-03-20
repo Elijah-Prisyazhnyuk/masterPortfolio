@@ -17,7 +17,7 @@ const Certifications = ({ theme }) => {
                 Awards
               </h1>
               <h1 className="certs-header" style={{ color: theme.text, opacity: currentLang === 'ru' ? 1 : 0, transition: 'opacity 400ms' }}>
-                Awards
+                Награды
               </h1>
               <h1 className="certs-header" style={{ color: theme.text, opacity: currentLang === 'de' ? 1 : 0, transition: 'opacity 400ms' }}>
                 Awards

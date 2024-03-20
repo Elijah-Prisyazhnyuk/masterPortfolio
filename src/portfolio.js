@@ -480,9 +480,11 @@ const certifications = {
   certifications: [
     {
       title: "III degree Diploma",
-      title_ru: "",
+      title_ru: "Диплом III степени",
       title_de: "",
       subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
+      subtitle_ru: "59-ая Научно-техническая конференция молодых специалистов Дивизиона Сибирь \"Твой вызов\"",
+      subtitle_de: "",
       logo_path: "EVZ.svg",
       certificate_link:
         "https://drive.google.com/file/d/1SJ5-icna_lkDWMurHjFYhpXQCnTPWtc5/view?usp=sharing",
@@ -491,7 +493,11 @@ const certifications = {
     },
     {
       title: "ALEKS Placement Math test",
+      title_ru: "Вступительный тест по математике ALEKS",
+      title_de: "",
       subtitle: "79/100 Math Placement Assessment proctored test",
+      subtitle_ru: "79/100 вступительный тест по математике с контролем",
+      subtitle_de: "",
       logo_path: "aleks.png",
       certificate_link:
         "https://drive.google.com/file/d/167wVrLmgPIkqK26O4ivBQnVcsSQ8cUie/view?usp=sharing",
@@ -500,7 +506,11 @@ const certifications = {
     },
     {
       title: "Scholarship of the Russian Federal Government",
+      title_ru: "Стипендия Правительства РФ",
+      title_de: "",
       subtitle: "The scholarship of the government of the Russian Federation for priority areas of modernization and technological development in the Russian economy.",
+      subtitle_ru: "Стипендия Пра",
+      subtitle_de: "",
       logo_path: "rf.png",
       certificate_link:
         "https://drive.google.com/file/d/19sMVp7eDLWRDMD0diPxd62C49ne_8ffS/view?usp=sharing",
@@ -509,7 +519,11 @@ const certifications = {
     },
     {
       title: "Сertificate",
+      title_ru: "",
+      title_de: "",
       subtitle: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
+      subtitle_ru: "",
+      subtitle_de: "",
       logo_path: "sibsiu.png",
       certificate_link:
         "https://drive.google.com/file/d/1OBbGsw7mmuT1OHZ6oUaOOtS43nVWZE-v/view?usp=sharing",
@@ -518,7 +532,11 @@ const certifications = {
     },
     {
       title: "Certificate",
+      title_ru: "",
+      title_de: "",
       subtitle: "Certificate of participation in the II round of the Olympiad for the discipline \"Culture Science\"",
+      subtitle_ru: "",
+      subtitle_de: "",
       logo_path: "sibsiu.png",
       certificate_link:
         "https://drive.google.com/file/d/1sqSN3hO3-OAtreOiL3AEYYNJF0GCWC00/view?usp=sharing",
@@ -527,7 +545,11 @@ const certifications = {
     },
     {
       title: "I degree Diploma",
+      title_ru: "",
+      title_de: "",
       subtitle: "I place in University round of the Olympiad for the discipline \"Computer Science\"",
+      subtitle_ru: "",
+      subtitle_de: "",
       logo_path: "google_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/1vYnoj_qy_hVXoPYbcSobgeH9QQfT64IA/view?usp=sharing",

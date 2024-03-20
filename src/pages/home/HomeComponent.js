@@ -7,6 +7,7 @@ import TopButton from "../../components/topButton/TopButton";
 
 class Home extends Component {
   render() {
+    console.log("home ",this.props.lang)
     return (
       <div>
         <Header lang={this.props.lang} theme={this.props.theme} />

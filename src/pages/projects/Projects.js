@@ -19,6 +19,7 @@ import ProjectsImg from "./ProjectsImg";
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
+    const lang = this.props.lang;
     return (
       <div className="projects-main">
         <Header theme={theme} />

@@ -61,13 +61,13 @@ class SkillSection extends Component {
                     <div>
                       {skill.skills.map((skillSentence) => {
                         return (
-                          <><p
+                          <p
                             id={lang === 'en' ? 'en' : 'hide'}
                             className="subTitle skills-text"
                             style={{ color: theme.secondaryText }}
                           >
                             {skillSentence.en}
-                          </p><p
+                          </p>/*<p
                             id={lang === 'ru' ? 'ru' : 'hide'}
                             className="subTitle skills-text"
                             style={{ color: theme.secondaryText }}
@@ -80,7 +80,7 @@ class SkillSection extends Component {
                             style={{ color: theme.secondaryText }}
                           >
                             {skillSentence.de}
-                          </p></>
+                        </p></>*/
                         );
                       })}
                     </div>

@@ -97,8 +97,15 @@
   text-transform: uppercase;
 }
 
-#en,#de{
+#hide{
   display:none;
+  opacity: 0;
+}
+
+#en,#ru,#de{
+  display: inline;
+  opacity: 1;
+  transition: opacity 0.4s easy-in-out;
 }
 
 .fadeIn-top {

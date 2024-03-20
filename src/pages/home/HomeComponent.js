@@ -7,14 +7,14 @@ import TopButton from "../../components/topButton/TopButton";
 
 class Home extends Component {
   render() {
-    console.log("home ",this.props.lang)
+    const lang = this.props.lang
     return (
       <div>
-        <Header lang={this.props.lang} theme={this.props.theme} />
-        <Greeting lang={this.props.lang} theme={this.props.theme} />
-        <Skills lang={this.props.lang} theme={this.props.theme} />
-        <Footer lang={this.props.lang} theme={this.props.theme} />
-        <TopButton lang={this.props.lang} theme={this.props.theme} />
+        <Header lang={lang} theme={this.props.theme} />
+        <Greeting lang={lang} theme={this.props.theme} />
+        <Skills lang={lang} theme={this.props.theme} />
+        <Footer lang={lang} theme={this.props.theme} />
+        <TopButton lang={lang} theme={this.props.theme} />
       </div>
     );
   }

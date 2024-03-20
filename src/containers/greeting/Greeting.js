@@ -30,6 +30,21 @@ export default function Greeting(props) {
                 </h2>
               )}
               <p
+                id={lang === 'en' ? 'en' : 'hide'}
+                className="greeting-text-p subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {greeting.subTitle}
+              </p>
+              <p
+                id={lang === 'ru' ? 'ru' : 'hide'}
+                className="greeting-text-p subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {greeting.subTitle}
+              </p>
+              <p
+                id={lang === 'de' ? 'de' : 'hide'}
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >

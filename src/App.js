@@ -6,16 +6,18 @@ import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
 import { Provider as ReduxProvider } from 'react-redux';
 import store from './store';
+import { useSelector } from 'react-redux';
 
 
 function App() {
+  const currentLang = useSelector(state => state.language.currentLang);
   return (
     <ThemeProvider theme={chosenTheme}>
       
       <>
         <GlobalStyles />
         <div>
-          <Main theme={chosenTheme}/>
+          <Main lang={currentLang} theme={chosenTheme}/>
         </div>
       </>
     </ThemeProvider>

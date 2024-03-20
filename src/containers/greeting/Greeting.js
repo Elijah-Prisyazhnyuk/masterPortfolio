@@ -15,8 +15,14 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
+              <h1 className="greeting-text" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
                 {greeting.title}
+              </h1>
+              <h1 className="greeting-text" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
+                {greeting.title_ru}
+              </h1>
+              <h1 className="greeting-text" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
+                {greeting.title_de}
               </h1>
               {greeting.nickname && (
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>

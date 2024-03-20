@@ -59,7 +59,7 @@ class SkillSection extends Component {
                   </Fade>
                   <Fade left duration={2000}>
                   <div>
-                      {skill.skills.find(skill => skill.[lang])?.[lang].map((sentence) => {
+                      {skill.skills.find(skill => skill[lang])?.[lang].map((sentence) => {
                         return (
                         <><p
                           className="subTitle skills-text"
@@ -103,7 +103,7 @@ class SkillSection extends Component {
                   </Fade>
                   <Fade right duration={2000}>
                   <div>
-                      {skill.skills.find(skill => skill.[lang])?.[lang].map((sentence) => {
+                      {skill.skills.find(skill => skill[lang])?.[lang].map((sentence) => {
                         return (
                         <><p
                           className="subTitle skills-text"

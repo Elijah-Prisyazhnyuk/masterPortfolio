@@ -48,7 +48,9 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Home
+                  <span id={lang === 'en' ? 'en' : 'hide'}>Home</span>
+                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Главная</span>
+                  <span id={lang === 'de' ? 'de' : 'hide'}>Home</span>
                 </NavLink>
               </li>
               <li>
@@ -62,7 +64,7 @@ class Header extends Component {
                 >
                  <span id={lang === 'en' ? 'en' : 'hide'}>Education</span>
                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Образование</span>
-                 <span id={lang === 'de' ? 'de' : 'hide'}>Education</span>
+                 <span id={lang === 'de' ? 'de' : 'hide'}>Ausbildung</span>
                 </NavLink>
               </li>
               <li>
@@ -74,6 +76,9 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
+                  <span id={lang === 'en' ? 'en' : 'hide'}>Experience</span>
+                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Опыт</span>
+                  <span id={lang === 'de' ? 'de' : 'hide'}>Erfahrung</span>
                   Experience
                 </NavLink>
               </li>
@@ -86,7 +91,9 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Projects
+                  <span id={lang === 'en' ? 'en' : 'hide'}>Projects</span>
+                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Проекты</span>
+                  <span id={lang === 'de' ? 'de' : 'hide'}>Vorhaben</span>
                 </NavLink>
               </li>
               <li>
@@ -97,8 +104,10 @@ class Header extends Component {
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Hobby & Interests
+                > 
+                  <span id={lang === 'en' ? 'en' : 'hide'}>Hobby & Interests</span>
+                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Увлечения и Интересы</span>
+                  <span id={lang === 'de' ? 'de' : 'hide'}>Hobbys & Interessen</span>
                 </NavLink>
               </li>
               <li>
@@ -110,7 +119,9 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Contact Me
+                  <span id={lang === 'en' ? 'en' : 'hide'}>Contact Me</span>
+                  <span id={lang === 'en' ? 'en' : 'hide'}>Контакты</span>
+                  <span id={lang === 'en' ? 'en' : 'hide'}>Kontaktieren</span>
                 </NavLink>
               </li>
             </ul>

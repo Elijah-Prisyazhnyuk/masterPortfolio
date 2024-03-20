@@ -77,7 +77,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title_: "Embedded Engineer",
+      title: "Embedded Engineer",
       title_ru: "Инженер-электронщик",
       title_de: "",
       fileName: "EmbeddedEngineerImg",
@@ -155,7 +155,7 @@ const skills = {
       ],
     },
     {
-      title_: "Machine Learning & Data analysis",
+      title: "Machine Learning & Data analysis",
       title_ru: "Инженер данных",
       title_de: "",
       fileName: "DataScienceImg",
@@ -225,7 +225,7 @@ const skills = {
       ],
     },
     {
-      title_: "3D & Web designer",
+      title: "3D & Web designer",
       title_ru: "3D & Web дизайнер",
       title_de: "",
       fileName: "DesignImg",
@@ -328,60 +328,124 @@ const degrees = {
   degrees: [
     {
       title: "Siberian State Industrial University",
+      title_ru: "Сибирский Государственный Индустриальный Университет",
+      title_de: "",
       subtitle: "Bachelor's degree in Industrial Electronics",
+      subtitle_ru: "Степень магистратуры в Промышленной Электронике",
+      subtitle_en: "",
       logo_path: "sibsiu.png",
       alt_name: "SibSIU",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ I have studied basic electrical engineering subjects like power electronics, embedded systems, electronic components, semiconductor devices, math, analog and digital integrated circuits, process control systems, industrial automation and etc.",
-        "⚡ During my time in this university, I have developed a number of valuable professional relationships. Through collaborative research and participation in conferences, I was able to contribute to the publication of several articles in scientific journals and in the Russian Science Citation Index.",
-        "🏆 I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship of the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
+        {
+          en: [
+            "⚡ I have studied basic electrical engineering subjects like power electronics, embedded systems, electronic components, semiconductor devices, math, analog and digital integrated circuits, process control systems, industrial automation and etc.",
+            "⚡ During my time in this university, I have developed a number of valuable professional relationships. Through collaborative research and participation in conferences, I was able to contribute to the publication of several articles in scientific journals and in the Russian Science Citation Index.",
+            "🏆 I have been selected to receive a research scholarship for two consecutive years for my scientific publications. Additionally, I have also been awarded a scholarship of the Russian Federal Government for my systematic success in research activities, participation in Olympiad events, conferences, and excellent academic performance.",
+          ]
+        },
+        {
+          ru: []
+        },
+        {
+          de: []
+        },
       ],
       website_link: "https://sibsiu.ru/",
       document_link: "https://drive.google.com/file/d/1i_uL0ZgaQb10vlNBEMh091r4yDgPHcSe/view?usp=sharing",
       button_text: "Diploma",
+      button_text_ru: "Диплом",
+      button_text_de: "Диплом",
     },
     {
       title: "South Ural State University",
+      title_ru: "Южно-Уральский Государственный Университет",
+      title_de: "",
       subtitle: "Unfinished Master's degree in Machine learning & Big Data analisys",
+      subtitle_ru: "Незаконченная магистратура по направлению Машинное обучение и анализ больших данных",
+      subtitle_en: "",
       logo_path: "susu.png",
       alt_name: "SUSU",
       duration: "2022 - 2023",
       descriptions: [
-        "⚡ It was an enriching experience, filled with a wealth of new knowledge and skills at the forefront of science and technology.",
-        "⚡ Lectures and practical sessions were conducted in an engaging manner by professors with significant academic achievements.",
-        "😔 Unfortunately, I had to interrupt my studies a year before graduation due to trip to the USA.",
+        {
+          en: [
+            "⚡ It was an enriching experience, filled with a wealth of new knowledge and skills at the forefront of science and technology.",
+            "⚡ Lectures and practical sessions were conducted in an engaging manner by professors with significant academic achievements.",
+            "😔 Unfortunately, I had to interrupt my studies a year before graduation due to trip to the USA.",
+          ]
+        },
+        {
+          ru: []
+        },
+        {
+          de: []
+        },
       ],
       website_link: "https://www.susu.ru/en",
       document_link: "https://www.susu.ru/en",
       button_text: "Documents",
+      button_text_ru: "Документа",
+      button_text_de: "Диплом",
     },
     {
       title: "Trip to USA",
+      title_ru: "Поездка в США",
+      title_de: "",
       subtitle: "Six months of immersion in advanced English",
+      subtitle_ru: "6 месяцев углубленного изучения английского",
+      subtitle_en: "",
       logo_path: "US.png",
       alt_name: "US",
       duration: "2023 - 2024",
       descriptions: [
-        "🌍 It was the second and longest trip to the USA.",
+        {
+          en: [
+            "🌍 It was the second and longest trip to the USA.",
+          ]
+        },
+        {
+          ru: []
+        },
+        {
+          de: []
+        },
       ],
       website_link: "",
       document_link: "",
       button_text: "",
+      button_text_ru: "",
+      button_text_de: "",
     },
     {
       title: "Clark College",
+      title_ru: "Clark Колледж",
+      title_de: "",
       subtitle: "Electrical Engineering major",
+      subtitle_ru: "",
+      subtitle_en: "",
       logo_path: "clark.png",
       alt_name: "Clark_college",
       duration: "2023 - 2024",
       descriptions: [
-        "⚡ High scores on the placement test in math (Alex test) allowed me to enroll without taking additional exams such as English, and to take more advanced courses",
-        "⚡ Admission to college also allowed me to take free courses on software such as Tableau",
+        {
+          en: [
+            "⚡ High scores on the placement test in math (Alex test) allowed me to enroll without taking additional exams such as English, and to take more advanced courses",
+            "⚡ Admission to college also allowed me to take free courses on software such as Tableau",
+          ]
+        },
+        {
+          ru: []
+        },
+        {
+          de: []
+        },
       ],
       website_link: "https://www.clark.edu/",
       document_link: "https://www.clark.edu/",
       button_text: "Documents",
+      button_text_ru: "Документы",
+      button_text_de: "Диплом",
     },
   ],
 };

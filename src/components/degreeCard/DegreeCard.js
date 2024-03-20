@@ -34,11 +34,23 @@ class DegreeCard extends Component {
               style={{ backgroundColor: theme.headerColor }}
             >
               <div className="body-header-title">
-                <h2 className="card-title" style={{ color: theme.text }}>
+                <h2 className="card-title" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
                   {degree.title}
                 </h2>
-                <h3 className="card-subtitle" style={{ color: theme.text }}>
+                <h2 className="card-title" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
+                  {degree.title_ru}
+                </h2>
+                <h2 className="card-title" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
+                  {degree.title_de}
+                </h2>
+                <h3 className="card-subtitle" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
                   {degree.subtitle}
+                </h3>
+                <h3 className="card-subtitle" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
+                  {degree.subtitle_ru}
+                </h3>
+                <h3 className="card-subtitle" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
+                  {degree.subtitle_de}
                 </h3>
               </div>
               <div className="body-header-duration">
@@ -48,7 +60,7 @@ class DegreeCard extends Component {
               </div>
             </div>
             <div className="body-content">
-              {degree.descriptions.map((sentence) => {
+              {degree.descriptions.find(degree => degree[lang])?.[lang].map((sentence) => {
                 return (
                   <p className="content-list" style={{ color: theme.text }}>
                     {sentence}
@@ -65,7 +77,13 @@ class DegreeCard extends Component {
                     className="visit-btn"
                     style={{ backgroundColor: theme.headerColor }}
                   >
-                    <p className="btn" style={{ color: theme.text }}>
+                    <p className="btn" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
+                      Visit Website
+                    </p>
+                    <p className="btn" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
+                      Сайт
+                    </p>
+                    <p className="btn" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
                       Visit Website
                     </p>
                   </div>
@@ -81,8 +99,14 @@ class DegreeCard extends Component {
                     className="doc-btn"
                     style={{ backgroundColor: theme.headerColor }}
                   >
-                    <p className="btn" style={{ color: theme.text }}>
+                    <p className="btn" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
                       {degree.button_text}
+                    </p>
+                    <p className="btn" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
+                      {degree.button_text_ru}
+                    </p>
+                    <p className="btn" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
+                      {degree.button_text_de}
                     </p>
                   </div>
                 </a>

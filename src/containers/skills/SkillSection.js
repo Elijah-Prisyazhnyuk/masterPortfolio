@@ -33,10 +33,11 @@ class SkillSection extends Component {
                 <div className="skills-text-div">
                   <Fade left duration={1000}>
                     <h1
+                      id={lang === 'en' ? 'en' : 'hide'}
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
-                      {skill.title_[lang]}
+                      {skill.title}
                     </h1>
                     <br/>
                     <h1
@@ -79,10 +80,11 @@ class SkillSection extends Component {
                 <div className="skills-text-div">
                   <Fade right duration={1000}>
                   <h1
+                      id={lang === 'en' ? 'en' : 'hide'}
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
-                      {skill.title_[lang]}
+                      {skill.title}
                     </h1>
                     <br/>
                     <h1

@@ -8,7 +8,7 @@ import HobbiesSection from "../../containers/hobbiesSection/HobbiesSection";
 
 const Hobbies = (props) => {
   const theme = props.theme;
-  const lang = this.props.lang
+  const lang = props.lang
   console.log("1st: ", props.theme.lang);
   return (
     <div className="main-page">

@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 export default function Skills(props) {
   const lang = this.props.lang;
   console.log("skill ", lang)
+  console.log("skill props.lang", props.lang)
   const theme = props.theme;
   return (
     <div className="main" id="skills">

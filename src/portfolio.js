@@ -25,8 +25,8 @@ const greeting = {
   logo_name: "ElijahPris",
   nickname: "@ElijahPris",
   subTitle:
-  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.\n",
-  subTitle_ru: "Я инженер-электронщик с компетенциями в сфере радиоэлектронники, промышленной электронники и машинного обучения. Это позволяет мне глубже понимать интеграцию аппаратной и программной частей различных устройств. Я увлекаюсь проектированием, сборкой и программированием микропроцессорных устройств для различных применений.\n",
+  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
+  subTitle_ru: "Я инженер-электронщик с компетенциями в сфере радиоэлектронники, промышленной электронники и машинного обучения. Это позволяет мне глубже понимать интеграцию аппаратной и программной частей различных устройств. Я увлекаюсь проектированием, сборкой и программированием микропроцессорных устройств для различных применений.",
   subTitle_de: "",
   resumeLink:
     "https://drive.google.com/file/d/1JYHozlWYlqqDUvcXAPjgVkszkW84s8YY/view?usp=sharing",
@@ -84,26 +84,26 @@ const skills = {
       skills: [
         {
           en: [
-            "⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives",
-            "⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits",
-            "⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions",
-            "⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB",
+            "⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives\n",
+            "⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits\n",
+            "⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions\n",
+            "⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB\n",
           ]
         },
         {
           ru: [
-            "⚡ Проектирование и сборка инвенторов, преобразователей частоты, энкодеров и управляющих устройств для различных электроприводов",
-            "⚡ Разработка умных IoT устройств и проектов с помощью микроконтроллеров, сенсоров и радиомодулей",
-            "⚡ Математическое моделирование электронных схем с использованием MatLAB/Simulink, Altium Designer, Proteus. А также анализ теплопроводности, прочности различных конструкций и корпусов методом конечных элементов (МКУ)",
-            "⚡ Разработка ПО для микроконтроллеров в следующих языках программирования: C++, micropython, python, MatLAB",
+            "⚡ Проектирование и сборка инвенторов, преобразователей частоты, энкодеров и управляющих устройств для различных электроприводов\n",
+            "⚡ Разработка умных IoT устройств и проектов с помощью микроконтроллеров, сенсоров и радиомодулей\n",
+            "⚡ Математическое моделирование электронных схем с использованием MatLAB/Simulink, Altium Designer, Proteus. А также анализ теплопроводности, прочности различных конструкций и корпусов методом конечных элементов (МКУ)\n",
+            "⚡ Разработка ПО для микроконтроллеров в следующих языках программирования: C++, micropython, python, MatLAB\n",
           ]
         },
         {
           de: [
-            "⚡ Entwurf und Implementierung von Frequenzumrichtern, Encodern und Steuergeräten für verschiedene Elektroantriebe",
-            "⚡ Entwicklung intelligenter IoT-Geräte und Projekte unter Verwendung von Mikrocontrollern, Sensoren und RF-Schaltungen",
-            "⚡ Mathematische Modellierung für verschiedene Anwendungen mit Software wie MatLAB/Simulink, CFD-Analyse-Software und Open-Source-Lösungen",
-            "⚡ Entwicklung von Firmware für eingebettete Geräte unter Verwendung von C++, Micropython, Python und MatLAB",
+            "⚡ Entwurf und Implementierung von Frequenzumrichtern, Encodern und Steuergeräten für verschiedene Elektroantriebe\n",
+            "⚡ Entwicklung intelligenter IoT-Geräte und Projekte unter Verwendung von Mikrocontrollern, Sensoren und RF-Schaltungen\n",
+            "⚡ Mathematische Modellierung für verschiedene Anwendungen mit Software wie MatLAB/Simulink, CFD-Analyse-Software und Open-Source-Lösungen\n",
+            "⚡ Entwicklung von Firmware für eingebettete Geräte unter Verwendung von C++, Micropython, Python und MatLAB\n",
           ]
         },
       ],
@@ -162,23 +162,23 @@ const skills = {
       skills: [
         {
           en: [
-            "⚡ Collecting, processing, and analyzing data from various sensors and IoT devices",
-            "⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies",
-            "⚡ Implementation of machine learning models in various MCUs",
+            "⚡ Collecting, processing, and analyzing data from various sensors and IoT devices\n",
+            "⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies\n",
+            "⚡ Implementation of machine learning models in various MCUs\n",
           ]
         },
         {
           ru: [
-            "⚡ Получение, обработка и анализ данных с различных датчиков и IoT устройств",
-            "⚡ Интеграция умных IoT устройств с Web-интерфейсами и облачными технологиями",
-            "⚡ Использование моделей машинного обучения в различных микропроцессорных устройствах",
+            "⚡ Получение, обработка и анализ данных с различных датчиков и IoT устройств\n",
+            "⚡ Интеграция умных IoT устройств с Web-интерфейсами и облачными технологиями\n",
+            "⚡ Использование моделей машинного обучения в различных микропроцессорных устройствах\n",
           ]
         },
         {
           de: [
-            "⚡ Sammeln, Verarbeiten und Analysieren von Daten aus verschiedenen Sensoren und IoT-Geräten",
-            "⚡ Integration von intelligenten IoT-Geräten mit Web-Benutzeroberflächen und Cloud-basierten Technologien",
-            "⚡ Implementierung von maschinellen Lernmodellen in verschiedenen Mikrocontrollern"
+            "⚡ Sammeln, Verarbeiten und Analysieren von Daten aus verschiedenen Sensoren und IoT-Geräten\n",
+            "⚡ Integration von intelligenten IoT-Geräten mit Web-Benutzeroberflächen und Cloud-basierten Technologien\n",
+            "⚡ Implementierung von maschinellen Lernmodellen in verschiedenen Mikrocontrollern\n"
           ]
         },
       ],
@@ -232,23 +232,23 @@ const skills = {
       skills: [
         {
           en: [
-            "⚡ Creating and designing 3D models and prototypes using CAD software",
-            "⚡ Designing attractive user interface for mobile and web applications",
-            "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
+            "⚡ Creating and designing 3D models and prototypes using CAD software\n",
+            "⚡ Designing attractive user interface for mobile and web applications\n",
+            "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution\n",
           ]
         },
         {
           ru: [
-            "⚡ Создание и доработка 3D/2D моделей и чертежей в CAD программах",
-            "⚡ Дизайн и разработка привлекательных пользовательский интерфейсов для мобильных и web приложений",
-            "⚡ Создание Web-интерфейсов для IoT проектов в React.js, Flask с использованием Open-source решений",
+            "⚡ Создание и доработка 3D/2D моделей и чертежей в CAD программах\n",
+            "⚡ Дизайн и разработка привлекательных пользовательский интерфейсов для мобильных и web приложений\n",
+            "⚡ Создание Web-интерфейсов для IoT проектов в React.js, Flask с использованием Open-source решений\n",
           ]
         },
         {
           de: [
-            "⚡ Erstellung und Design von 3D-Modellen und Prototypen mit CAD-Software",
-            "⚡ Gestaltung ansprechender Benutzeroberflächen für mobile und Webanwendungen",
-            "⚡ Erstellung von Web-Schnittstellen für IoT-Projekte mit React.js, Flask und Open-Source-Lösungen"
+            "⚡ Erstellung und Design von 3D-Modellen und Prototypen mit CAD-Software\n",
+            "⚡ Gestaltung ansprechender Benutzeroberflächen für mobile und Webanwendungen\n",
+            "⚡ Erstellung von Web-Schnittstellen für IoT-Projekte mit React.js, Flask und Open-Source-Lösungen\n"
           ]
         },
       ],

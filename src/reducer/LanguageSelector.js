@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { setCurrentLang } from './LanguageActions';
 
 
 const LanguageSelector = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [currentLang, setCurrentLang] = useState(localStorage.getItem('currentLang') || 'en');
+  const currentLang = useSelector(state => state.language.currentLang);
+  const dispatch = useDispatch();
+
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -24,7 +28,7 @@ const LanguageSelector = () => {
   };
 
   const handleLangChange = (newLang) => {
-    setCurrentLang(newLang);
+    dispatch(setCurrentLang(newLang));
     localStorage.setItem('currentLang', newLang);
     setIsDropdownOpen(false); // Закрыть панель после выбора языка
   };

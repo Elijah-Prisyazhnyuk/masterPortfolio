@@ -62,7 +62,7 @@ class SkillSection extends Component {
                       {skill.skills.map((skillSentence) => {
                         return (
                           <p
-                            id={lang === 'en' ? 'en' : 'hide'}
+                            /*id={lang === 'en' ? 'en' : 'hide'}*/
                             className="subTitle skills-text"
                             style={{ color: theme.secondaryText }}
                           >

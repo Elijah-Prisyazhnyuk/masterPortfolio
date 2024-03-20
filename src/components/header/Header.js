@@ -79,7 +79,6 @@ class Header extends Component {
                   <span id={lang === 'en' ? 'en' : 'hide'}>Experience</span>
                   <span id={lang === 'ru' ? 'ru' : 'hide'}>Опыт</span>
                   <span id={lang === 'de' ? 'de' : 'hide'}>Erfahrung</span>
-                  Experience
                 </NavLink>
               </li>
               <li>
@@ -120,8 +119,8 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   <span id={lang === 'en' ? 'en' : 'hide'}>Contact Me</span>
-                  <span id={lang === 'en' ? 'en' : 'hide'}>Контакты</span>
-                  <span id={lang === 'en' ? 'en' : 'hide'}>Kontaktieren</span>
+                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Контакты</span>
+                  <span id={lang === 'de' ? 'de' : 'hide'}>Kontaktieren</span>
                 </NavLink>
               </li>
             </ul>

@@ -33,13 +33,13 @@ class SkillSection extends Component {
                 <div className="skills-text-div">
                   <Fade left duration={1000}>
                     <h1
-                      id={lang === 'en' ? 'en' : 'hide'}
+                      /*id={lang === 'en' ? 'en' : 'hide'}*/
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
                       {skill.title}
                     </h1>
-                    <h1
+                    {/*<h1
                       id={lang === 'ru' ? 'ru' : 'hide'}
                       className="skills-heading"
                       style={{ color: theme.text }}
@@ -52,7 +52,7 @@ class SkillSection extends Component {
                       style={{ color: theme.text }}
                     >
                       {skill.title_de}
-                    </h1>
+              </h1>*/}
                   </Fade>
                   <Fade left duration={1500}>
                     <SoftwareSkill logos={skill.softwareSkills} />
@@ -91,7 +91,7 @@ class SkillSection extends Component {
                 <div className="skills-text-div">
                   <Fade right duration={1000}>
                     <h1
-                      id={lang === 'ru' ? 'ru' : 'hide'}
+                      /*id={lang === 'ru' ? 'ru' : 'hide'}*/
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
@@ -106,11 +106,11 @@ class SkillSection extends Component {
                       {skill.skills.map((skillSentence) => {
                         return (
                           <p
-                            id={lang === 'ru' ? 'ru' : 'hide'}
+                            /*id={lang === 'ru' ? 'ru' : 'hide'}*/
                             className="subTitle skills-text"
                             style={{ color: theme.secondaryText }}
                           >
-                            {skillSentence}
+                            {skillSentence.en}
                           </p>
                         );
                       })}

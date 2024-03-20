@@ -230,6 +230,17 @@
   }
 }
 
+#hide{
+  display:none;
+  opacity: 0;
+}
+
+#en,#ru,#de{
+  display: inline;
+  opacity: 1;
+  transition: opacity 0.4s easy-in-out;
+}
+
 .switch.anim-options #trans-circle {
   transform: scale(9);
 }

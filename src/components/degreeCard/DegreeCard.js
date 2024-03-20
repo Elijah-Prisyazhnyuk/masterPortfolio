@@ -5,6 +5,7 @@ import { Fade, Flip } from "react-reveal";
 class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
+    const lang = this.props.lang;
     const theme = this.props.theme;
     return (
       <div className="degree-card">

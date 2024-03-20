@@ -6,6 +6,7 @@ import "./HobbiesCard.css";
 class HobbiesCard extends Component {
   render() {
   const theme = this.props.theme;
+  const lang = this.props.lang;
   return (
     <div className="hobbies-card">
       <Fade bottom duration={2000} distance="40px">

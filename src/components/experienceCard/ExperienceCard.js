@@ -8,6 +8,7 @@ class ExperienceCard extends Component {
     const index = this.props.index;
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
+    const lang = this.props.lang;
     return (
       <div className="experience-list-item" style={{ marginTop: (index === 0 ? 30 : 50) }}>
         <Fade left duration={2000} distance="40px">

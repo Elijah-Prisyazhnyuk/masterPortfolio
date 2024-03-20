@@ -3,8 +3,10 @@ import { pageEnabled } from "../../portfolio";
 import { Header, HobbiesCard, TopButton, Footer } from "../../components";
 import { HobbiesSection } from "../../containers/hobbiesSection/HobbiesSection";
 
+
 const Hobbies = (props) => {
   const theme = props.theme;
+  console.log("1st: ", props.theme.lang);
   if (!pageEnabled.hobbies) {
     return null;
   }

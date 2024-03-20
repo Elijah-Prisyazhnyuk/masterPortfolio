@@ -12,6 +12,7 @@ import Error404 from "../pages/errors/error404/Error";
 
 export default class Main extends Component {
   render() {
+    console.log("main lang ", this.props.lang)
     return (
       <BrowserRouter basename="/">
         <Switch>

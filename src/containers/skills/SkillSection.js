@@ -39,6 +39,7 @@ class SkillSection extends Component {
                     >
                       {skill.title}
                     </h1>
+                    <br/>
                     <h1
                       id={lang === 'ru' ? 'ru' : 'hide'}
                       className="skills-heading"
@@ -46,6 +47,7 @@ class SkillSection extends Component {
                     >
                       {skill.title_ru}
                     </h1>
+                    <br/>
                     <h1
                       id={lang === 'de' ? 'de' : 'hide'}
                       className="skills-heading"
@@ -53,6 +55,7 @@ class SkillSection extends Component {
                     >
                       {skill.title_de}
                     </h1>
+                    <br/>
                   </Fade>
                   <Fade left duration={1500}>
                     <SoftwareSkill logos={skill.softwareSkills} />
@@ -83,6 +86,7 @@ class SkillSection extends Component {
                     >
                       {skill.title}
                     </h1>
+                    <br/>
                     <h1
                       id={lang === 'ru' ? 'ru' : 'hide'}
                       className="skills-heading"
@@ -90,6 +94,7 @@ class SkillSection extends Component {
                     >
                       {skill.title_ru}
                     </h1>
+                    <br/>
                     <h1
                       id={lang === 'de' ? 'de' : 'hide'}
                       className="skills-heading"
@@ -97,6 +102,7 @@ class SkillSection extends Component {
                     >
                       {skill.title_de}
                     </h1>
+                    <br/>
                   </Fade>
                   <Fade right duration={1500}>
                     <SoftwareSkill logos={skill.softwareSkills} />

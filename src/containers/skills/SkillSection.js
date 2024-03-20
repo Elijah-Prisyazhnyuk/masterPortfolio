@@ -58,11 +58,10 @@ class SkillSection extends Component {
                     <SoftwareSkill logos={skill.softwareSkills} />
                   </Fade>
                   <Fade left duration={2000}>
-                  <div>
+                  <div id={lang === 'en' ? 'en' : 'hide'}>
                       {skill.skills.find(skill => skill.en)?.en.map((sentence) => {
                         return (
                         <><p
-                          id={lang === 'en' ? 'en' : 'hide'}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                           >
@@ -70,10 +69,11 @@ class SkillSection extends Component {
                         </p></>
                         );
                       })}
+                  </div>
+                  <div id={lang === 'ru' ? 'ru' : 'hide'}>
                       {skill.skills.find(skill => skill.ru)?.ru.map((sentence) => {
                         return (
                         <><p
-                          id={lang === 'ru' ? 'ru' : 'hide'}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                           >
@@ -81,10 +81,11 @@ class SkillSection extends Component {
                         </p></>
                         );
                       })}
+                    </div>
+                    <div id={lang === 'de' ? 'de' : 'hide'}>
                       {skill.skills.find(skill => skill.de)?.de.map((sentence) => {
                         return (
                         <><p
-                          id={lang === 'de' ? 'de' : 'hide'}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                           >

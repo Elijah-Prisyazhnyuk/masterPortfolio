@@ -8,6 +8,7 @@ import { useSelector } from 'react-redux';
 
 const Certifications = ({ theme }) => {
   const currentLang = useSelector(state => state.language.currentLang);
+  console.log("1st: ",currentLang);
 
   return (
         <div className="main" id="certs">

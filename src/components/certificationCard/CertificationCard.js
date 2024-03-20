@@ -42,14 +42,36 @@ class CertificationCard extends Component {
             </a>
           </div>
           <div className="cert-body">
-            <h2 className="cert-body-title" style={{ color: theme.text }}>
+            <h2 className="cert-body-title" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
               {certificate.title}
             </h2>
+            <h2 className="cert-body-title" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
+              {certificate.title_ru}
+            </h2>
+            <h2 className="cert-body-title" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
+              {certificate.title_de}
+            </h2>
+            <br/>
             <h3
               className="cert-body-subtitle"
+              id={lang === 'en' ? 'en' : 'hide'}
               style={{ color: theme.secondaryText }}
             >
               {certificate.subtitle}
+            </h3>
+            <h3
+              className="cert-body-subtitle"
+              id={lang === 'ru' ? 'ru' : 'hide'}
+              style={{ color: theme.secondaryText }}
+            >
+              {certificate.subtitle_ru}
+            </h3>
+            <h3
+              className="cert-body-subtitle"
+              id={lang === 'de' ? 'de' : 'hide'}
+              style={{ color: theme.secondaryText }}
+            >
+              {certificate.subtitle_de}
             </h3>
           </div>
         </div>

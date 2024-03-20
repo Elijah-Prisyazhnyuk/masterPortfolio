@@ -480,10 +480,10 @@ const certifications = {
     {
       title: "III degree Diploma",
       title_ru: "Диплом III степени",
-      title_de: "",
+      title_de: "Diplom III. Grades",
       subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
       subtitle_ru: "59-ая Научно-техническая конференция молодых специалистов Дивизиона Сибирь \"Твой вызов\"",
-      subtitle_de: "",
+      subtitle_de: "Die 59. Wissenschaftliche und Technische Konferenz junger Fachleute aus der sibirischen Abteilung \"Ihre Herausforderung\"",
       logo_path: "EVZ.svg",
       certificate_link:
         "https://drive.google.com/file/d/1SJ5-icna_lkDWMurHjFYhpXQCnTPWtc5/view?usp=sharing",
@@ -493,10 +493,10 @@ const certifications = {
     {
       title: "ALEKS Placement Math test",
       title_ru: "Вступительный тест по математике ALEKS",
-      title_de: "",
+      title_de: "ALEKS Platzierungstest Mathematik",
       subtitle: "79/100 Math Placement Assessment proctored test",
       subtitle_ru: "79/100 вступительный тест по математике с контролем",
-      subtitle_de: "",
+      subtitle_de: "79/100 Mathematik-Platzierungsprüfung unter Aufsicht",
       logo_path: "aleks.png",
       certificate_link:
         "https://drive.google.com/file/d/167wVrLmgPIkqK26O4ivBQnVcsSQ8cUie/view?usp=sharing",
@@ -506,10 +506,10 @@ const certifications = {
     {
       title: "Scholarship of the Russian Federal Government",
       title_ru: "Стипендия Правительства РФ",
-      title_de: "",
+      title_de: "Stipendium der russischen Bundesregierung",
       subtitle: "The scholarship of the government of the Russian Federation for priority areas of modernization and technological development in the Russian economy.",
       subtitle_ru: "Стипендия Правительства РФ по приоритетным направлениям модернизации и технологического развития Российской экономики.",
-      subtitle_de: "",
+      subtitle_de: "Das Stipendium der Regierung der Russischen Föderation für prioritäre Bereiche der Modernisierung und technologischen Entwicklung in der Russischen Wirtschaft",
       logo_path: "rf.png",
       certificate_link:
         "https://drive.google.com/file/d/19sMVp7eDLWRDMD0diPxd62C49ne_8ffS/view?usp=sharing",

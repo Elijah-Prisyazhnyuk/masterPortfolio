@@ -4,7 +4,7 @@ import { BaseProvider, LightTheme } from "baseui";
 import { Provider as StyletronProvider } from "styletron-react";
 import { Client as Styletron } from "styletron-engine-atomic";
 import { Provider as ReduxProvider } from 'react-redux'; // Import Redux Provider
-import store from './store'; // Import your Redux store
+import store from '../store'; // Import your Redux store
 
 import "./index.css";
 // import "bootstrap/dist/css/bootstrap.min.css";

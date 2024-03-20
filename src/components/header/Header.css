@@ -238,7 +238,7 @@
 #en,#ru,#de{
   display: inline;
   opacity: 1;
-  transition: opacity 0.4s easy-in-out;
+  transition: 400;
 }
 
 .switch.anim-options #trans-circle {

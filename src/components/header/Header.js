@@ -60,9 +60,9 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                 <p id={lang === 'en' ? 'en' : 'hide'}>Education</p>
-                 <p id={lang === 'ru' ? 'ru' : 'hide'}>Образование</p>
-                 <p id={lang === 'de' ? 'de' : 'hide'}>Education</p>
+                 <span id={lang === 'en' ? 'en' : 'hide'}>Education</span>
+                 <span id={lang === 'ru' ? 'ru' : 'hide'}>Образование</span>
+                 <span id={lang === 'de' ? 'de' : 'hide'}>Education</span>
                 </NavLink>
               </li>
               <li>

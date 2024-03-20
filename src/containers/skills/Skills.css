@@ -6,12 +6,13 @@
 #hide{
   display:none;
   opacity: 0;
+  transition: opacity 0.4s easy-in-out;
 }
 
 #en,#ru,#de{
   display: inline;
   opacity: 1;
-  transition: 400;
+  transition: opacity 0.4s easy-in-out;
 }
 
 .skills-header {

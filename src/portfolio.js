@@ -20,10 +20,14 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Elijah Prisyazhnyuk",
+  title_ru: "Илья Присяжнюк",
+  title_de: "",
   logo_name: "ElijahPris",
   nickname: "@ElijahPris",
   subTitle:
-  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in data science and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
+  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
+  subTitle_ru: "Я инженер-электронщик с компетенциями в сфере радиоэлектронники, промышленной электронники и машинного обучения. Это позволяет мне глубже понимать интеграцию аппаратной и программной частей различных устройств. Я увлекаюсь проектированием, сборкой и программированием микропроцессорных устройств для различных применений.",
+  subTitle_de: "",
   resumeLink:
     "https://drive.google.com/file/d/1JYHozlWYlqqDUvcXAPjgVkszkW84s8YY/view?usp=sharing",
   portfolio_repository: "https://github.com/Elijah-Prisyazhnyuk/masterPortfolio",

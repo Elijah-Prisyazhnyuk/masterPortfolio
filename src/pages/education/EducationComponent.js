@@ -14,9 +14,10 @@ import { Fade } from "react-reveal";
 class Education extends Component {
   render() {
     const theme = this.props.theme;
+    const lang = this.props.lang;
     return (
       <div className="education-main">
-        <Header theme={this.props.theme} />
+        <Header lang={lang} theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
@@ -38,13 +39,13 @@ class Education extends Component {
               </div>
             </div>
           </Fade>
-          <Educations theme={this.props.theme} />
+          <Educations lang={lang} theme={this.props.theme} />
           {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
           ) : null}
         </div>
-        <Footer theme={this.props.theme} />
-        <TopButton theme={this.props.theme} />
+        <Footer lang={lang} theme={this.props.theme} />
+        <TopButton lang={lang} theme={this.props.theme} />
       </div>
     );
   }

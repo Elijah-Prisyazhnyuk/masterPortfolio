@@ -7,6 +7,7 @@ import { Fade } from "react-reveal";
 class Educations extends Component {
   render() {
     const theme = this.props.theme;
+    const lang = this.props.lang;
     console.log("lg edu: ", this.props.lang);
     return (
       <div className="main" id="educations">
@@ -19,7 +20,7 @@ class Educations extends Component {
         </div>
         <div className="educations-body-div">
           {degrees.degrees.map((degree) => {
-            return <DegreeCard degree={degree} theme={theme} />;
+            return <DegreeCard lang={lang} degree={degree} theme={theme} />;
           })}
         </div>
       </div>

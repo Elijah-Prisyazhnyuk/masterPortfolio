@@ -162,9 +162,9 @@ const skills = {
       skills: [
         {
           en: [
-            "⚡ Collecting, processing, and analyzing data from various sensors and IoT devices",
-            "⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies",
-            "⚡ Implementation of machine learning models in various MCUs",
+            ["⚡ Collecting, processing, and analyzing data from various sensors and IoT devices"],
+            ["⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies"],
+            ["⚡ Implementation of machine learning models in various MCUs"],
           ]
         },
         {
@@ -232,9 +232,9 @@ const skills = {
       skills: [
         {
           en: [
-            "⚡ Creating and designing 3D models and prototypes using CAD software",
-            "⚡ Designing attractive user interface for mobile and web applications",
-            "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
+            ["⚡ Creating and designing 3D models and prototypes using CAD software"],
+            ["⚡ Designing attractive user interface for mobile and web applications"],
+            ["⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution"],
           ]
         },
         {

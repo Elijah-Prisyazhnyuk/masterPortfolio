@@ -29,13 +29,13 @@ class CertificationCard extends Component {
                 />
               </div>
               <div className="content-details fadeIn-top">
-                <h3 className="content-title" style={{ color: theme.body, opacity: lang === 'en' ? 1 : 0, transition: 'opacity 400ms'}}>
+                <h3 className="content-title" id="en" style={{ color: theme.body, opacity: lang === 'en' ? 1 : 0, transition: 'opacity 400ms'}}>
                   Certificate
                 </h3>
-                <h3 className="content-title" style={{ color: theme.body, opacity: lang === 'ru' ? 1 : 0, transition: 'opacity 400ms'}}>
+                <h3 className="content-title" id="ru" style={{ color: theme.body, opacity: lang === 'ru' ? 1 : 0, transition: 'opacity 400ms'}}>
                   Сертификаты
                 </h3>
-                <h3 className="content-title" style={{ color: theme.body, opacity: lang === 'de' ? 1 : 0, transition: 'opacity 400ms'}}>
+                <h3 className="content-title" id="de" style={{ color: theme.body, opacity: lang === 'de' ? 1 : 0, transition: 'opacity 400ms'}}>
                   ???
                 </h3>
               </div>

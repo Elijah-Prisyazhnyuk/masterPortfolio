@@ -97,6 +97,10 @@
   text-transform: uppercase;
 }
 
+#en,#de{
+  display:none;
+}
+
 .fadeIn-top {
   top: 20%;
 }

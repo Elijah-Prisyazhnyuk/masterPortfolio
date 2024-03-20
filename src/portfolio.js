@@ -562,6 +562,8 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
+  title_ru: "",
+  title_de: "",
   subtitle: "Internship and Freelance",
   description:
     "Skilled in industrial and converter electronics, I utilize a combination of embedded microprocessor devices, machine learning techniques, and web-based interfaces in my projects. I have experience with Python and MATLAB for mathematical modeling, simulation, and reporting. My key quality is the ability to respond and adapt to changing priorities quickly and efficiently. ",
@@ -569,10 +571,14 @@ const experience = {
   sections: [
     {
       title: "Work",
+      title_ru: "",
+      title_de: "",
       work: true,
       experiences: [
         {
           title: "Your job offer may be here",
+          title_ru: "",
+          title_de: "",
           company: "Your company may be here",
           company_url: "https://elijah-pris.vercel.app/contact",
           logo_path: "list.png",
@@ -589,6 +595,8 @@ const experience = {
       experiences: [
         {
           title: "CAD Engineer Designer Intern",
+          title_ru: "",
+          title_de: "",
           company: "EVRAZ WSMP",
           company_url: "https://www.evraz.com/ru/company/assets/steel/",
           logo_path: "EVZ.svg",
@@ -599,7 +607,9 @@ const experience = {
           color: "#000000",
         },
         {
-          title: "Participant of the 95th Scientific and Technical Conference \"Your Challenge\"",
+          title: "Participant of the 59th Scientific and Technical Conference \"Your Challenge\"",
+          title_ru: "",
+          title_de: "",
           company: "EVRAZ WSMP",
           company_url: "https://www.evraz.com/ru/company/assets/steel/",
           logo_path: "EVZ.svg",
@@ -616,6 +626,8 @@ const experience = {
       experiences: [
         {
           title: "Online Freelance",
+          title_ru: "",
+          title_de: "",
           company: "Upwork, Freelance",
           company_url: "https://about.google/",
           logo_path: "UPWK.svg",
@@ -627,6 +639,8 @@ const experience = {
         },
         {
           title: "Academic Freelance",
+          title_ru: "",
+          title_de: "",
           company: "SibSIU",
           company_url: "https://sibsiu.ru/",
           logo_path: "sibsiu.png",
@@ -644,6 +658,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
+  title_ru: "",
+  title_de: "",
   description:
     "My projects makes use of vast variety of latest technology tools and academic research. My passion for advanced and innovative technologies such as augmented reality (AR), virtual reality (VR), 3D and artificial intelligence (AI) is evident in the projects I have worked on.",
   avatar_image_path: "projects_image.svg",
@@ -651,6 +667,8 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
+  title_ru: "",
+  title_de: "",
   description:
     "I have worked on and published a few research papers and publications of my own.",
   avatar_image_path: "projects_image.svg",
@@ -689,26 +707,36 @@ const publications = {
 
 const hobbies = {
   title: "Hobbies",
+  title_ru: "",
+  title_de: "",
   subTitle: "I spend my leisure with my hobbies!",
   hobbies: [
     {
       title: "Reading Books",
+      title_ru: "",
+      title_de: "",
       description: "!",
       image_path: "Reading.png",
     },
     {
       title: "Writing",
+      title_ru: "",
+      title_de: "",
       description: "!",
       image_path: "Writing.png",
     },
     {
       title: "Art",
+      title_ru: "",
+      title_de: "",
       description:
         "!",
       image_path: "Memeing.png",
     },
     {
       title: "Traveling Music",
+      title_ru: "",
+      title_de: "",
       description: "!",
       image_path: "Music.png",
     },
@@ -719,12 +747,16 @@ const hobbies = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
+    title_ru: "",
+    title_de: "",
     profile_image_path: "portfolio.png",
     description:
       "Contact me for any queries or collaboration. I am always available for a chat. You can also ask me about my projects, research or anything you want to know.",
   },
   addressSection: {
     title: "Address",
+    title_ru: "",
+    title_de: "",
     subtitle:
       "Russia, Chelyabinsk region, Chelyabinsk, Dzerzhinskogo street 97/b - 454078",
     locality: "Chelyabinsk",
@@ -736,7 +768,7 @@ const contactPageData = {
     location_map_link: "https://maps.app.goo.gl/M5re4r8Tdjp4ZuBn9",
   },
   phoneSection: {
-    title: "",
+    title: "+7(951)-571-64-50",
     subtitle: "",
   },
 };

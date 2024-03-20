@@ -84,10 +84,10 @@ const skills = {
       skills: [
         {
           en: [
-            "⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives",
-            "⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits",
-            "⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions",
-            "⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB",
+            ["⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives"],
+            ["⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits"],
+            ["⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions"],
+            ["⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB"],
           ]
         },
         {

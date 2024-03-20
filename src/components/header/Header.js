@@ -20,8 +20,7 @@ class Header extends Component {
   render() {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
-    console.log("theme: ", theme);
-    console.log("theme2: ",this.props.theme);
+    console.log("lg: ", this.props.lang);
     return (
       <Fade top duration={1000} distance="20px">
         <SeoHeader />

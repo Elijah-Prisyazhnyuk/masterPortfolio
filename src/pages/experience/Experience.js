@@ -147,6 +147,7 @@ import ExperienceImg from "./ExperienceImg";
 class Experience extends Component {
   render() {
     const theme = this.props.theme;
+    console.log("lg exp: ", this.props.lang);
     return (
       <div className="experience-main">
         <Header theme={theme} />

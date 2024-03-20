@@ -12,7 +12,6 @@ import Error404 from "../pages/errors/error404/Error";
 
 export default class Main extends Component {
   render() {
-    console.log("lang: ", this.props.lang);
     return (
       <BrowserRouter basename="/">
         <Switch>
@@ -23,36 +22,36 @@ export default class Main extends Component {
               settings.isSplash ? (
                 <Splash {...props} theme={this.props.theme} />
               ) : (
-                <Home {...props} theme={this.props.theme} />
+                <Home {...props} lang={this.props.lang} theme={this.props.theme} />
               )
             }
           />
           <Route
             path="/home"
-            render={(props) => <Home {...props} theme={this.props.theme} />}
+            render={(props) => <Home {...props} lang={this.props.lang} theme={this.props.theme} />}
           />
           <Route
             path="/experience"
             exact
             render={(props) => (
-              <Experience {...props} theme={this.props.theme} />
+              <Experience {...props} lang={this.props.lang} theme={this.props.theme} />
             )}
             />
           <Route
             path="/education"
             render={(props) => (
-              <Education {...props} theme={this.props.theme} />
+              <Education {...props} lang={this.props.lang} theme={this.props.theme} />
             )}
           />
           <Route
             path="/opensource"
             render={(props) => (
-              <Opensource {...props} theme={this.props.theme} />
+              <Opensource {...props} lang={this.props.lang} theme={this.props.theme} />
             )}
             />
           <Route
             path="/contact"
-            render={(props) => <Contact {...props} theme={this.props.theme} />}
+            render={(props) => <Contact {...props} lang={this.props.lang} theme={this.props.theme} />}
           />
 
           {settings.isSplash && (
@@ -64,11 +63,11 @@ export default class Main extends Component {
 
           <Route
             path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
+            render={(props) => <Projects {...props} lang={this.props.lang} theme={this.props.theme} />}
           />
           <Route
             path="*"
-            render={(props) => <Error404 {...props} theme={this.props.theme} />}
+            render={(props) => <Error404 {...props} lang={this.props.lang} theme={this.props.theme} />}
           />
         </Switch>
       </BrowserRouter>

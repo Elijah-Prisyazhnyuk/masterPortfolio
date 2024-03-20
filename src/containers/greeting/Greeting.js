@@ -59,12 +59,8 @@ export default function Greeting(props) {
 							src={require(`../../assests/images/portfolio.png`)}
               />
             <div className="button-greeting-div">
-              <Button id={lang === 'en' ? 'en' : 'hide'} text="Contact me" theme={theme} href="contact" />
-              <Button id={lang === 'ru' ? 'ru' : 'hide'} text="Связь со мной" theme={theme} href="contact" />
-              <Button id={lang === 'de' ? 'de' : 'hide'} text="Contact me" theme={theme} href="contact" />
-              <Button id={lang === 'en' ? 'en' : 'hide'} text="See my resume" theme={theme} newTab={true} href={greeting.resumeLink} />
-              <Button id={lang === 'ru' ? 'ru' : 'hide'} text="Моё резюме" theme={theme} newTab={true} href={greeting.resumeLink} />
-              <Button id={lang === 'de' ? 'de' : 'hide'} text="See my resume" theme={theme} newTab={true} href={greeting.resumeLink} />
+              <Button text="Contact me" theme={theme} href="contact" />
+              <Button text="See my resume" theme={theme} newTab={true} href={greeting.resumeLink} />
             </div>
           </div>
         </div>

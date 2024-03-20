@@ -11,7 +11,7 @@ const seo = {
   description:
   "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
   og: {
-    title: "Elijah Prisyazhnyuk Portfolio",
+    title: "Elijah Prisyazhnyuk Portfolio | Илья Присяжнюк портфолио",
     type: "website",
     url: "https://elijah-pris.vercel.app/",
   },
@@ -24,10 +24,9 @@ const greeting = {
   title_de: "Elias Prisjashnjuk",
   logo_name: "ElijahPris",
   nickname: "@ElijahPris",
-  subTitle:
-  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
+  subTitle: "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
   subTitle_ru: "Я инженер-электронщик с компетенциями в сфере радиоэлектронники, промышленной электронники и машинного обучения. Это позволяет мне глубже понимать интеграцию аппаратной и программной частей различных устройств. Я увлекаюсь проектированием, сборкой и программированием микропроцессорных устройств для различных применений.",
-  subTitle_de: "",
+  subTitle_de: "Ich bin Elias Prisjashnjuk, oder einfach Elias Pris. Ich bin ein Embedded-Ingenieur mit Erfahrung in maschinellem Lernen und industrieller Elektronik. Dies ermöglicht es mir, die Integration von Hardware und Software tiefer zu verstehen. Ich bin eine leidenschaftliche Person, die MCU-basierte IoT-Geräte entwirft, implementiert und programmiert, um reale branchenspezifische Probleme zu lösen.",
   resumeLink:
     "https://drive.google.com/file/d/1JYHozlWYlqqDUvcXAPjgVkszkW84s8YY/view?usp=sharing",
   portfolio_repository: "https://github.com/Elijah-Prisyazhnyuk/masterPortfolio",
@@ -79,7 +78,7 @@ const skills = {
     {
       title: "Embedded Engineer",
       title_ru: "Инженер-электронщик",
-      title_de: "",
+      title_de: "Embedded-Entwickler",
       fileName: "EmbeddedEngineerImg",
       skills: [
         {
@@ -157,7 +156,7 @@ const skills = {
     {
       title: "Machine Learning & Data analysis",
       title_ru: "Инженер данных",
-      title_de: "",
+      title_de: "Maschinelles Lernen & Datenanalyse",
       fileName: "DataScienceImg",
       skills: [
         {
@@ -227,7 +226,7 @@ const skills = {
     {
       title: "3D & Web designer",
       title_ru: "3D & Web дизайнер",
-      title_de: "",
+      title_de: "3D- und Webdesigner",
       fileName: "DesignImg",
       skills: [
         {
@@ -329,10 +328,10 @@ const degrees = {
     {
       title: "Siberian State Industrial University",
       title_ru: "Сибирский Государственный Индустриальный Университет",
-      title_de: "",
+      title_de: "Sibirische Staatliche Industrieuniversität",
       subtitle: "Bachelor's degree in Industrial Electronics",
       subtitle_ru: "Степень магистратуры в Промышленной Электронике",
-      subtitle_en: "",
+      subtitle_en: "Bachelor-Abschluss in Industrieelektronik",
       logo_path: "sibsiu.png",
       alt_name: "SibSIU",
       duration: "2018 - 2022",
@@ -363,15 +362,15 @@ const degrees = {
       document_link: "https://drive.google.com/file/d/1i_uL0ZgaQb10vlNBEMh091r4yDgPHcSe/view?usp=sharing",
       button_text: "Diploma",
       button_text_ru: "Диплом",
-      button_text_de: "Диплом",
+      button_text_de: "Diplom",
     },
     {
       title: "South Ural State University",
       title_ru: "Южно-Уральский Государственный Университет",
-      title_de: "",
+      title_de: "Süd-Ural-Staatliche Universität",
       subtitle: "Unfinished Master's degree in Machine learning & Big Data analisys",
       subtitle_ru: "Незаконченная магистратура по направлению Машинное обучение и анализ больших данных",
-      subtitle_en: "",
+      subtitle_en: "Nicht abgeschlossenes Masterstudium in Maschinellem Lernen & Big Data Analyse",
       logo_path: "susu.png",
       alt_name: "SUSU",
       duration: "2022 - 2023",
@@ -401,16 +400,16 @@ const degrees = {
       website_link: "https://www.susu.ru/en",
       document_link: "https://www.susu.ru/en",
       button_text: "Documents",
-      button_text_ru: "Документа",
-      button_text_de: "Диплом",
+      button_text_ru: "Документы",
+      button_text_de: "Dokumente",
     },
     {
       title: "Trip to USA",
       title_ru: "Поездка в США",
-      title_de: "",
+      title_de: "Reise in die USA",
       subtitle: "Six months of immersion in advanced English",
       subtitle_ru: "6 месяцев углубленного изучения английского",
-      subtitle_en: "",
+      subtitle_en: "6 Monate intensive Auseinandersetzung mit fortgeschrittenem Englisch",
       logo_path: "US.png",
       alt_name: "US",
       duration: "2023 - 2024",
@@ -440,10 +439,10 @@ const degrees = {
     {
       title: "Clark College",
       title_ru: "Clark Колледж",
-      title_de: "",
+      title_de: "Clark College",
       subtitle: "Electrical Engineering major",
       subtitle_ru: "Специальность Инженер-Электрик",
-      subtitle_en: "",
+      subtitle_en: "Hauptfach Elektrotechnik",
       logo_path: "clark.png",
       alt_name: "Clark_college",
       duration: "2023 - 2024",
@@ -471,7 +470,7 @@ const degrees = {
       document_link: "https://www.clark.edu/",
       button_text: "Documents",
       button_text_ru: "Документы",
-      button_text_de: "Диплом",
+      button_text_de: "Dokumente",
     },
   ],
 };

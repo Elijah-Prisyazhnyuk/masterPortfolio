@@ -8,8 +8,8 @@ import { useSelector } from 'react-redux';
 
 
 const Certifications = ({ theme, store }) => {
-  const currentLang = useSelector(state => state.language.currentLang);
-  console.log("1st: ",currentLang);
+  const lang = useSelector(state => state.language.currentLang);
+  console.log("1st: ",lang);
   console.log("qst: ", store);
 
   return (
@@ -29,7 +29,7 @@ const Certifications = ({ theme, store }) => {
           </div>
           <div className="certs-body-div">
             {certifications.certifications.map((cert) => {
-              return <CertificationCard key={cert.id} currentLang={currentLang} certificate={cert} theme={theme} />;
+              return <CertificationCard key={cert.id} lang={lang} certificate={cert} theme={theme} />;
             })}
           </div>
         </div>

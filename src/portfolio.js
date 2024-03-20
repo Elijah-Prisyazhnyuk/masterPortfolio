@@ -345,10 +345,18 @@ const degrees = {
           ]
         },
         {
-          ru: []
+          ru: [
+            "⚡ ",
+            "⚡ ",
+            "⚡ ",
+          ]
         },
         {
-          de: []
+          de: [
+            "⚡ ",
+            "⚡ ",
+            "⚡ ",
+          ]
         },
       ],
       website_link: "https://sibsiu.ru/",
@@ -376,10 +384,18 @@ const degrees = {
           ]
         },
         {
-          ru: []
+          ru: [
+            "⚡ ",
+            "⚡ ",
+            "⚡ ",
+          ]
         },
         {
-          de: []
+          de: [
+            "⚡ ",
+            "⚡ ",
+            "⚡ ",
+          ]
         },
       ],
       website_link: "https://www.susu.ru/en",
@@ -405,10 +421,14 @@ const degrees = {
           ]
         },
         {
-          ru: []
+          ru: [
+            
+          ]
         },
         {
-          de: []
+          de: [
+
+          ]
         },
       ],
       website_link: "",
@@ -435,10 +455,16 @@ const degrees = {
           ]
         },
         {
-          ru: []
+          ru: [
+            "⚡ ",
+            "⚡ ",
+          ]
         },
         {
-          de: []
+          de: [
+            "⚡ ",
+            "⚡ ",
+          ]
         },
       ],
       website_link: "https://www.clark.edu/",

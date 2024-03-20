@@ -5,7 +5,6 @@ import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 import LanguageSelector from '../../reducer/LanguageSelector.js';
-import store from '../../../src/store.js';
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -19,9 +18,8 @@ const onMouseOut = (event) => {
 
 class Header extends Component {
   render() {
-    const currentState = store.getState();
-    const currentLang = currentState.language.currentLang;
-    console.log("2st: ",currentLang);
+    const lang = this.props.store.language.currentLang;
+    console.log("2st: ", lang);
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
     return (

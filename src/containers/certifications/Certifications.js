@@ -4,9 +4,10 @@ import "./Certifications.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
+import { useSelector } from 'react-redux';
 
-
-const Certifications = ({ theme, currentLang }) => {
+const Certifications = ({ theme }) => {
+  const currentLang = useSelector(state => state.language.currentLang);
   console.log("1st: ",currentLang);
 
   return (

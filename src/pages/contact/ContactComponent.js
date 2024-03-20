@@ -18,9 +18,10 @@ const phoneSection = contactPageData.phoneSection;
 class Contact extends Component {
   render() {
     const theme = this.props.theme;
+    const lang = this.props.lang;
     return (
       <div className="contact-main">
-        <Header theme={theme} />
+        <Header lang={lang} theme={theme} />
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
@@ -43,7 +44,7 @@ class Contact extends Component {
                 >
                   {ContactData["description"]}
                 </p>
-                <SocialMedia theme={theme} />
+                <SocialMedia lang={lang} theme={theme} />
                 <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
@@ -101,8 +102,8 @@ class Contact extends Component {
             </div>
           </Fade>
         </div>
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+        <Footer lang={lang} theme={this.props.theme} onToggle={this.props.onToggle} />
+        <TopButton lang={lang} theme={this.props.theme} />
       </div>
     );
   }

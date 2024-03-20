@@ -8,14 +8,15 @@ import HobbiesSection from "../../containers/hobbiesSection/HobbiesSection";
 
 const Hobbies = (props) => {
   const theme = props.theme;
+  const lang = this.props.lang
   console.log("1st: ", props.theme.lang);
   return (
     <div className="main-page">
-      <Header theme={theme} />
-      <HobbiesSection theme={theme} />
-      <HobbiesCard theme={theme} />
-      <Footer theme={theme} onToggle={props.onToggle} />
-      <TopButton theme={theme} />
+      <Header lang={lang} theme={theme} />
+      <HobbiesSection lang={lang} theme={theme} />
+      <HobbiesCard lang={lang} theme={theme} />
+      <Footer lang={lang} theme={theme} onToggle={props.onToggle} />
+      <TopButton lang={lang} theme={theme} />
     </div>
   );
 };

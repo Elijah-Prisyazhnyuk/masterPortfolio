@@ -4,6 +4,8 @@ import SkillSection from "./SkillSection";
 import { Fade } from "react-reveal";
 
 export default function Skills(props) {
+  const lang = this.props.lang;
+  console.log("skill ", lang)
   const theme = props.theme;
   return (
     <div className="main" id="skills">
@@ -14,7 +16,7 @@ export default function Skills(props) {
           </h1>
         </Fade>
       </div>
-      <SkillSection theme={theme} />
+      <SkillSection lang={lang} theme={theme} />
     </div>
   );
 }

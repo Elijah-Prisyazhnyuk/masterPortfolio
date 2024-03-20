@@ -5,7 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 import LanguageSelector from '../../reducer/LanguageSelector.js';
-import store from './store';
+import store from '../../../src/store.js';
 
 const onMouseEnter = (event, color) => {
   const el = event.target;

@@ -346,16 +346,16 @@ const degrees = {
         },
         {
           ru: [
-            "⚡ ",
-            "⚡ ",
-            "⚡ ",
+            "⚡ Я изучал основы промышленной электронники в таких дисциплинах как силовая электронника, аналоговые и цифровые компоненты, схемотехника, микроконтроллеры и управляющие устройства, микропроцессоры, полупроводниковые устройства, математическое моделирование, промышленная автоматика.",
+            "⚡ За время обучения в университете у меня сложилось немало профессиональных связей, в результате совместных исследований и участий в конференциях. Это позволило мне опубликовать несколько статей в университетском научном журнале и Российском Научном Индексе Цитирования (РНИЦ).",
+            "🏆 Я получал повышенную стипендию за научно-исследовательскую работу (участие в конференциях и публикации) два года подряд. После чего я получил стипендию Российской Федерации за систематический успех в учебной и научно-исследовательской деятельности.",
           ]
         },
         {
           de: [
-            "⚡ ",
-            "⚡ ",
-            "⚡ ",
+            "⚡ Ich habe grundlegende elektrotechnische Themen wie Leistungselektronik, eingebettete Systeme, elektronische Bauelemente, Halbleiterbauelemente, Mathematik, analoge und digitale integrierte Schaltungen, Prozessleitsysteme, industrielle Automation usw. studiert.",
+            "⚡ Während meiner Zeit an dieser Universität habe ich eine Reihe wertvoller beruflicher Beziehungen aufgebaut. Durch gemeinsame Forschungsarbeiten und die Teilnahme an Konferenzen konnte ich zu Veröffentlichungen mehrerer Artikel in wissenschaftlichen Zeitschriften und im Russian Science Citation Index beitragen.",
+            "🏆 Ich wurde zwei aufeinanderfolgende Jahre lang ausgewählt, um ein Forschungsstipendium für meine wissenschaftlichen Veröffentlichungen zu erhalten. Darüber hinaus wurde mir auch ein Stipendium der Russischen Bundesregierung für meinen systematischen Erfolg in Forschungsaktivitäten, die Teilnahme an Olympiadeveranstaltungen, Konferenzen und herausragende akademische Leistungen verliehen."
           ]
         },
       ],
@@ -385,16 +385,16 @@ const degrees = {
         },
         {
           ru: [
-            "⚡ ",
-            "⚡ ",
-            "⚡ ",
+            "⚡ Это был захватывающий опыт, насыщенный новыми знаниями и навыками на пике научно-технической мысли.",
+            "⚡ Лекции и практические занятие проводились в увлекательной форме профессорами с выдающимися академическими достижениями.",
+            "😔 К сожалению, я был вынужден прервать моё обучение за год до дипломирования из-за поездки в США.",
           ]
         },
         {
           de: [
-            "⚡ ",
-            "⚡ ",
-            "⚡ ",
+            "⚡ Es war eine bereichernde Erfahrung, gefüllt mit einem Reichtum an neuen Kenntnissen und Fähigkeiten an vorderster Front von Wissenschaft und Technologie.",
+            "⚡ Vorlesungen und praktische Sitzungen wurden auf ansprechende Weise von Professoren mit bedeutenden akademischen Leistungen durchgeführt.",
+            "😔 Leider musste ich ein Jahr vor meinem Abschluss mein Studium unterbrechen, aufgrund einer Reise in die USA.",
           ]
         },
       ],
@@ -422,12 +422,12 @@ const degrees = {
         },
         {
           ru: [
-            
+            "🌍 Это было второе и самое длительное путешествие в США",
           ]
         },
         {
           de: [
-
+            "🌍 Es war die zweite und längste Reise in die USA.",
           ]
         },
       ],
@@ -442,7 +442,7 @@ const degrees = {
       title_ru: "Clark Колледж",
       title_de: "",
       subtitle: "Electrical Engineering major",
-      subtitle_ru: "",
+      subtitle_ru: "Специальность Инженер-Электрик",
       subtitle_en: "",
       logo_path: "clark.png",
       alt_name: "Clark_college",
@@ -450,20 +450,20 @@ const degrees = {
       descriptions: [
         {
           en: [
-            "⚡ High scores on the placement test in math (Alex test) allowed me to enroll without taking additional exams such as English, and to take more advanced courses",
-            "⚡ Admission to college also allowed me to take free courses on software such as Tableau",
+            "⚡ High scores on the placement test in math (ALEKS test) allowed me to enroll without taking additional exams such as English, and to take more advanced courses.",
+            "⚡ Admission to college also allowed me to take free courses on software such as Tableau.",
           ]
         },
         {
           ru: [
-            "⚡ ",
-            "⚡ ",
+            "⚡ Высокие баллы за вступительный тест по математике (ALEKS тест) позволиле мне поступить без дополнительных экзаменов таких как Английский язык, а также позволило брать более продвинутые курсы.",
+            "⚡ Поступление в колледж также позволило мне брать бесплатные курсы по ПО, например такому как Tableau.",
           ]
         },
         {
           de: [
-            "⚡ ",
-            "⚡ ",
+            "⚡ Hohe Punktzahlen beim Platzierungstest in Mathematik (ALEKS-Test) ermöglichten es mir, mich ohne zusätzliche Prüfungen wie Englisch einzuschreiben und fortgeschrittenere Kurse zu belegen.",
+            "⚡ Die Zulassung zum College ermöglichte es mir auch, kostenlose Kurse in Software wie Tableau zu belegen.",
           ]
         },
       ],
@@ -480,6 +480,8 @@ const certifications = {
   certifications: [
     {
       title: "III degree Diploma",
+      title_ru: "",
+      title_de: "",
       subtitle: "The 59th Scientific and Technical Conference of Young Professionals from the Siberian Division \"Your Challenge\"",
       logo_path: "EVZ.svg",
       certificate_link:

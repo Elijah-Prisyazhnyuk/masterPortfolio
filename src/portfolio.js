@@ -21,12 +21,12 @@ const seo = {
 const greeting = {
   title: "Elijah Prisyazhnyuk",
   title_ru: "Илья Присяжнюк",
-  title_de: "",
+  title_de: "Elias Prisjashnjuk",
   logo_name: "ElijahPris",
   nickname: "@ElijahPris",
   subTitle:
-  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
-  subTitle_ru: "Я инженер-электронщик с компетенциями в сфере радиоэлектронники, промышленной электронники и машинного обучения. Это позволяет мне глубже понимать интеграцию аппаратной и программной частей различных устройств. Я увлекаюсь проектированием, сборкой и программированием микропроцессорных устройств для различных применений.",
+  "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.\n",
+  subTitle_ru: "Я инженер-электронщик с компетенциями в сфере радиоэлектронники, промышленной электронники и машинного обучения. Это позволяет мне глубже понимать интеграцию аппаратной и программной частей различных устройств. Я увлекаюсь проектированием, сборкой и программированием микропроцессорных устройств для различных применений.\n",
   subTitle_de: "",
   resumeLink:
     "https://drive.google.com/file/d/1JYHozlWYlqqDUvcXAPjgVkszkW84s8YY/view?usp=sharing",
@@ -246,9 +246,9 @@ const skills = {
         },
         {
           de: [
-            "⚡ Creating and designing 3D models and prototypes using CAD software",
-            "⚡ Designing attractive user interface for mobile and web applications",
-            "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
+            "⚡ Erstellung und Design von 3D-Modellen und Prototypen mit CAD-Software",
+            "⚡ Gestaltung ansprechender Benutzeroberflächen für mobile und Webanwendungen",
+            "⚡ Erstellung von Web-Schnittstellen für IoT-Projekte mit React.js, Flask und Open-Source-Lösungen"
           ]
         },
       ],

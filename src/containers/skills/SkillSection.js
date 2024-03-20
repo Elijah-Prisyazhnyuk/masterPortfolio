@@ -17,6 +17,7 @@ function GetSkillSvg(props) {
 class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
+    const lang = this.props.lang;
     return (
       <div>
         {skills.data.map((skill, idx) => {
@@ -32,10 +33,25 @@ class SkillSection extends Component {
                 <div className="skills-text-div">
                   <Fade left duration={1000}>
                     <h1
+                      id={lang === 'en' ? 'en' : 'hide'}
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
                       {skill.title}
+                    </h1>
+                    <h1
+                      id={lang === 'ru' ? 'ru' : 'hide'}
+                      className="skills-heading"
+                      style={{ color: theme.text }}
+                    >
+                      {skill.title_ru}
+                    </h1>
+                    <h1
+                      id={lang === 'de' ? 'de' : 'hide'}
+                      className="skills-heading"
+                      style={{ color: theme.text }}
+                    >
+                      {skill.title_de}
                     </h1>
                   </Fade>
                   <Fade left duration={1500}>
@@ -45,12 +61,26 @@ class SkillSection extends Component {
                     <div>
                       {skill.skills.map((skillSentence) => {
                         return (
-                          <p
+                          <><p
+                            id={lang === 'en' ? 'en' : 'hide'}
                             className="subTitle skills-text"
                             style={{ color: theme.secondaryText }}
                           >
-                            {skillSentence}
-                          </p>
+                            {skillSentence.en}
+                          </p><p
+                            id={lang === 'ru' ? 'ru' : 'hide'}
+                            className="subTitle skills-text"
+                            style={{ color: theme.secondaryText }}
+                          >
+                              {skillSentence.ru}
+                            </p>
+                            <p
+                            id={lang === 'de' ? 'de' : 'hide'}
+                            className="subTitle skills-text"
+                            style={{ color: theme.secondaryText }}
+                          >
+                            {skillSentence.de}
+                          </p></>
                         );
                       })}
                     </div>
@@ -61,6 +91,7 @@ class SkillSection extends Component {
                 <div className="skills-text-div">
                   <Fade right duration={1000}>
                     <h1
+                      id={lang === 'ru' ? 'ru' : 'hide'}
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
@@ -75,6 +106,7 @@ class SkillSection extends Component {
                       {skill.skills.map((skillSentence) => {
                         return (
                           <p
+                            id={lang === 'ru' ? 'ru' : 'hide'}
                             className="subTitle skills-text"
                             style={{ color: theme.secondaryText }}
                           >

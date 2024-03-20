@@ -3,6 +3,17 @@
   overflow: hidden;
 }
 
+#hide{
+  display:none;
+  opacity: 0;
+}
+
+#en,#ru,#de{
+  display: inline;
+  opacity: 1;
+  transition: 400;
+}
+
 .skills-header {
   font-size: 60px;
   line-height: normal;

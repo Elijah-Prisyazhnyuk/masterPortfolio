@@ -78,12 +78,34 @@ const skills = {
   data: [
     {
       title: "Embedded Engineer",
+      title_ru: "Инженер-электронщик",
+      title_de: "",
       fileName: "EmbeddedEngineerImg",
       skills: [
-        "⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives",
-        "⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits",
-        "⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions",
-        "⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB",
+        {
+          en: [
+            "⚡ Designing and implementing of frequency converter, encoder, and control devices for a variety of electric drives",
+            "⚡ Developing smart IoT devices and projects using microcontrollers, sensors and RF circuits",
+            "⚡ Mathematical modeling for various applications using software such as MatLAB/Simulink, CFD Analysis software and Open Source solutions",
+            "⚡ Developing firmware for embedded devices using C++, micropython, python, MatLAB",
+          ]
+        },
+        {
+          ru: [
+            "⚡ Проектирование и сборка инвенторов, преобразователей частоты, энкодеров и управляющих устройств для различных электроприводов",
+            "⚡ Разработка умных IoT устройств и проектов с помощью микроконтроллеров, сенсоров и радиомодулей",
+            "⚡ Математическое моделирование электронных схем с использованием MatLAB/Simulink, Altium Designer, Proteus. А также анализ теплопроводности, прочности различных конструкций и корпусов методом конечных элементов (МКУ)",
+            "⚡ Разработка ПО для микроконтроллеров в следующих языках программирования: C++, micropython, python, MatLAB",
+          ]
+        },
+        {
+          de: [
+            "⚡ Entwurf und Implementierung von Frequenzumrichtern, Encodern und Steuergeräten für verschiedene Elektroantriebe",
+            "⚡ Entwicklung intelligenter IoT-Geräte und Projekte unter Verwendung von Mikrocontrollern, Sensoren und RF-Schaltungen",
+            "⚡ Mathematische Modellierung für verschiedene Anwendungen mit Software wie MatLAB/Simulink, CFD-Analyse-Software und Open-Source-Lösungen",
+            "⚡ Entwicklung von Firmware für eingebettete Geräte unter Verwendung von C++, Micropython, Python und MatLAB",
+          ]
+        },
       ],
       softwareSkills: [
         {
@@ -134,11 +156,31 @@ const skills = {
     },
     {
       title: "Machine Learning & Data analysis",
+      title_ru: "Инженер данных",
+      title_de: "",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Collecting, processing, and analyzing data from various sensors and IoT devices",
-        "⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies",
-        "⚡ Implementation of machine learning models in various MCUs",
+        {
+          en: [
+            "⚡ Collecting, processing, and analyzing data from various sensors and IoT devices",
+            "⚡ Integration of smart IoT devices with Web-interfaces and Cloud-based technologies",
+            "⚡ Implementation of machine learning models in various MCUs",
+          ]
+        },
+        {
+          ru: [
+            "⚡ Получение, обработка и анализ данных с различных датчиков и IoT устройств",
+            "⚡ Интеграция умных IoT устройств с Web-интерфейсами и облачными технологиями",
+            "⚡ Использование моделей машинного обучения в различных микропроцессорных устройствах",
+          ]
+        },
+        {
+          de: [
+            "⚡ Sammeln, Verarbeiten und Analysieren von Daten aus verschiedenen Sensoren und IoT-Geräten",
+            "⚡ Integration von intelligenten IoT-Geräten mit Web-Benutzeroberflächen und Cloud-basierten Technologien",
+            "⚡ Implementierung von maschinellen Lernmodellen in verschiedenen Mikrocontrollern"
+          ]
+        },
       ],
       softwareSkills: [
         {
@@ -184,11 +226,31 @@ const skills = {
     },
     {
       title: "3D & Web designer",
+      title_ru: "3D & Web дизайнер",
+      title_de: "",
       fileName: "DesignImg",
       skills: [
-        "⚡ Creating and designing 3D models and prototypes using CAD software",
-        "⚡ Designing attractive user interface for mobile and web applications",
-        "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
+        {
+          en: [
+            "⚡ Creating and designing 3D models and prototypes using CAD software",
+            "⚡ Designing attractive user interface for mobile and web applications",
+            "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
+          ]
+        },
+        {
+          ru: [
+            "⚡ Создание и доработка 3D/2D моделей и чертежей в CAD программах",
+            "⚡ Дизайн и разработка привлекательных пользовательский интерфейсов для мобильных и web приложений",
+            "⚡ Создание Web-интерфейсов для IoT проектов в React.js, Flask с использованием Open-source решений",
+          ]
+        },
+        {
+          de: [
+            "⚡ Creating and designing 3D models and prototypes using CAD software",
+            "⚡ Designing attractive user interface for mobile and web applications",
+            "⚡ Creating Web-interfaces for IoT projects using React.js, Flask and Open-source solution",
+          ]
+        },
       ],
       softwareSkills: [
         {

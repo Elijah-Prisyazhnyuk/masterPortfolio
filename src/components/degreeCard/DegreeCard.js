@@ -43,6 +43,7 @@ class DegreeCard extends Component {
                 <h2 className="card-title" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
                   {degree.title_de}
                 </h2>
+                <br/>
                 <h3 className="card-subtitle" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
                   {degree.subtitle}
                 </h3>

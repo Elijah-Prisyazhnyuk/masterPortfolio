@@ -20,7 +20,7 @@ export default class Main extends Component {
             exact
             render={(props) =>
               settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
+                <Splash {...props} lang={this.props.lang} theme={this.props.theme} />
               ) : (
                 <Home {...props} lang={this.props.lang} theme={this.props.theme} />
               )
@@ -57,7 +57,7 @@ export default class Main extends Component {
           {settings.isSplash && (
             <Route
               path="/splash"
-              render={(props) => <Splash {...props} theme={this.props.theme} />}
+              render={(props) => <Splash {...props} lang={this.props.lang} theme={this.props.theme} />}
             />
           )}
 

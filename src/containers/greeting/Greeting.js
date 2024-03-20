@@ -41,14 +41,14 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                {greeting.subTitle_ru}
               </p>
               <p
                 id={lang === 'de' ? 'de' : 'hide'}
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                {greeting.subTitle_de}
               </p>
               <SocialMedia theme={theme} />
             </div>

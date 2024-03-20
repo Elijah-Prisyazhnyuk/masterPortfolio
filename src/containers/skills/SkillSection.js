@@ -61,13 +61,35 @@ class SkillSection extends Component {
                   <div>
                       {skill.skills.find(skill => skill.en)?.en.map((sentence) => {
                         return (
-                        <p
-                          /*id={lang === 'ru' ? 'ru' : 'hide'}*/
+                        <><p
+                          id={lang === 'en' ? 'en' : 'hide'}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                           >
                             {sentence}
-                        </p>
+                        </p></>
+                        );
+                      })}
+                      {skill.skills.find(skill => skill.en)?.ru.map((sentence) => {
+                        return (
+                        <><p
+                          id={lang === 'ru' ? 'ru' : 'hide'}
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                          >
+                            {sentence}
+                        </p></>
+                        );
+                      })}
+                      {skill.skills.find(skill => skill.en)?.de.map((sentence) => {
+                        return (
+                        <><p
+                          id={lang === 'de' ? 'de' : 'hide'}
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                          >
+                            {sentence}
+                        </p></>
                         );
                       })}
                     </div>
@@ -106,13 +128,35 @@ class SkillSection extends Component {
                   <div>
                       {skill.skills.find(skill => skill.en)?.en.map((sentence) => {
                         return (
-                        <p
-                          /*id={lang === 'ru' ? 'ru' : 'hide'}*/
+                        <><p
+                          id={lang === 'en' ? 'en' : 'hide'}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                           >
                             {sentence}
-                        </p>
+                        </p></>
+                        );
+                      })}
+                      {skill.skills.find(skill => skill.en)?.ru.map((sentence) => {
+                        return (
+                        <><p
+                          id={lang === 'ru' ? 'ru' : 'hide'}
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                          >
+                            {sentence}
+                        </p></>
+                        );
+                      })}
+                      {skill.skills.find(skill => skill.en)?.de.map((sentence) => {
+                        return (
+                        <><p
+                          id={lang === 'de' ? 'de' : 'hide'}
+                          className="subTitle skills-text"
+                          style={{ color: theme.secondaryText }}
+                          >
+                            {sentence}
+                        </p></>
                         );
                       })}
                     </div>

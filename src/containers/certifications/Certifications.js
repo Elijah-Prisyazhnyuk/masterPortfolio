@@ -16,13 +16,13 @@ const Certifications = ({ theme, store }) => {
         <div className="main" id="certs">
           <div className="certs-header-div">
             <Fade bottom duration={2000} distance="20px">
-              <h1 className="certs-header" style={{ color: theme.text, opacity: currentLang === 'en' ? 1 : 0, transition: 'opacity 400ms'}}>
+              <h1 className="certs-header" style={{ color: theme.text, opacity: lang === 'en' ? 1 : 0, transition: 'opacity 400ms'}}>
                 Awards
               </h1>
-              <h1 className="certs-header" style={{ color: theme.text, opacity: currentLang === 'ru' ? 1 : 0, transition: 'opacity 400ms'}}>
+              <h1 className="certs-header" style={{ color: theme.text, opacity: lang === 'ru' ? 1 : 0, transition: 'opacity 400ms'}}>
                 Награды
               </h1>
-              <h1 className="certs-header" style={{ color: theme.text, opacity: currentLang === 'de' ? 1 : 0, transition: 'opacity 400ms'}}>
+              <h1 className="certs-header" style={{ color: theme.text, opacity: lang === 'de' ? 1 : 0, transition: 'opacity 400ms'}}>
                 Awards
               </h1>
             </Fade>

@@ -4,7 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Opensource from "../pages/opensource/Opensource";
+import Hobby from "../pages/hobby/Hobbies.js";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
@@ -44,9 +44,9 @@ export default class Main extends Component {
             )}
           />
           <Route
-            path="/opensource"
+            path="/hobby"
             render={(props) => (
-              <Opensource {...props} lang={this.props.lang} theme={this.props.theme} />
+              <Hobby {...props} lang={this.props.lang} theme={this.props.theme} />
             )}
             />
           <Route

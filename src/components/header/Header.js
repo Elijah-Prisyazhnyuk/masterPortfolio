@@ -20,6 +20,7 @@ class Header extends Component {
   render() {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
+    const lang = this.props.lang;
     console.log("lg: ", this.props.lang);
     return (
       <Fade top duration={1000} distance="20px">

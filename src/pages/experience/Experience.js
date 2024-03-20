@@ -147,11 +147,10 @@ import ExperienceImg from "./ExperienceImg";
 class Experience extends Component {
   render() {
     const theme = this.props.theme;
-    console.log("props ", this.props)
-    console.log("lg exp: ", this.props.lang);
+    const lang = this.props.lang;
     return (
       <div className="experience-main">
-        <Header theme={theme} />
+        <Header lang={lang} theme={theme} />
         <div className="basic-experience">
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
@@ -185,9 +184,9 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+        <ExperienceAccordion lang={lang} sections={experience["sections"]} theme={theme} />
+        <Footer lang={lang} theme={this.props.theme} onToggle={this.props.onToggle} />
+        <TopButton lang={lang} theme={this.props.theme} />
       </div>
     );
   }

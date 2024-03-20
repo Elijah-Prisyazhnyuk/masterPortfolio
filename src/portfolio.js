@@ -565,11 +565,11 @@ const experience = {
   title_ru: "Опыт",
   title_de: "",
   subtitle: "Internship and Freelance",
-  subtitle_ru: "",
+  subtitle_ru: "Стажировка и Фриланс",
   subtitle_de: "",
   description:
     "Skilled in industrial and converter electronics, I utilize a combination of embedded microprocessor devices, machine learning techniques, and web-based interfaces in my projects. I have experience with Python and MATLAB for mathematical modeling, simulation, and reporting. My key quality is the ability to respond and adapt to changing priorities quickly and efficiently. ",
-  description_ru: "",
+  description_ru: "Имею компетенции в промышленной и преобразовательной электронике. Я использую стэк технологий таких как микроконтроллеры и микропроцессорные устройства, модели машинного обучения и Web-интерфейсы в моих проектах. У меня есть опыт использования Python и MatLAB для математического моделирования и исследования. Мои ключевые навыки это ответственность и умение быстро адаптироваться под изменяющиеся требования.",
   description_de: "",
   header_image_path: "experience.svg",
   sections: [
@@ -589,13 +589,13 @@ const experience = {
           company_url: "https://elijah-pris.vercel.app/contact",
           logo_path: "list.png",
           duration: "Now - further",
-          duration_ru: "",
+          duration_ru: "Сейчас - будущее",
           duration_de: "",
           location: "Somewhere in Chelyabinsk",
           location_ru: "Где-то в Челябинске",
           location_de: "",
           description: "I am looking for a offer in the field of industrial, converter or embedded electronics",
-          description_ru: "",
+          description_ru: "Я открыт для предложений в сфере промышленной, преобразовательной или радио электронники",
           description_de: "",
           color: "#0879bf",
         },
@@ -603,12 +603,12 @@ const experience = {
     },
     {
       title: "Internships",
-      title_ru: "",
+      title_ru: "Стажировка",
       title_de: "",
       experiences: [
         {
           title: "CAD Engineer Designer Intern",
-          title_ru: "",
+          title_ru: "Стажер Инженер-проектировщик",
           title_de: "",
           company: "EVRAZ WSMP",
           company_url: "https://www.evraz.com/ru/company/assets/steel/",
@@ -648,12 +648,12 @@ const experience = {
     },
     {
       title: "Freelance",
-      title_ru: "",
+      title_ru: "Фриланс",
       title_de: "",
       experiences: [
         {
           title: "Online Freelance",
-          title_ru: "",
+          title_ru: "Онлайн Фриланс",
           title_de: "",
           company: "Upwork, Freelance",
           company_url: "https://about.google/",
@@ -672,7 +672,7 @@ const experience = {
         },
         {
           title: "Academic Freelance",
-          title_ru: "",
+          title_ru: "Академический Фриланс",
           title_de: "",
           company: "SibSIU",
           company_url: "https://sibsiu.ru/",
@@ -697,7 +697,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  title_ru: "",
+  title_ru: "Проекты",
   title_de: "",
   description:
     "My projects makes use of vast variety of latest technology tools and academic research. My passion for advanced and innovative technologies such as augmented reality (AR), virtual reality (VR), 3D and artificial intelligence (AI) is evident in the projects I have worked on.",
@@ -708,7 +708,7 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  title_ru: "",
+  title_ru: "Научные публикации",
   title_de: "",
   description:
     "I have worked on and published a few research papers and publications of my own.",
@@ -756,7 +756,7 @@ const publications = {
 
 const hobbies = {
   title: "Hobbies",
-  title_ru: "",
+  title_ru: "Хобби",
   title_de: "",
   subTitle: "I spend my leisure with my hobbies!",
   subTitle_ru: "",
@@ -806,7 +806,7 @@ const hobbies = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    title_ru: "",
+    title_ru: "Связь со мной",
     title_de: "",
     profile_image_path: "portfolio.png",
     description: "Contact me for any queries or collaboration. I am always available for a chat. You can also ask me about my projects, research or anything you want to know.",
@@ -815,7 +815,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    title_ru: "",
+    title_ru: "Адрес",
     title_de: "",
     subtitle:
       "Russia, Chelyabinsk region, Chelyabinsk, Dzerzhinskogo street 97/b - 454078",

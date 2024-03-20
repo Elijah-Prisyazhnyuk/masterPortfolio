@@ -4,8 +4,11 @@ import "./Certifications.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
+import { useSelector } from 'react-redux';
 
 const Certifications = ({ theme }) => {
+  const currentLang = useSelector(state => state.language.currentLang);
+
   return (
         <div className="main" id="certs">
           <div className="certs-header-div">
@@ -17,7 +20,7 @@ const Certifications = ({ theme }) => {
           </div>
           <div className="certs-body-div">
             {certifications.certifications.map((cert) => {
-              return <CertificationCard key={cert.id} certificate={cert} theme={theme} />;
+              return <CertificationCard key={cert.id} currentLang={currentLang} certificate={cert} theme={theme} />;
             })}
           </div>
         </div>

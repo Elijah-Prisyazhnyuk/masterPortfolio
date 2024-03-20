@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import "./CertificationCard.css";
 import { Fade } from "react-reveal";
 
+
 class CertificationCard extends Component {
   render() {
-    const currentLang = this.props.lang;
+    const currentLang = this.props.currentLang;
     const certificate = this.props.certificate;
     const theme = this.props.theme;
     return (

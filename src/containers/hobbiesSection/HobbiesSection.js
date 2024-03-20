@@ -2,9 +2,12 @@ import React from "react";
 import { Fade } from "react-reveal";
 import { hobbies } from "../../portfolio";
 import "./HobbiesSection.css";
+import { useSelector } from 'react-redux';
 
 const HobbiesSection = (props) => {
   const theme = props.theme;
+  const currentLang = useSelector(state => state.language.currentLang);
+
   return (
     <div className="basic-hobbies">
       <Fade bottom duration={2000} distance="40px">

@@ -6,9 +6,11 @@ import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 import { useSelector } from 'react-redux';
 
-const Certifications = ({ theme }) => {
+
+const Certifications = ({ theme, store }) => {
   const currentLang = useSelector(state => state.language.currentLang);
   console.log("1st: ",currentLang);
+  console.log("qst: ", store);
 
   return (
         <div className="main" id="certs">

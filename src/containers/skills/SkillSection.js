@@ -70,7 +70,7 @@ class SkillSection extends Component {
                         </p></>
                         );
                       })}
-                      {skill.skills.find(skill => skill.en)?.ru.map((sentence) => {
+                      {skill.skills.find(skill => skill.ru)?.ru.map((sentence) => {
                         return (
                         <><p
                           id={lang === 'ru' ? 'ru' : 'hide'}
@@ -81,7 +81,7 @@ class SkillSection extends Component {
                         </p></>
                         );
                       })}
-                      {skill.skills.find(skill => skill.en)?.de.map((sentence) => {
+                      {skill.skills.find(skill => skill.de)?.de.map((sentence) => {
                         return (
                         <><p
                           id={lang === 'de' ? 'de' : 'hide'}
@@ -137,7 +137,7 @@ class SkillSection extends Component {
                         </p></>
                         );
                       })}
-                      {skill.skills.find(skill => skill.en)?.ru.map((sentence) => {
+                      {skill.skills.find(skill => skill.ru)?.ru.map((sentence) => {
                         return (
                         <><p
                           id={lang === 'ru' ? 'ru' : 'hide'}
@@ -148,7 +148,7 @@ class SkillSection extends Component {
                         </p></>
                         );
                       })}
-                      {skill.skills.find(skill => skill.en)?.de.map((sentence) => {
+                      {skill.skills.find(skill => skill.de)?.de.map((sentence) => {
                         return (
                         <><p
                           id={lang === 'de' ? 'de' : 'hide'}

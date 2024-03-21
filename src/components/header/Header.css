@@ -159,7 +159,7 @@
 }
 
 .menu-icon + .switch.show-options{
-  display: none !important;
+  display: none;
 }
 
 .container {

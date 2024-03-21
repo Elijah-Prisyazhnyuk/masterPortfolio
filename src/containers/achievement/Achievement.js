@@ -4,6 +4,7 @@ import AchivementCard from "../../components/achievementCard/AchivementCard";
 import { achievementSection } from "../../portfolio";
 
 export default function Achievement() {
+  const lang = this.props.lang;
   // function openUrlInNewTab(url) {
   //   var win = window.open(url, "_blank");
   //   win.focus();
@@ -13,10 +14,10 @@ export default function Achievement() {
       <div className="achievement-main-div">
         <div className="achievement-header">
           <h1 className="heading achievement-heading">
-            {achievementSection.title}
+            {achievementSection[`title_${lang}`]}
           </h1>
           <p className="subTitle achievement-subtitle">
-            {achievementSection.subtitle}
+            {achievementSection[`subtitle_${lang}`]}
           </p>
         </div>
         <div className="achievement-cards-div">

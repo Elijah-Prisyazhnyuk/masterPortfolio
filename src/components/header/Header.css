@@ -162,13 +162,12 @@
   --g: 10px; /* the gap */
   --c: #009688; /* the active color */
   padding: 0;
-  margin: 15px;
+  margin: 0 auto;
   max-width: none;
   display: grid;
   grid-auto-rows: 1fr;
   gap: var(--g);
   position: relative;
-  line-height: none;
   font-size: 16px;
 }
 .container:before {

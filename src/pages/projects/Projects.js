@@ -34,13 +34,13 @@ class Projects extends Component {
                   className="projects-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {projectsHeader.title}
+                  {projectsHeader[`title_${lang}`]}
                 </h1>
                 <p
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {projectsHeader["description"]}
+                  {projectsHeader[`description_${lang}`]}
                 </p>
               </div>
             </div>
@@ -57,13 +57,13 @@ class Projects extends Component {
                     className="publications-heading-text"
                     style={{ color: theme.text }}
                   >
-                    {publicationsHeader.title}
+                    {publicationsHeader[`title_${lang}`]}
                   </h1>
                   <p
                     className="projects-header-detail-text subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {publicationsHeader["description"]}
+                    {publicationsHeader[`description_${lang}`]}
                   </p>
                 </div>
               </div>

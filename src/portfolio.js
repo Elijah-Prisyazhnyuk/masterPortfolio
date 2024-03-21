@@ -391,21 +391,23 @@ const competitiveSites = {
 
 const degrees = {
   h1: {
-    en: "",
-    ru: "",
-    de: "",
+    en: "Education",
+    ru: "Образование",
+    de: "Ausbildung",
   },
   h3: {
-    en: "",
-    ru: "",
-    de: "",
+    en: "Skill Assessment",
+    ru: "Подтверждение навыков",
+    de: "Fähigkeitsbewertung",
   },
   title_en: "Degrees Received",
   title_ru: "Полученное образование",
   title_de: "Erworbene Abschlüsse",
-  button_vst_en: "Visit Website",
-  button_vst_ru: "Сайт ВУЗа",
-  button_vst_de: "Website besuchen",
+  button_vst: {
+    en: "Visit Website", 
+    ru: "Сайт ВУЗа",
+    de: "Website besuchen",
+  },
   degrees: [
     {
       title_en: "Siberian State Industrial University",

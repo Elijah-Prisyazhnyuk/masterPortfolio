@@ -68,7 +68,7 @@ class DegreeCard extends Component {
                     style={{ backgroundColor: theme.headerColor }}
                   >
                     <p className="btn" style={{ color: theme.text }}>
-                      {degrees[`button_vst_${lang}`]}
+                      {degrees.button_vst[lang]}
                     </p>
                   </div>
                 </a>

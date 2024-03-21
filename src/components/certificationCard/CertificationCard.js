@@ -29,26 +29,19 @@ class CertificationCard extends Component {
                 />
               </div>
               <div className="content-details fadeIn-top">
-                <h3 className="content-title" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.body}}>
-                  Certificate
-                </h3>
-                <h3 className="content-title" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.body}}>
-                  Сертификаты
-                </h3>
-                <h3 className="content-title" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.body}}>
-                  ???
+                <h3 className="content-title"style={{ color: theme.body}}>
+                  {certificate.Fade[lang]}
                 </h3>
               </div>
             </a>
           </div>
           <div className="cert-body">
-            <h2 className="cert-body-title" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
+            <h2 className="cert-body-title" style={{ color: theme.text }}>
               {certificate[`title_${lang}`]}
             </h2>
             <br/>
             <h3
               className="cert-body-subtitle"
-              id={lang === 'en' ? 'en' : 'hide'}
               style={{ color: theme.secondaryText }}
             >
               {certificate[`subtitle_${lang}`]}

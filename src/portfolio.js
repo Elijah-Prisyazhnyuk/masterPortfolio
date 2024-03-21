@@ -577,9 +577,9 @@ const certifications = {
       alt_name: "EVRAZ",
       color_code: "#8C151599",
       fade: {
-        en: "",
-        ru: "",
-        de: "",
+        en: "Diploma",
+        ru: "Диплом",
+        de: "Diplom",
       }
     },
     {
@@ -594,6 +594,11 @@ const certifications = {
         "https://drive.google.com/file/d/167wVrLmgPIkqK26O4ivBQnVcsSQ8cUie/view?usp=sharing",
       alt_name: "ALEKS",
       color_code: "#00000099",
+      fade: {
+        en: "Certificate",
+        ru: "Сертификат",
+        de: "Zertifikat",
+      }
     },
     {
       title_en: "Scholarship of the Russian Federal Government",
@@ -607,6 +612,11 @@ const certifications = {
         "https://drive.google.com/file/d/19sMVp7eDLWRDMD0diPxd62C49ne_8ffS/view?usp=sharing",
       alt_name: "Scholarship",
       color_code: "#0C9D5899",
+      fade: {
+        en: "Scholarship",
+        ru: "Стипендия",
+        de: "Stipendium",
+      }
     },
     {
       title_en: "Сertificate",
@@ -620,6 +630,11 @@ const certifications = {
         "https://drive.google.com/file/d/1OBbGsw7mmuT1OHZ6oUaOOtS43nVWZE-v/view?usp=sharing",
       alt_name: "CS_certificate",
       color_code: "#1F70C199",
+      fade: {
+        en: "Certificate",
+        ru: "Сертификат",
+        de: "Zertifikat",
+      }
     },
     {
       title_en: "Certificate",
@@ -633,6 +648,11 @@ const certifications = {
         "https://drive.google.com/file/d/1sqSN3hO3-OAtreOiL3AEYYNJF0GCWC00/view?usp=sharing",
       alt_name: "Culture_certificate",
       color_code: "#D83B0199",
+      fade: {
+        en: "Certificate",
+        ru: "Сертификат",
+        de: "Zertifikat",
+      }
     },
     {
       title_en: "I degree Diploma",
@@ -646,6 +666,11 @@ const certifications = {
         "https://drive.google.com/file/d/1vYnoj_qy_hVXoPYbcSobgeH9QQfT64IA/view?usp=sharing",
       alt_name: "Diploma",
       color_code: "#1F70C199",
+      fade: {
+        en: "Diploma",
+        ru: "Диплом",
+        de: "",
+      }
     },
   ],
 };

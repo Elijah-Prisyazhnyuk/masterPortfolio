@@ -31,7 +31,7 @@ const LanguageSelector = () => {
     localStorage.setItem('currentLang', newLang);
     setTimeout(() => {
       setIsDropdownOpen(false);
-    }, 500);
+    }, 1500);
   };
 
   return (

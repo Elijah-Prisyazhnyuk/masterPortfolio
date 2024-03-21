@@ -133,6 +133,7 @@
 
 .options {
   position: absolute;
+  background-color: antiquewhite;
   right: 0;
   top: .6em;
   z-index: 0;
@@ -147,6 +148,11 @@
   opacity: 1;
   visibility: visible; 
   z-index: 5;
+}
+
+.switch.show-options .current { 
+  opacity: 0; /* Исчезновение элемента */
+  visibility: hidden; /* Скрытие элемента */
 }
 
 .container {

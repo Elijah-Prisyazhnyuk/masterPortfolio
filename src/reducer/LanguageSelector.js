@@ -29,7 +29,9 @@ const LanguageSelector = () => {
   const handleLangChange = (newLang) => {
     dispatch(setCurrentLang(newLang));
     localStorage.setItem('currentLang', newLang);
-    setIsDropdownOpen(false); // Закрыть панель после выбора языка
+    setTimeout(() => {
+      setIsDropdownOpen(false);
+    }, 500);
   };
 
   return (

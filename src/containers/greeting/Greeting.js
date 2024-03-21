@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect, useRef } from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -9,10 +9,12 @@ import { Fade } from "react-reveal";
 export default function Greeting(props) {
   const lang = props.lang;
   const theme = props.theme;
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+  const avatarRef = useRef(null);
+
   useEffect(() => {
-    const avatar = document.getElementById('avatar');
-    const width = window.innerWidth;
-    const height = window.innerHeight;
+    const avatar = avatarRef.current;
 
     const init = () => {
       bindMouse();
@@ -69,6 +71,7 @@ export default function Greeting(props) {
           </div>
           <div className="greeting-image-div">
             <img className="avatar"
+              ref={avatarRef}
 							alt="Yes, it's me"
 							src={require(`../../assests/images/portfolio.png`)}
               />

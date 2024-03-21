@@ -295,6 +295,10 @@
   .header .menu-icon {
     display: none;
   }
+  .switch.show-options .current { 
+    opacity: 0; /* Исчезновение элемента */
+    display: none; /* Скрытие элемента */
+  }
 }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {

@@ -37,7 +37,7 @@ class SkillSection extends Component {
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
-                      {skill['title_'[lang]]}
+                      {skill['title_${lang}']}
                     </h1>
                     <br/>
                     {/*<h1
@@ -84,7 +84,7 @@ class SkillSection extends Component {
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
-                      {skill['title_'[lang]]}
+                      {skill['title_${lang}']}
                     </h1>
                     <br/>
                     {/*<h1

@@ -37,10 +37,10 @@ class SkillSection extends Component {
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
-                      {skill.title}
+                      {skill['title_\\$[lang]']}
                     </h1>
                     <br/>
-                    <h1
+                    {/*<h1
                       id={lang === 'ru' ? 'ru' : 'hide'}
                       className="skills-heading"
                       style={{ color: theme.text }}
@@ -55,7 +55,7 @@ class SkillSection extends Component {
                     >
                       {skill.title_de}
                     </h1>
-                    <br/>
+              <br/>*/}
                   </Fade>
                   <Fade left duration={1500}>
                     <SoftwareSkill logos={skill.softwareSkills} />
@@ -84,10 +84,10 @@ class SkillSection extends Component {
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
-                      {skill.title}
+                      {skill['title_\\$[lang]']}
                     </h1>
                     <br/>
-                    <h1
+                    {/*<h1
                       id={lang === 'ru' ? 'ru' : 'hide'}
                       className="skills-heading"
                       style={{ color: theme.text }}
@@ -102,7 +102,7 @@ class SkillSection extends Component {
                     >
                       {skill.title_de}
                     </h1>
-                    <br/>
+              <br/>*/}
                   </Fade>
                   <Fade right duration={1500}>
                     <SoftwareSkill logos={skill.softwareSkills} />

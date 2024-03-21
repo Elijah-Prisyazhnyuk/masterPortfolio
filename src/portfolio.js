@@ -789,6 +789,11 @@ const projectsHeader = {
   description_ru: "В своих проектах я использую наиболее современные технологические инструменты и научные исследования. Мой интерес к современным и иновационным технологиям такие как AR, VR, 3D и ИИ находят отражение в проектах и публикациях с которыми я работал.",
   description_de: "Meine Projekte nutzen eine breite Palette von modernsten Technologie-Tools und akademischer Forschung. Meine Leidenschaft für fortschrittliche und innovative Technologien wie erweiterte Realität (AR), virtuelle Realität (VR), 3D und künstliche Intelligenz (KI) ist in den Projekten, an denen ich gearbeitet habe, deutlich erkennbar.",
   avatar_image_path: "projects_image.svg",
+  btn_text: {
+    en: "Let us collaborate on more projects",
+    ru: "Давайте создадим больше проектов вместе!",
+    de: "Lass uns zusammenarbeiten",
+  }
 };
 
 const publicationsHeader = {

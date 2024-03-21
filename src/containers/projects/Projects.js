@@ -5,10 +5,11 @@ import "./Project.css";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import { openSource } from "../../portfolio";
-import { greeting } from "../../portfolio.js";
+import { greeting, projectsHeader } from "../../portfolio.js";
 
 export default function Projects() {
   const [repo, setrepo] = useState([]);
+  const lang = this.props.lang;
 
   useEffect(() => {
     getRepoData();
@@ -75,7 +76,7 @@ export default function Projects() {
         })}
       </div>
       <Button
-        text={"Let us collaborate on more projects"}
+        text={projectsHeader.btn_text[lang]}
         className="project-button"
         href={greeting.githubProfile}
         newTab={true}

@@ -671,7 +671,7 @@ const certifications = {
       fade: {
         en: "Diploma",
         ru: "Диплом",
-        de: "",
+        de: "Diplom",
       }
     },
   ],

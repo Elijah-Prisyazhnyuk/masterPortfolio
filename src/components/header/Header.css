@@ -245,15 +245,6 @@
     background: none;
   }
 }
-@supports not selector(:has(*)) {
-  .container:before {
-    display: none;
-  }
-  .container input:checked {
-    --_c: var(--c);
-    background: var(--c) content-box;
-  }
-}
 
 /* menu btn */
 

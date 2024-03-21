@@ -64,6 +64,16 @@ const greeting = {
     "https://drive.google.com/file/d/1JYHozlWYlqqDUvcXAPjgVkszkW84s8YY/view?usp=sharing",
   portfolio_repository: "https://github.com/Elijah-Prisyazhnyuk/masterPortfolio",
   githubProfile: "https://github.com/Elijah-Prisyazhnyuk",
+  btn_contact: {
+    en: "Contact me",
+    ru: "Мои контакты",
+    de: "Kontaktiere mich",
+  },
+  btn_resume: {
+    en: "See my resume",
+    ru: "Моё резюме",
+    de: "Lebenslauf",
+  },
 };
 
 const socialMediaLinks = [

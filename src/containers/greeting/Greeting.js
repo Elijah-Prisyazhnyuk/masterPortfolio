@@ -15,14 +15,8 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
-                {greeting.title}
-              </h1>
-              <h1 className="greeting-text" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
-                {greeting.title_ru}
-              </h1>
-              <h1 className="greeting-text" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
-                {greeting.title_de}
+              <h1 className="greeting-text" style={{ color: theme.text }}>
+                {greeting[`title_${lang}`]}
               </h1>
               {greeting.nickname && (
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>
@@ -30,25 +24,10 @@ export default function Greeting(props) {
                 </h2>
               )}
               <p
-                id={lang === 'en' ? 'en' : 'hide'}
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
-              </p>
-              <p
-                id={lang === 'ru' ? 'ru' : 'hide'}
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {greeting.subTitle_ru}
-              </p>
-              <p
-                id={lang === 'de' ? 'de' : 'hide'}
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {greeting.subTitle_de}
+                {greeting[`subTitle_${lang}`]}
               </p>
               <SocialMedia theme={theme} />
             </div>
@@ -59,8 +38,8 @@ export default function Greeting(props) {
 							src={require(`../../assests/images/portfolio.png`)}
               />
             <div className="button-greeting-div">
-              <Button text="Contact me" theme={theme} href="contact" />
-              <Button text="See my resume" theme={theme} newTab={true} href={greeting.resumeLink} />
+              <Button text={greeting.btn_contact[lang]} theme={theme} href="contact" />
+              <Button text={greeting.btn_resume[lang]} theme={theme} newTab={true} href={greeting.resumeLink} />
             </div>
           </div>
         </div>

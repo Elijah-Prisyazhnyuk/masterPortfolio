@@ -1,5 +1,5 @@
 const initialState = {
-    currentLang: localStorage.getItem('currentLang') || 'en'
+    currentLang: localStorage.getItem('currentLang') || 'ru'
   };
   
   const LanguageReducer = (state = initialState, action) => {

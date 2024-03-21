@@ -135,7 +135,7 @@
   position: absolute;
   text-align: center;
   height: 100px;
-  width: 130px;
+  width: 200px;
   right: 0;
   top: .6em;
   z-index: 0;
@@ -166,7 +166,7 @@
   grid-auto-rows: 1fr;
   gap: var(--g);
   position: relative;
-  margin-left: 20px;
+  margin-left: 65px;
   font-size: 16px;
 }
 .container:before {

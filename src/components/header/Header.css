@@ -166,7 +166,7 @@
   grid-auto-rows: 1fr;
   gap: var(--g);
   position: relative;
-  margin-left: 65px;
+  margin-left: 75px;
   font-size: 16px;
 }
 .container:before {
@@ -292,6 +292,12 @@
   }
   .header .menu-icon {
     display: none;
+  }
+  .switch {
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
   }
 }
 @media (max-width: 960px) and (min-width: 768px) {

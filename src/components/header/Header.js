@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { greeting, settings, header } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 import LanguageSelector from '../../reducer/LanguageSelector.js';
 
@@ -21,7 +21,6 @@ class Header extends Component {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
     const lang = this.props.lang;
-    console.log("lg: ", this.props.lang);
     return (
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
@@ -48,9 +47,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  <span id={lang === 'en' ? 'en' : 'hide'}>Home</span>
-                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Главная</span>
-                  <span id={lang === 'de' ? 'de' : 'hide'}>Home</span>
+                  <span >{header.home[lang]}</span>
                 </NavLink>
               </li>
               <li>
@@ -62,9 +59,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                 <span id={lang === 'en' ? 'en' : 'hide'}>Education</span>
-                 <span id={lang === 'ru' ? 'ru' : 'hide'}>Образование</span>
-                 <span id={lang === 'de' ? 'de' : 'hide'}>Ausbildung</span>
+                  <span >{header.education[lang]}</span>
                 </NavLink>
               </li>
               <li>
@@ -76,9 +71,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  <span id={lang === 'en' ? 'en' : 'hide'}>Experience</span>
-                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Опыт</span>
-                  <span id={lang === 'de' ? 'de' : 'hide'}>Erfahrung</span>
+                  <span >{header.experience[lang]}</span>
                 </NavLink>
               </li>
               <li>
@@ -90,9 +83,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  <span id={lang === 'en' ? 'en' : 'hide'}>Projects</span>
-                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Проекты</span>
-                  <span id={lang === 'de' ? 'de' : 'hide'}>Vorhaben</span>
+                  <span >{header.projects[lang]}</span>
                 </NavLink>
               </li>
               <li>
@@ -104,9 +95,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 > 
-                  <span id={lang === 'en' ? 'en' : 'hide'}>Hobby & Interests</span>
-                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Увлечения и Интересы</span>
-                  <span id={lang === 'de' ? 'de' : 'hide'}>Hobbys & Interessen</span>
+                  <span >{header.hobby[lang]}</span>
                 </NavLink>
               </li>
               <li>
@@ -118,9 +107,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  <span id={lang === 'en' ? 'en' : 'hide'}>Contact Me</span>
-                  <span id={lang === 'ru' ? 'ru' : 'hide'}>Контакты</span>
-                  <span id={lang === 'de' ? 'de' : 'hide'}>Kontaktieren</span>
+                  <span >{header.contacts[lang]}</span>
                 </NavLink>
               </li>
             </ul>

@@ -5,6 +5,39 @@ const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
+const header = {
+  home: {
+    en: "Home",
+    ru: "Главная",
+    de: "Homepage",
+  },
+  education: {
+    en: "Education",
+    ru: "Образование",
+    de: "Ausbildung",
+  },
+  experience: {
+    en: "Experience",
+    ru: "Опыт",
+    de: "Erfahrung",
+  },
+  projects: {
+    en: "Projects",
+    ru: "Проекты",
+    de: "Vorhaben",
+  },
+  hobby: {
+    en: "Hobby & Interests",
+    ru: "Увлечения и Интересы",
+    de: "Hobbys & Interessen",
+  },
+  contacts: {
+    en: "Contact me",
+    ru: "Контакты",
+    de: "Kontaktieren",
+  },
+}
+
 //SEO Related settings
 const seo = {
   title: "Elijah's Portfolio.",
@@ -853,6 +886,7 @@ const contactPageData = {
 
 export {
   settings,
+  header,
   seo,
   greeting,
   socialMediaLinks,

@@ -158,6 +158,10 @@
   visibility: hidden; /* Скрытие элемента */
 }
 
+.switch.show-options .header .menu-icon {
+  display: none;
+}
+
 .container {
   --s: 1em; /* control the size */
   --g: 10px; /* the gap */

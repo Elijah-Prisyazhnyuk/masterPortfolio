@@ -558,6 +558,11 @@ const degrees = {
 };
 
 const certifications = {
+  h1: {
+    en: "Awards",
+    ru: "Награды",
+    de: "Auszeichnungen",
+  },
   certifications: [
     {
       title_en: "III degree Diploma",

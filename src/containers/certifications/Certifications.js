@@ -14,7 +14,7 @@ const Certifications = ({ theme }) => {
           <div className="certs-header-div">
             <Fade bottom duration={2000} distance="20px">
               <h1 className="certs-header" style={{ color: theme.text, opacity: lang === 'en' ? 1 : 0, transition: 'opacity 400ms'}}>
-                Awards
+                {certifications.h1[lang]}
               </h1>
             </Fade>
           </div>

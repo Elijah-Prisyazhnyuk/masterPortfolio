@@ -34,7 +34,7 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className={`switch ${isDropdownOpen ? 'show-options anim-options show-shadow' : ''}`}>
+    <div className={`switch ${isDropdownOpen ? 'anim-options .options-list li' : ''}`}>
       <div className="current" onClick={toggleDropdown}>
         <span>{currentLang}</span>
         <em className="arrow">
@@ -60,7 +60,7 @@ const LanguageSelector = () => {
           </svg>
         </div>
       </div>
-    </div>
+    </div>    
   );
 };
  

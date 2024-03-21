@@ -34,29 +34,17 @@ class DegreeCard extends Component {
               style={{ backgroundColor: theme.headerColor }}
             >
               <div className="body-header-title">
-                <h2 className="card-title" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
-                  {degree.title}
-                </h2>
-                <h2 className="card-title" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
-                  {degree.title_ru}
-                </h2>
-                <h2 className="card-title" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
-                  {degree.title_de}
+                <h2 className="card-title" style={{ color: theme.text }}>
+                {degree[`title_${lang}`]}
                 </h2>
                 <br/>
-                <h3 className="card-subtitle" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
-                  {degree.subtitle}
-                </h3>
-                <h3 className="card-subtitle" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
-                  {degree.subtitle_ru}
-                </h3>
-                <h3 className="card-subtitle" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
-                  {degree.subtitle_de}
+                <h3 className="card-subtitle" style={{ color: theme.text }}>
+                  {degree[`subtitle_${lang}`]}
                 </h3>
               </div>
               <div className="body-header-duration">
                 <h3 className="duration" style={{ color: theme.text }}>
-                  {degree.duration}
+                  {degree[`duration_${lang}`]}
                 </h3>
               </div>
             </div>
@@ -78,14 +66,8 @@ class DegreeCard extends Component {
                     className="visit-btn"
                     style={{ backgroundColor: theme.headerColor }}
                   >
-                    <p className="btn" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
-                      Visit Website
-                    </p>
-                    <p className="btn" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
-                      Сайт
-                    </p>
-                    <p className="btn" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
-                      Visit Website
+                    <p className="btn" style={{ color: theme.text }}>
+                      {degree[`button_vst_${lang}`]}
                     </p>
                   </div>
                 </a>
@@ -100,14 +82,8 @@ class DegreeCard extends Component {
                     className="doc-btn"
                     style={{ backgroundColor: theme.headerColor }}
                   >
-                    <p className="btn" id={lang === 'en' ? 'en' : 'hide'} style={{ color: theme.text }}>
-                      {degree.button_text}
-                    </p>
-                    <p className="btn" id={lang === 'ru' ? 'ru' : 'hide'} style={{ color: theme.text }}>
-                      {degree.button_text_ru}
-                    </p>
-                    <p className="btn" id={lang === 'de' ? 'de' : 'hide'} style={{ color: theme.text }}>
-                      {degree.button_text_de}
+                    <p className="btn" style={{ color: theme.text }}>
+                      {degree[`button_text_${lang}`]}
                     </p>
                   </div>
                 </a>

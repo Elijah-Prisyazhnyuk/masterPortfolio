@@ -5,7 +5,7 @@ import { greeting } from "../../portfolio.js";
 /* eslint-disable jsx-a11y/accessible-emoji */
 
 export default function Footer(props) {
-  const lang = this.props.lang;
+  const lang = props.lang;
   return (
     <div className="footer-div">
       <Fade>

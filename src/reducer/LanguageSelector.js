@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setCurrentLang } from './LanguageActions';
-import "./LanguageSelector.css"
 
 
 const LanguageSelector = () => {

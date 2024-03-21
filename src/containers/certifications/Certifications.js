@@ -6,7 +6,7 @@ import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 
 
-const Certifications = ({ theme,lang }) => {
+const Certifications = ({ theme, lang }) => {
   
   console.log("test 1", lang)
   return (

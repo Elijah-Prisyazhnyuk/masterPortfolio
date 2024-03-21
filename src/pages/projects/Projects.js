@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
+import Button from "../../components/button/Button";
 import Footer from "../../components/footer/Footer";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
+import ProjectsData from "../../pages/shared/projects.json";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import {
+  greeting,
   projectsHeader,
   publicationsHeader,
   publications,
@@ -46,6 +50,18 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+        <div className="repo-cards-div-main">
+          {ProjectsData.data.map((repo) => {
+            return <GithubRepoCard repo={repo} theme={theme} />;
+          })}
+        </div>
+        <Button
+          text={projectsHeader.btn_text[lang]}
+          className="project-button"
+          href={greeting.githubProfile}
+          newTab={true}
+          theme={theme}
+        />
 
         {/* Publications  */}
         {publications.data.length > 0 ? (

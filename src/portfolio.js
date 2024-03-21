@@ -390,6 +390,16 @@ const competitiveSites = {
 };
 
 const degrees = {
+  h1: {
+    en: "",
+    ru: "",
+    de: "",
+  },
+  h3: {
+    en: "",
+    ru: "",
+    de: "",
+  },
   title_en: "Degrees Received",
   title_ru: "Полученное образование",
   title_de: "Erworbene Abschlüsse",

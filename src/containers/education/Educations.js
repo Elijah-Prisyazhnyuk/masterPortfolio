@@ -8,7 +8,6 @@ class Educations extends Component {
   render() {
     const theme = this.props.theme;
     const lang = this.props.lang;
-    console.log("lg edu: ", this.props.lang);
     return (
       <div className="main" id="educations">
         <div className="educations-header-div">

@@ -281,7 +281,7 @@
   top: 0;
 }
 
-/* 48em = 768px */
+/* 48em == 768px */
 
 @media (min-width: 48em) {
   .header li {

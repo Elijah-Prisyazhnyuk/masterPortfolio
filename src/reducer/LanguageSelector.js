@@ -8,7 +8,6 @@ const LanguageSelector = () => {
   const currentLang = useSelector(state => state.language.currentLang);
   const dispatch = useDispatch();
 
-
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (isDropdownOpen && !event.target.closest('.switch')) {
@@ -63,6 +62,7 @@ const LanguageSelector = () => {
     </div>    
   );
 };
+
  
 
 export default LanguageSelector;

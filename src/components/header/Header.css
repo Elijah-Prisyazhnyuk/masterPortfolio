@@ -93,7 +93,6 @@
 
 /* switch btn */
 
-
 .switch {
   position: relative;
   cursor: pointer;
@@ -228,7 +227,6 @@
 .switch.anim-options #trans-circle {
   transform: scale(9);
 }
-
 
 /* menu btn */
 

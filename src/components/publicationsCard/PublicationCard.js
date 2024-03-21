@@ -7,6 +7,7 @@ export default function PublicationCard({ pub, theme }) {
     var win = window.open(url, "_blank");
     win.focus();
   }
+  const lang = this.props.lang;
 
   return (
     <div
@@ -17,11 +18,11 @@ export default function PublicationCard({ pub, theme }) {
         <div key={pub.id} onClick={() => openPubinNewTab(pub.url)}>
           <div className="publication-name-div">
             <p className="publication-name" style={{ color: theme.text }}>
-              {pub.name}
+              {pub[`name_${lang}`]}
             </p>
           </div>
           <p className="publication-description" style={{ color: theme.text }}>
-            {pub.description}
+            {pub[`description_${lang}`]}
           </p>
           <div className="publication-details">
             <p

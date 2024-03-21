@@ -158,7 +158,7 @@
   visibility: hidden; /* Скрытие элемента */
 }
 
-.menu-icon + .switch.show-options{
+.switch.show-options ~ .header .menu-icon{
   display: none;
 }
 

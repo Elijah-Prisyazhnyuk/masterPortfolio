@@ -52,7 +52,7 @@ class ExperienceCard extends Component {
                 <div
                   className="repo-description"
                 />
-                {experience[`description_en`]}
+                {experience[`description_${lang}`]}
               </div>
 
             </div>

@@ -8,6 +8,7 @@ const LanguageSelector = () => {
   const currentLang = useSelector(state => state.language.currentLang);
   const dispatch = useDispatch();
 
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (isDropdownOpen && !event.target.closest('.switch')) {
@@ -33,7 +34,7 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className={`switch ${isDropdownOpen ? 'anim-options ' : ''}`}>
+    <div className={`switch ${isDropdownOpen ? 'show-options anim-options show-shadow' : ''}`}>
       <div className="current" onClick={toggleDropdown}>
         <span>{currentLang}</span>
         <em className="arrow">
@@ -62,7 +63,6 @@ const LanguageSelector = () => {
     </div>    
   );
 };
-
  
 
 export default LanguageSelector;

@@ -6,8 +6,8 @@ import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 
 
-const Certifications = ({ theme }) => {
-  const lang = this.props.lang;
+const Certifications = ({ theme,lang }) => {
+
 
   return (
         <div className="main" id="certs">

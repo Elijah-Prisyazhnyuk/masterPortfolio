@@ -10,6 +10,7 @@ import {
 } from "../../portfolio.js";
 
 function SeoHeader() {
+  const lang = this.props.lang;
   let sameAs = [];
   socialMediaLinks
     .filter(
@@ -33,14 +34,14 @@ function SeoHeader() {
       "@context": "https://schema.org",
       "@type": "EducationalOccupationalCredential",
       url: certification.certificate_link,
-      name: certification.title,
-      description: certification.subtitle,
+      name: certification[`title_${lang}`],
+      description: certification[`subtitle_${lang}`],
     });
   });
   const data = {
     "@context": "https://schema.org/",
     "@type": "Person",
-    name: greeting.title,
+    name: greeting[`title_${lang}`],
     url: seo?.og?.url,
     email: mail,
     telephone: contactPageData.phoneSection?.subtitle,

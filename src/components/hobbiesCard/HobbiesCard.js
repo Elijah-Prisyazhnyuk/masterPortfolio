@@ -20,13 +20,13 @@ class HobbiesCard extends Component {
                       className="hobbies-card-title"
                       style={{ color: theme.text }}
                     >
-                      {hobbiesdata.title}
+                      {hobbiesdata[`title_${lang}`]}
                     </div>
                     <div
                       className="hobbies-card-subtitle"
                       style={{ color: theme.secondaryText }}
                     >
-                      {hobbiesdata.description}
+                      {hobbiesdata[`description_${lang}`]}
                     </div>
                   </Fade>
                 </div>
@@ -35,7 +35,7 @@ class HobbiesCard extends Component {
                     <img
                       className="hobbies-image"
                       src={require(`../../assests/images/${hobbiesdata["image_path"]}`)}
-                      alt={hobbiesdata.title}
+                      alt={hobbiesdata[`title_${lang}`]}
                     />
                   </div>
                 </Fade>

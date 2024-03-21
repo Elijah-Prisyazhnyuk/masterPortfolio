@@ -33,7 +33,14 @@ export default function Greeting(props) {
 
 
     const tilt = (x, y) => {
-      const force = 30;
+      let force = 45;
+      if (y < height / 2) {
+        // Увеличиваем силу параллакса в верхней части экрана
+        force = 60;
+      } else {
+        // Уменьшаем силу параллакса в нижней части экрана
+        force = 40;
+    }
       const rx = (x / width) * force;
       const ry = (y / height) * -force;
       avatar.style.transform = `rotateY(${rx}deg) rotateX(${ry}deg)`;

@@ -6,6 +6,7 @@ import { Accordion, Panel } from "baseui/accordion";
 class ExperienceAccordion extends Component {
   render() {
     const theme = this.props.theme;
+    const lang = this.props.lang;
     return (
       <div className="experience-accord">
         <Accordion>
@@ -13,8 +14,8 @@ class ExperienceAccordion extends Component {
             return (
               <Panel
                 className="accord-panel"
-                title={section["title"]}
-                key={section["title"]}
+                title={section[`title_${lang}`]}
+                key={section[`title_${lang}`]}
                 overrides={{
                   Header: {
                     style: () => ({

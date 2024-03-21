@@ -86,7 +86,7 @@ class SkillSection extends Component {
                     >
                       {skill['title_${lang}']}
                     </h1>
-                    {console.log("testtest ",skill['title_${lang}'])}
+                    {console.log("testtest ",['title_${lang}'])}
                     <br/>
                     {/*<h1
                       id={lang === 'ru' ? 'ru' : 'hide'}

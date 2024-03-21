@@ -138,8 +138,8 @@
   background-color: #edf9fe;
   height: 200px;
   width: 200px;
-  right: 0;
-  top: 1.3em;
+  right: -90px;
+  top: 0.7em;
   z-index: 5;
   opacity: 0;
   visibility: hidden; 

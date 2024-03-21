@@ -91,6 +91,10 @@
   top: -5px;
 }
 
+.header .menu-icon + .switch.show-options{
+  display: none;
+}
+
 /* switch btn */
 
 .switch {
@@ -156,10 +160,6 @@
 .switch.show-options .current { 
   opacity: 0; /* Исчезновение элемента */
   visibility: hidden; /* Скрытие элемента */
-}
-
-.switch.show-options ~ .header .menu-icon{
-  display: none;
 }
 
 .container {

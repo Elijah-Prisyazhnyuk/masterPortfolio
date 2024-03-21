@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Elijah Prisyazhnyuk",
+  title_: "Elijah Prisyazhnyuk",
   title_ru: "Илья Присяжнюк",
   title_de: "Elias Prisjashnjuk",
   logo_name: "ElijahPris",
@@ -76,7 +76,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Embedded Engineer",
+      title_: "Embedded Engineer",
       title_ru: "Инженер-электронщик",
       title_de: "Embedded-Entwickler",
       fileName: "EmbeddedEngineerImg",
@@ -154,7 +154,7 @@ const skills = {
       ],
     },
     {
-      title: "Machine Learning & Data analysis",
+      title_: "Machine Learning & Data analysis",
       title_ru: "Инженер данных",
       title_de: "Maschinelles Lernen & Datenanalyse",
       fileName: "DataScienceImg",
@@ -224,7 +224,7 @@ const skills = {
       ],
     },
     {
-      title: "3D & Web designer",
+      title_: "3D & Web designer",
       title_ru: "3D & Web дизайнер",
       title_de: "3D- und Webdesigner",
       fileName: "DesignImg",

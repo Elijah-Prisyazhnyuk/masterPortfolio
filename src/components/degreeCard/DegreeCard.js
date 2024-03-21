@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
+import { degrees } from "../../portfolio";
 
 class DegreeCard extends Component {
   render() {
@@ -67,9 +68,8 @@ class DegreeCard extends Component {
                     style={{ backgroundColor: theme.headerColor }}
                   >
                     <p className="btn" style={{ color: theme.text }}>
-                      {degree[`button_vst_${lang}`]}
+                      {degrees[`button_vst_${lang}`]}
                     </p>
-                    {console.log("btn ",degree[`button_vst_${lang}`])}
                   </div>
                 </a>
               )}

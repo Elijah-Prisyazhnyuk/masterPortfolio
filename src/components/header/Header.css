@@ -136,11 +136,11 @@
   position: absolute;
   text-align: center;
   background-color: #edf9fe;
-  height: 100px;
+  height: 200px;
   width: 200px;
   right: 0;
   top: 1.3em;
-  z-index: 0;
+  z-index: 5;
   opacity: 0;
   visibility: hidden; 
   transition: all .36s ease-out;

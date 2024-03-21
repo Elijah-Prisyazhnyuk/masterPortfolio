@@ -50,7 +50,7 @@ const LanguageSelector = () => {
           <label><input name="e" type="radio" onClick={() => handleLangChange('en')} className={currentLang === 'en' ? 'selected' : ''}/>English</label>
           <label><input name="e" type="radio" onClick={() => handleLangChange('ru')} className={currentLang === 'ru' ? 'selected' : ''}/>Русский</label>
           <label><input name="e" type="radio" onClick={() => handleLangChange('de')} className={currentLang === 'de' ? 'selected' : ''}/>Deutsch</label>
-          <label><input disabled="" name="e" type="radio" /> And so on ..</label>
+          <label><input disabled name="e" type="radio" /> And so on ..</label>
         </ul>
       </div>
     </div>    

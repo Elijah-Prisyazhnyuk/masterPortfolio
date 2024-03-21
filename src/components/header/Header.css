@@ -133,6 +133,8 @@
 
 .options {
   position: absolute;
+  height: 100px;
+  width: 130px;
   right: 0;
   top: .6em;
   z-index: 0;

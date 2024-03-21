@@ -6,7 +6,6 @@ export default function AchivementCard({ cardInfo }) {
     win.focus();
   }
   const lang = this.props.lang;
-  console.log("ach card", lang)
   return (
     <div className="certificate-card">
       <div className="certificate-image-div">

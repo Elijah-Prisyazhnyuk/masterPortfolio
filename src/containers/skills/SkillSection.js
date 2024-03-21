@@ -37,8 +37,9 @@ class SkillSection extends Component {
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
-                      {skill['title_${lang}']}
+                      {skill[`{"title_"${lang}}`]}
                     </h1>
+                    {console.log("testtest ", `{"title_"${lang}}`) }
                     <br/>
                     {/*<h1
                       id={lang === 'ru' ? 'ru' : 'hide'}
@@ -84,9 +85,9 @@ class SkillSection extends Component {
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
-                      {skill['title_${lang}']}
+                      {skill[`{"title_"${lang}}`]}
                     </h1>
-                    {console.log("testtest ",['title_${lang}'])}
+                    {console.log("testtest ", `{"title_"${lang}}`) }
                     <br/>
                     {/*<h1
                       id={lang === 'ru' ? 'ru' : 'hide'}

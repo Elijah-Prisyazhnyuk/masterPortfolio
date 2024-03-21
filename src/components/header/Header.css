@@ -184,8 +184,7 @@
     &:last-child {
       border-bottom: none;
     }
-  
-
+    
     &:nth-child(1) {
       transition-delay: .1s;
     }
@@ -193,7 +192,7 @@
     &:nth-child(2) {
       transition-delay: .15s;
     }
-
+    
     &:nth-child(3) {
       transition-delay: .2s;
     }
@@ -232,6 +231,7 @@
 .switch.anim-options #trans-circle {
   transform: scale(9);
 }
+
 
 /* menu btn */
 

@@ -159,7 +159,7 @@
 }
 
 .switch.show-options .header .menu-icon {
-  display: none;
+  display: none !important;
 }
 
 .container {

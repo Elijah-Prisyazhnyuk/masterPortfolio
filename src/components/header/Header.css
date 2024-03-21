@@ -162,6 +162,7 @@
   --s: 1em; /* control the size */
   --g: 10px; /* the gap */
   --c: #009688; /* the active color */
+  background-color: #edf9fe;
   max-width: none;
   display: grid;
   grid-auto-rows: 1fr;

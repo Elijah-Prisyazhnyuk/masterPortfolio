@@ -36,10 +36,10 @@ export default function Greeting(props) {
       let force = 45;
       if (y < height / 2) {
         // Увеличиваем силу параллакса в верхней части экрана
-        force = 60;
+        force = 40;
       } else {
         // Уменьшаем силу параллакса в нижней части экрана
-        force = 40;
+        force = 65;
     }
       const rx = (x / width) * force;
       const ry = (y / height) * -force;

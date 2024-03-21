@@ -624,7 +624,7 @@ const certifications = {
       title_en: "Сertificate",
       title_ru: "Сертификат",
       title_de: "Zertifikat",
-      subtitle: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
+      subtitle_en: "Certificate of participation in the II (Final) round of the Olympiad for the discipline \"Computer Science\"",
       subtitle_ru: "Сертификат за участие во II (заключительном) туре Интернет-олимпиады по дисциплине \"Информатика\"",
       subtitle_de: "Teilnahmezertifikat an der II. (Endrunde) Olympiade für das Fach \"Informatik\"",
       logo_path: "sibsiu.png",

@@ -7,8 +7,8 @@ import CertificationCard from "../../components/certificationCard/CertificationC
 
 
 const Certifications = ({ theme,lang }) => {
-
-
+  
+  console.log("test 1", lang," and test 2", this.props.lang)
   return (
         <div className="main" id="certs">
           <div className="certs-header-div">

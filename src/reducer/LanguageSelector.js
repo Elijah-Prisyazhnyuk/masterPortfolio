@@ -11,7 +11,9 @@ const LanguageSelector = () => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (isDropdownOpen && !event.target.closest('.switch')) {
-        setIsDropdownOpen(false);
+        setTimeout(() => {
+          setIsDropdownOpen(false);
+        }, 1500);
       }
     };
 

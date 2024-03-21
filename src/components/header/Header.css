@@ -138,7 +138,7 @@
   background-color: #edf9fe;
   height: 200px;
   width: 200px;
-  right: -30px;
+  right: -15px;
   top: -2.7em;
   z-index: 5;
   opacity: 0;
@@ -297,7 +297,7 @@
   }
   .options {
     top: 0.7em;
-    right: -45px;
+    right: -70px;
   }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {

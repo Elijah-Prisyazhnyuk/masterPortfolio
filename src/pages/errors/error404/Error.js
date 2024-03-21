@@ -5,18 +5,20 @@ import TopButton from "../../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import "./Error.css";
 import { Link } from "react-router-dom";
+import { error } from "../../../portfolio";
 
 export default class Error extends Component {
   render() {
     const theme = this.props.theme;
+    const lang = this.props.lang;
     return (
       <div className="error-main">
         <Header theme={this.props.theme} />
         <div className="error-class">
           <Fade bottom duration={2000} distance="40px">
-            <h1>Woops</h1>
+            <h1>{error.h1[lang]}</h1>
             <h1 className="error-404">404</h1>
-            <p>The requested page is unavailable at the moment!</p>
+            <p>{error.p[lang]}</p>
             <Link
               className="main-button"
               to="/home"
@@ -27,7 +29,7 @@ export default class Error extends Component {
                 display: "inline-flex",
               }}
             >
-              Go Home
+              {error.text[lang]}
             </Link>
           </Fade>
         </div>

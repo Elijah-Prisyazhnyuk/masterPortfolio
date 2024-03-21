@@ -5,6 +5,24 @@ const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
+const error = {
+  h1: {
+    en: "Woops",
+    ru: "Извините",
+    de: "Entschuldigung",
+  },
+  p: {
+    en: "The requested page is unavailable at the moment!",
+    ru: "Заправшиваемая страница недоступна",
+    de: "Die angeforderte Seite ist momentan nicht verfügbar!",
+  },
+  text: {
+    en: "Go Home",
+    ru: "На Главную",
+    de: "Zur Startseite",
+  },
+}
+
 const header = {
   home: {
     en: "Home",
@@ -901,6 +919,7 @@ const contactPageData = {
 
 export {
   settings,
+  error,
   header,
   seo,
   greeting,

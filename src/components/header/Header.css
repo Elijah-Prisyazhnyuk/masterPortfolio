@@ -297,7 +297,7 @@
   }
   .options {
     top: 0.7em;
-    right: -70px;
+    right: -45px;
   }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {

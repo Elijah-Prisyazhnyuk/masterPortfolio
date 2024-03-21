@@ -918,6 +918,11 @@ const contactPageData = {
     streetAddress: "Dzerzhninskogo street, 97/b",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://maps.app.goo.gl/M5re4r8Tdjp4ZuBn9",
+    btn_maps: {
+      en: "Visit on Google Maps",
+      ru: "Открыть на Гугл Картах",
+      de: "Auf Google Maps anzeigen",
+    },
   },
   phoneSection: {
     title: "+7(951)-571-64-50",

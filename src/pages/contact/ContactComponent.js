@@ -4,14 +4,12 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
 
@@ -36,18 +34,18 @@ class Contact extends Component {
                   className="contact-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {ContactData["title"]}
+                  {ContactData[`title_${lang}`]}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {ContactData["description"]}
+                  {ContactData[`description_${lang}`]}
                 </p>
                 <SocialMedia lang={lang} theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                    text={greeting.btn_resume[lang]}
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
@@ -70,13 +68,13 @@ class Contact extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {addressSection["title"]}
+                  {addressSection[`title_${lang}`]}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {addressSection["subtitle"]}
+                  {addressSection[`subtitle_${lang}`]}
                 </p>
                 <h1
                   className="address-heading-text"
@@ -92,7 +90,7 @@ class Contact extends Component {
                 </p>
                 <div className="address-btn-div">
                   <Button
-                    text="Visit on Google Maps"
+                    text={addressSection.btn_maps[lang]}
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}

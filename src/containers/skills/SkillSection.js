@@ -33,30 +33,13 @@ class SkillSection extends Component {
                 <div className="skills-text-div">
                   <Fade left duration={1000}>
                     <h1
-                      /*id={lang === 'en' ? 'en' : 'hide'}*/
+                      
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
                       {skill[`title_${lang}`]}
                     </h1>
-                    {console.log("testtest ", skill[`title_${lang}`]) }
-                    <br/>
-                    {/*<h1
-                      id={lang === 'ru' ? 'ru' : 'hide'}
-                      className="skills-heading"
-                      style={{ color: theme.text }}
-                    >
-                      {skill.title_ru}
-                    </h1>
-                    <br/>
-                    <h1
-                      id={lang === 'de' ? 'de' : 'hide'}
-                      className="skills-heading"
-                      style={{ color: theme.text }}
-                    >
-                      {skill.title_de}
-                    </h1>
-              <br/>*/}
+                    
                   </Fade>
                   <Fade left duration={1500}>
                     <SoftwareSkill logos={skill.softwareSkills} />
@@ -81,30 +64,13 @@ class SkillSection extends Component {
                 <div className="skills-text-div">
                   <Fade right duration={1000}>
                   <h1
-                      /*id={lang === 'en' ? 'en' : 'hide'}*/
+                      
                       className="skills-heading"
                       style={{ color: theme.text }}
                     >
                       {skill[`title_${lang}`]}
                     </h1>
-                    {console.log("testtest ", skill[`title_${lang}`]) }
-                    <br/>
-                    {/*<h1
-                      id={lang === 'ru' ? 'ru' : 'hide'}
-                      className="skills-heading"
-                      style={{ color: theme.text }}
-                    >
-                      {skill.title_ru}
-                    </h1>
-                    <br/>
-                    <h1
-                      id={lang === 'de' ? 'de' : 'hide'}
-                      className="skills-heading"
-                      style={{ color: theme.text }}
-                    >
-                      {skill.title_de}
-                    </h1>
-              <br/>*/}
+                    
                   </Fade>
                   <Fade right duration={1500}>
                     <SoftwareSkill logos={skill.softwareSkills} />

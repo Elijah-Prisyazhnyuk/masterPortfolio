@@ -166,6 +166,7 @@
   grid-auto-rows: 1fr;
   gap: var(--g);
   position: relative;
+  margin-left: 20px;
   font-size: 16px;
 }
 .container:before {

@@ -576,6 +576,11 @@ const certifications = {
         "https://drive.google.com/file/d/1SJ5-icna_lkDWMurHjFYhpXQCnTPWtc5/view?usp=sharing",
       alt_name: "EVRAZ",
       color_code: "#8C151599",
+      fade: {
+        en: "",
+        ru: "",
+        de: "",
+      }
     },
     {
       title_en: "ALEKS Placement Math test",

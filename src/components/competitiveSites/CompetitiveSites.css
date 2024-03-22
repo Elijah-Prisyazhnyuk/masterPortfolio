@@ -14,7 +14,7 @@
   outline: none;
   background: none;
   display: block;
-  line-height: 1.6;
+  line-height: 2;
 }
 
 .hh-tag_inline {
@@ -29,7 +29,7 @@
 .skill_icon {
   display: inline-block;
   padding-left: 5px;
-  line-height: 30px;
+  line-height: 23px;
   box-sizing: border-box;
   border: 1px solid transparent;
   border-color: transparent;
@@ -88,4 +88,14 @@
 
 .competitive-sites-inline > i:hover {
   color: #645beb;
+}
+
+@media (min-width: 48em) {
+  .hh-skill-tag-list {
+    line-height: 1.7;
+  }
+
+  .skill_icon {
+    line-height: 25px;
+  }
 }

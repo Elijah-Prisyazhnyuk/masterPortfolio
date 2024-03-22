@@ -18,7 +18,7 @@ export default function Greeting(props) {
 
     const init = () => {
       bindMouse();
-      tilt(350, -125);
+      tilt(4, 4);
     };
 
     const bindMouse = () => {
@@ -33,13 +33,13 @@ export default function Greeting(props) {
 
 
     const tilt = (x, y) => {
-      let force = 45;
+      let force = 35;
       if (y < height / 2) {
         // Увеличиваем силу параллакса в верхней части экрана
-        force = 40;
+        force = 30;
       } else {
         // Уменьшаем силу параллакса в нижней части экрана
-        force = 65;
+        force = 40;
     }
       const rx = (x / width) * force;
       const ry = (y / height) * -force;

@@ -661,7 +661,7 @@ const certifications = {
       title_ru: "",
       title_de: "",
       subtitle_en: "I place in University round of the Olympiad for the discipline \"Computer Science\"",
-      subtitle_ru: "",
+      subtitle_ru: ".",
       subtitle_de: "",
       logo_path: "google_logo.png",
       certificate_link:
@@ -686,7 +686,7 @@ const experience = {
   subtitle_ru: "Стажировка и Фриланс",
   subtitle_de: "Praktikum und freiberufliche Tätigkeit",
   description_en: "Skilled in industrial and converter electronics, I utilize a combination of embedded microprocessor devices, machine learning techniques, and web-based interfaces in my projects. I have experience with Python and MATLAB for mathematical modeling, simulation, and reporting. My key quality is the ability to respond and adapt to changing priorities quickly and efficiently.",
-  description_ru: "Имею компетенции в промышленной и преобразовательной электронике. Я использую стэк технологий таких как микроконтроллеры и микропроцессорные устройства, модели машинного обучения и Web-интерфейсы в моих проектах. У меня есть опыт использования Python и MatLAB для математического моделирования и исследования. Мои ключевые навыки это ответственность и умение быстро адаптироваться под изменяющиеся требования.",
+  description_ru: "Я имею компетенции в промышленной и преобразовательной электронике. Мой любимый стэк технологий это микроконтроллеры и микропроцессорные устройства, модели машинного обучения и Web-интерфейсы который я использую в моих проектах. У меня также есть опыт использования Python и MatLAB для математического моделирования и исследования. Мои ключевые навыки это ответственность и умение быстро адаптироваться под изменяющиеся требования.",
   description_de: "Kundig in Industrie- und Umrichterelektronik, nutze ich eine Kombination aus eingebetteten Mikroprozessorgeräten, maschinellem Lernen und webbasierten Schnittstellen in meinen Projekten. Ich habe Erfahrung mit Python und MATLAB für mathematische Modellierung, Simulation und Berichterstattung. Meine wichtigste Eigenschaft ist die Fähigkeit, schnell und effizient auf sich ändernde Prioritäten zu reagieren und sich anzupassen.",
   header_image_path: "experience.svg",
   sections: [

@@ -371,6 +371,16 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
+      siteName: "hh.ru",
+      imageSrc: "hh.png", 
+      profileLink: "https://leetcode.com/ElijahPris/",
+    },
+    {
+      siteName: "LinkedIn",
+      iconifyClassname: "linkedin.svg",
+      profileLink: "https://leetcode.com/ElijahPris/",
+    },    
+    {
       siteName: "LeetCode",
       iconifyClassname: "simple-icons:leetcode",
       style: {

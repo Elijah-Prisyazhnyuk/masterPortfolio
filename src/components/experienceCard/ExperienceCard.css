@@ -300,10 +300,6 @@ transition: all 0.3s ease-in-out 0s;
       flex-direction: column;
   }
 
-  .experience-card-logo {
-      width: 100px;
-  }
-
   .experience-card-heading-left {
       float: center;
       margin-left: auto;

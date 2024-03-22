@@ -399,11 +399,17 @@ const competitiveSites = {
   ],
   skillAssessment_hh: [
     {
+      skillTip: "",
       icon: "v3",
       skillText: "MATLAB",
       success: "no",
     },
     {
+      skillTip: [
+        "Подтвержден тестом ",
+        "\"Python - средний уровень\" ",
+        "в январе 2024 года",
+        ],
       icon: "v4",
       skillText: "Python",
       success: "yes",

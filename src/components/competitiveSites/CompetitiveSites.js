@@ -50,6 +50,16 @@ class CompetitiveSites extends React.Component {
         <div className="hh-skill-tag-list">
         {this.props.skill_hh.map((skills) => {
             return (
+              <OverlayTrigger
+                key={skills.skillTip}
+                placement={"top"}
+                style={{ marginBottom: "5px" }}
+                overlay={
+                  <Tooltip id={`tooltip-top`}>
+                    {skills.skillTip}
+                  </Tooltip>
+                }
+              >
               <div className={`hh-tag_inline ${skills.success}`}>
                 <div className="skill_icon">
                   <span
@@ -60,6 +70,7 @@ class CompetitiveSites extends React.Component {
                         className="skill_text"
                 >{skills.skillText}</span>
               </div>
+              </OverlayTrigger>
               );
           })}
         </div>

@@ -397,6 +397,27 @@ const competitiveSites = {
       profileLink: "https://www.kaggle.com/elijahprisiazhniuk",
     },
   ],
+  skillAssessment_hh: [
+    {
+      iconSrc: "v3",
+      skillText: "MATLAB",
+      success: "no",
+    },
+    {
+      iconSrc: "v4",
+      skillText: "Python",
+      success: "yes",
+    },
+  ],
+  skillAssessment_linkedin: [
+    {
+      icon: "",
+      skillText: "",
+      style: {
+
+      }
+    },
+  ],
 };
 
 const degrees = {

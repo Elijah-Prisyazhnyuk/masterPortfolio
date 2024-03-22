@@ -36,7 +36,12 @@ class Education extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   {degrees.h3[lang]}
                 </h3>
-                <CompetitiveSites lang={lang} logos={competitiveSites.competitiveSites} />
+                <CompetitiveSites 
+                  lang={lang} 
+                  skill_hh={competitiveSites.skillAssessment_hh} 
+                  skill_linkedin={competitiveSites.skillAssessment_linkedin} 
+                  logos={competitiveSites.competitiveSites} 
+                />
               </div>
             </div>
           </Fade>

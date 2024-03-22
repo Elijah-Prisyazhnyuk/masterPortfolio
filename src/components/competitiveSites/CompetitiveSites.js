@@ -47,6 +47,22 @@ class CompetitiveSites extends React.Component {
             );
           })}
         </ul>
+        <div className="hh-skill-tag-list">
+        {this.props.skill_hh.map((skills) => {
+            return (
+              <div className="hh-tag_inline">
+                <div className={`skill_icon ${skills.success}`}>
+                  <span
+                        className={`_icon ${skills.icon}`}
+                  ></span>
+                </div>
+                <span
+                        className="skill_text"
+                >{skills.skillText}</span>
+              </div>
+              );
+          })}
+        </div>
       </div>
     );
   }

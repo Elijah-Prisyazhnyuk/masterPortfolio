@@ -405,6 +405,24 @@ const competitiveSites = {
       success: "no",
     },
     {
+      skillTip: "",
+      icon: "v3",
+      skillText: "Linux",
+      success: "no",
+    },
+    {
+      skillTip: "",
+      icon: "v3",
+      skillText: "MS Office",
+      success: "no",
+    },
+    {
+      skillTip: "",
+      icon: "v3",
+      skillText: "Разработка электросхем",
+      success: "no",
+    },
+    {
       skillTip: [
         "Подтвержден тестом ",
         "\"Python - средний уровень\" ",
@@ -412,6 +430,36 @@ const competitiveSites = {
         ],
       icon: "v4",
       skillText: "Python",
+      success: "yes",
+    },
+    {
+      skillTip: [
+        "Подтвержден тестом ",
+        "\"SQL - средний уровень\" ",
+        "в декабре 2023 года",
+        ],
+      icon: "v4",
+      skillText: "SQL",
+      success: "yes",
+    },
+    {
+      skillTip: [
+        "Подтвержден тестом ",
+        "\"Git - средний уровень\" ",
+        "в марте 2024 года",
+        ],
+      icon: "v4",
+      skillText: "Git",
+      success: "yes",
+    },
+    {
+      skillTip: [
+        "Подтвержден тестом ",
+        "\"Английский — C1\" ",
+        "в январе 2024 года",
+        ],
+      icon: "v4",
+      skillText: "Английский — C1 — Продвинутый",
       success: "yes",
     },
   ],

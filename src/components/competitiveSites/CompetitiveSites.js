@@ -87,10 +87,10 @@ class CompetitiveSites extends React.Component {
                   </Tooltip>
                 }
               >
-              <div className={`hh-tag_inline linkedin`}>
+              <div className="hh-tag_inline linkedin">
                 <div className="skill_icon">
                   <span
-                        className="_icon_linkedin"
+                        className="_icon linkedin"
                   ></span>
                 </div>
                 <span

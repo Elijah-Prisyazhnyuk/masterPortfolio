@@ -414,7 +414,7 @@ const degrees = {
       title_ru: "Сибирский Государственный Индустриальный Университет",
       title_de: "Sibirische Staatliche Industrieuniversität",
       subtitle_en: "Bachelor's degree in Industrial Electronics",
-      subtitle_ru: "Степень магистратуры в Промышленной Электронике",
+      subtitle_ru: "Бакалавриат по направлению Промышленная Электроника",
       subtitle_de: "Bachelor-Abschluss in Industrieelektronik",
       logo_path: "sibsiu.png",
       alt_name: "SibSIU",

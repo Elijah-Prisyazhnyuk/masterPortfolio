@@ -22,6 +22,8 @@
   margin: 0 8px 8px 0;
   display: inline-flex;
   max-width: 100%;
+  border: 1px solid;
+  border-color: #aabbca;
 }
 
 .skill_icon {
@@ -34,11 +36,11 @@
   border-bottom-left-radius: 4px;
 }
 
-.skill_icon.no {
+.hh-tag_inline.no {
   background-color: #eef1f7;
 }
 
-.skill_icon.yes {
+.hh-tag_inline.yes {
   background-color: #f0fbf3;
 }
 

@@ -50,8 +50,8 @@ class CompetitiveSites extends React.Component {
         <div className="hh-skill-tag-list">
         {this.props.skill_hh.map((skills) => {
             return (
-              <div className="hh-tag_inline">
-                <div className={`skill_icon ${skills.success}`}>
+              <div className={`hh-tag_inline ${skills.success}`}>
+                <div className="skill_icon">
                   <span
                         className={`_icon ${skills.icon}`}
                   ></span>

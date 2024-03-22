@@ -889,7 +889,7 @@ const publications = {
 const hobbies = {
   title_en: "Hobbies",
   title_ru: "Хобби",
-  title_de: "",
+  title_de: "Die Hobbys",
   subTitle_en: "I spend my leisure with my hobbies!",
   subTitle_ru: "",
   subTitle_de: "",

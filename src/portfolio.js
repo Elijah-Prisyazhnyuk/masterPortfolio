@@ -465,8 +465,16 @@ const competitiveSites = {
   ],
   skillAssessment_linkedin: [
     {
-      skillTip: "111",
-      skillText: "MATLAB",
+      skillTip: "I'm in the top 5% of 1.5M people who took this",
+      skillText: "Linux",
+    },
+    {
+      skillTip: "I'm in the top 5% of 2.2M people who took this",
+      skillText: "MySQL",
+    },
+    {
+      skillTip: "I'm in the top 5% of 384.1k people who took this",
+      skillText: "Bash",
     },
   ],
 };

@@ -377,7 +377,7 @@ const competitiveSites = {
     },
     {
       siteName: "LinkedIn",
-      iconifyClassname: "linkedin.svg",
+      imageSrc: "linkedin.svg",
       profileLink: "https://leetcode.com/ElijahPris/",
     },    
     {

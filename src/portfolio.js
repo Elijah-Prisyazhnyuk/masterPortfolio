@@ -895,13 +895,13 @@ const hobbies = {
   subTitle_de: "",
   hobbies: [
     {
-      title_en: "Reading Books",
-      title_ru: "",
+      title_en: "Music",
+      title_ru: "Музыка",
       title_de: "",
       description_en: "!",
       description_ru: "",
       description_de: "",
-      image_path: "Reading.png",
+      image_path: "Music.png",
     },
     {
       title_en: "Writing",
@@ -910,7 +910,7 @@ const hobbies = {
       description_en: "!",
       description_ru: "",
       description_de: "",
-      image_path: "Writing.png",
+      image_path: "Reading.png",
     },
     {
       title_en: "Art",

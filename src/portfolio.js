@@ -399,12 +399,12 @@ const competitiveSites = {
   ],
   skillAssessment_hh: [
     {
-      iconSrc: "v3",
+      icon: "v3",
       skillText: "MATLAB",
       success: "no",
     },
     {
-      iconSrc: "v4",
+      icon: "v4",
       skillText: "Python",
       success: "yes",
     },

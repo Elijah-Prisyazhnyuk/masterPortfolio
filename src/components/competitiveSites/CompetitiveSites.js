@@ -74,6 +74,33 @@ class CompetitiveSites extends React.Component {
               );
           })}
         </div>
+        <div className="hh-skill-tag-list">
+        {this.props.skill_linkedin.map((skills) => {
+            return (
+              <OverlayTrigger
+                key={skills.skillTip}
+                placement={"top"}
+                style={{ marginBottom: "5px" }}
+                overlay={
+                  <Tooltip id={`tooltip-top`}>
+                    {skills.skillTip}
+                  </Tooltip>
+                }
+              >
+              <div className={`hh-tag_inline linkedin`}>
+                <div className="skill_icon">
+                  <span
+                        className="_icon_linkedin"
+                  ></span>
+                </div>
+                <span
+                        className="skill_text_linkedin"
+                >{skills.skillText}</span>
+              </div>
+              </OverlayTrigger>
+              );
+          })}
+        </div>
       </div>
     );
   }

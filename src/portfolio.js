@@ -465,11 +465,8 @@ const competitiveSites = {
   ],
   skillAssessment_linkedin: [
     {
-      icon: "",
-      skillText: "",
-      style: {
-
-      }
+      skillTip: "111",
+      skillText: "MATLAB",
     },
   ],
 };

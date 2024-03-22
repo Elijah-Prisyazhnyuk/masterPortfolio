@@ -373,12 +373,12 @@ const competitiveSites = {
     {
       siteName: "hh.ru",
       imageSrc: "hh.png", 
-      profileLink: "https://leetcode.com/ElijahPris/",
+      profileLink: "https://chelyabinsk.hh.ru/resume/0c756c38ff0cae83150039ed1f46374f4f4f53",
     },
     {
       siteName: "LinkedIn",
       imageSrc: "linkedin.svg",
-      profileLink: "https://leetcode.com/ElijahPris/",
+      profileLink: "https://www.linkedin.com/in/elijah-pris",
     },    
     {
       siteName: "LeetCode",

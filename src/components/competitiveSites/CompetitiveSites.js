@@ -25,7 +25,7 @@ class CompetitiveSites extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {logo.fontAwesomeClassname && (
+                    {logo.iconifyClassname && (
                       <span
                         className="iconify"
                         data-icon={logo.iconifyClassname}
@@ -33,7 +33,7 @@ class CompetitiveSites extends React.Component {
                         data-inline="false"
                       ></span>
                     )}
-                    {!logo.fontAwesomeClassname && logo.imageSrc && (
+                    {!logo.iconifyClassname && logo.imageSrc && (
                       <img
                         className="skill-image"
                         style={logo.style}

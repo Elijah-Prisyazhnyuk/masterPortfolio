@@ -45,7 +45,7 @@ class DegreeCard extends Component {
               </div>
               <div className="body-header-duration">
                 <h3 className="duration" style={{ color: theme.text }}>
-                  {degree[`duration_${lang}`]}
+                  {degree[`duration`]}
                 </h3>
               </div>
             </div>

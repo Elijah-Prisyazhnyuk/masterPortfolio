@@ -44,10 +44,7 @@ class HobbiesCard extends Component {
           })}
         </div>
       </Fade>
-      <iframe height="300" style="width: 100%;" scrolling="no" title="Coulomb's Law Circuit Simulation" src="https://codepen.io/lilgreenland/embed/xprGvr?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/lilgreenland/pen/xprGvr">
-  Coulomb's Law Circuit Simulation</a> by Landgreen (<a href="https://codepen.io/lilgreenland">@lilgreenland</a>)
-  on <a href="https://codepen.io">CodePen</a>.
+      <iframe height="300" style="width: 100%;" title="Coulomb's Law Circuit Simulation" src="https://codepen.io/lilgreenland/embed/xprGvr?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
 </iframe>
     </div>
   );

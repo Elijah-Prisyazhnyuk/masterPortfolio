@@ -1001,6 +1001,9 @@ const hobbies = {
       description_ru: "Лучше один раз увидеть, чем сто раз услышать! Современные вычислительные CAD системы позволяют наблюдать множество захватывающих процессов детально.",
       description_de: "Einmal sehen ist besser als hundert Mal hören! Moderne rechnergestützte CAD-Systeme ermöglichen es, zahlreiche faszinierende Prozesse im Detail zu beobachten.",
       image_path: "Reading.png",
+      iframe: {
+      
+      }
     },
     {
       title_en: "YouTube",

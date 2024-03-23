@@ -34,7 +34,7 @@ class ProjectLanguages extends Component {
                     )}
                     {!logo.iconifyClass && logo.imageSrc && (
                       <img
-                        src={`../../../public/skills/${logo.imgSrc}`}
+                        src={`../../../public/skills/pp.png`}
                         alt={logo.name}
                       />
                     )}

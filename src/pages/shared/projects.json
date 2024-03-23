@@ -1,41 +1,25 @@
 {
   "data": [
     {
-      "id": "",
+      "id": "1",
       "name": "conference",
       "createdAt": "",
       "url": "https://github.com/Elijah-Prisyazhnyuk/conference",
       "description": "Презентация с 59й научно-технической конференции",
-      "isFork": false
+      "isFork": false,
+      "languages" : ""
     },
     {
-      "id": "",
+      "id": "2",
       "name": "diploma",
       "createdAt": "",
       "url": "https://github.com/Elijah-Prisyazhnyuk/masterPortfolio",
       "description": "Моя дипломная работа",
-      "isFork": true,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
-      ]
+      "isFork": false,
+      "languages": ""
     },
     {
-      "id": "",
+      "id": "3",
       "name": "masterPortfolio Forked",
       "createdAt": "",
       "url": "https://github.com/Elijah-Prisyazhnyuk/masterPortfolio",

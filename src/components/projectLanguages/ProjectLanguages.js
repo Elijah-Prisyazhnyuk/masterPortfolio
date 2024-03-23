@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./ProjectLanguages.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
+
 class ProjectLanguages extends Component {
   render() {
     return (
@@ -28,12 +29,13 @@ class ProjectLanguages extends Component {
                         className="iconify"
                         data-icon={logo.iconifyClass}
                         data-inline="false"
+
                       ></span>
                     )}
                     {!logo.iconifyClass && logo.imageSrc && (
                       <img
                         className="iconify"
-                        src={`${process.env.PUBLIC_URL}/skills/${logo.imgSrc}`}
+                        src={`../../../public/skills/${logo.imgSrc}`}
                         alt={logo.name}
                       />
                     )}

@@ -995,7 +995,7 @@ const hobbies = {
       codepen: {
         hash: "rGeEbY",
         user: "gabrielcarol",
-        height: "400",
+        height: "400px",
         defaultTab: "result",
         preview: false,
       },
@@ -1011,7 +1011,7 @@ const hobbies = {
       codepen: {
         hash: "xprGvr",
         user: "lilgreenland",
-        height: "400",
+        height: "400px",
         defaultTab: "result",
         preview: true,
       },
@@ -1028,7 +1028,7 @@ const hobbies = {
       codepen: {
         hash: "YzqRBVw",
         user: "yokanjs",
-        height: "400",
+        height: "400px",
         defaultTab: "result",
         preview: false,
       },
@@ -1044,7 +1044,7 @@ const hobbies = {
       codepen: {
         hash: "rpPqGY",
         user: "o-k-s-a-n-a",
-        height: "400",
+        height: "400px",
         defaultTab: "result",
         preview: false,
       },

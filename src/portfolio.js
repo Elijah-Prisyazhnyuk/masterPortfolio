@@ -1026,8 +1026,8 @@ const hobbies = {
       description_de: "Here you can see the most interesting videos for me.",
       image_path: "Memeing.png",
       codepen: {
-        hash: "YzqRBVw",
-        user: "yokanjs",
+        hash: "poBPawV",
+        user: "Elijah-Prisyazhnyuk",
         height: "400px",
         defaultTab: "result",
         preview: false,

@@ -44,7 +44,7 @@ class HobbiesCard extends Component {
                     height={hobbiesdata.codepen.height}
                     defaultTab={hobbiesdata.codepen.defaultTab}
                     preview={hobbiesdata.codepen.preview}
-                    width="600px"/>
+                    style={{width: 600}}/>
                   <Fade right duration={2000}>
                 </Fade>
               </div>

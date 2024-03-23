@@ -1005,7 +1005,7 @@ const hobbies = {
       title_ru: "Визуализация & моделирование",
       title_de: "Visualisierung und Modellierung",
       description_en: "Better to see once than hear a hundred times! Modern computational CAD systems allow observing numerous captivating processes in detail.",
-      description_ru: "Лучше один раз увидеть, чем сто раз услышать! Современные вычислительные CAD системы позволяют наблюдать множество захватывающих процессов детально.",
+      description_ru: "Лучше один раз увидеть, чем сто раз услышать! Современные вычислительные CAD системы позволяют наблюдать множество захватывающих процессов детально.   \n Для старта симуляции нажмите \"Run Pen\" и выберите внизу режим 0.5x для большего удобства. (Внимание: возможна повышенная нагрузка на ПК)",
       description_de: "Einmal sehen ist besser als hundert Mal hören! Moderne rechnergestützte CAD-Systeme ermöglichen es, zahlreiche faszinierende Prozesse im Detail zu beobachten.",
       image_path: "Reading.png",
       codepen: {

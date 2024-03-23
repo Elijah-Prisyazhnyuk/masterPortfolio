@@ -36,7 +36,7 @@ class ProjectLanguages extends Component {
                       <img
                         src={`${process.env.PUBLIC_URL}/skills/${logo.imgSrc}`}
                         alt={logo.name}
-                        style={{ size: "64px"}}
+                        style={{ height: "32px"}}
                       />
                     )}
                   </li>

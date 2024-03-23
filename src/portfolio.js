@@ -995,7 +995,7 @@ const hobbies = {
       codepen: {
         hash: "rGeEbY",
         user: "gabrielcarol",
-        height: "300",
+        height: "400",
         defaultTab: "result",
         preview: false,
       },
@@ -1011,7 +1011,7 @@ const hobbies = {
       codepen: {
         hash: "xprGvr",
         user: "lilgreenland",
-        height: "300",
+        height: "400",
         defaultTab: "result",
         preview: true,
       },
@@ -1021,14 +1021,14 @@ const hobbies = {
       title_ru: "YouTube",
       title_de: "YouTube",
       description_en:
-        "!",
-      description_ru: "",
-      description_de: "",
+      "Hier können Sie die für mich interessantesten Videos sehen.",
+      description_ru: "Здесь вы можете увидеть наиболее интересные мне видео",
+      description_de: "Here you can see the most interesting videos for me.",
       image_path: "Memeing.png",
       codepen: {
         hash: "YzqRBVw",
         user: "yokanjs",
-        height: "300",
+        height: "400",
         defaultTab: "result",
         preview: false,
       },
@@ -1044,7 +1044,7 @@ const hobbies = {
       codepen: {
         hash: "rpPqGY",
         user: "o-k-s-a-n-a",
-        height: "300",
+        height: "400",
         defaultTab: "result",
         preview: false,
       },

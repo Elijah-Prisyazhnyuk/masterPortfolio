@@ -34,7 +34,6 @@ class ProjectLanguages extends Component {
                     )}
                     {!logo.iconifyClass && logo.imageSrc && (
                       <img
-                        className="iconify"
                         src={`../../../public/skills/${logo.imgSrc}`}
                         alt={logo.name}
                       />

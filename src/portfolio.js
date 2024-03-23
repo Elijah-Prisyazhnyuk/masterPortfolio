@@ -993,8 +993,8 @@ const hobbies = {
       description_de: "Musik ist ein Teil meines Lebens. Ich spiele gerne Klavier, Flöten, beschäftige mich mit generativer Musik und Musiktheorie. Mein Lieblingskomponist ist Sergei Rachmaninow.",
       image_path: "Music.png",
       codepen: {
-        hash: "rGeEbY",
-        user: "gabrielcarol",
+        hash: "bqjKaY",
+        user: "kennyname",
         height: "400px",
         defaultTab: "result",
         preview: false,

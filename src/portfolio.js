@@ -989,7 +989,7 @@ const hobbies = {
       title_ru: "Музыка",
       title_de: "Musik",
       description_en: "Music is a part of my life. I enjoy playing the piano, flutes, studying generative music, and music theory. My favorite composer is Sergei Rachmaninoff.",
-      description_ru: "Музыка это часть моей жизни. Увлекаюсь игрой на фортепиано, флейтах, изучением генеративной музыки и музыкальной теории. Любимый композитор Рахманинов С.В.",
+      description_ru: "Музыка это часть моей жизни. Увлекаюсь игрой на фортепиано, флейтe, изучением генеративной музыки и музыкальной теории. Любимый композитор Рахманинов С.В.",
       description_de: "Musik ist ein Teil meines Lebens. Ich spiele gerne Klavier, Flöten, beschäftige mich mit generativer Musik und Musiktheorie. Mein Lieblingskomponist ist Sergei Rachmaninow.",
       image_path: "Music.png",
       codepen: {

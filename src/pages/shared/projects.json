@@ -10,7 +10,7 @@
       "languages" : [
         {
         "name": "PowerPoint",
-        "imgSrc": "logos-html-5"
+        "imgSrc": "powerpoint.svg"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "languages": [
         {
           "name": "PowerPoint",
-          "imgSrc": "logos-html-5"
+          "imgSrc": "powerpoint.svg"
         }
       ]
     },

@@ -44,6 +44,8 @@ class HobbiesCard extends Component {
           })}
         </div>
       </Fade>
+      <iframe allow="accelerometer *; camera *; encrypted-media *; display-capture *; geolocation *; gyroscope *; microphone *; midi *; clipboard-read *; clipboard-write *; web-share *; serial *; xr-spatial-tracking *" allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="result-iframe  " frameborder="0" id="result-iframe" loading="lazy" name="CodePen Preview for Coulomb's Law Circuit Simulation" sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads allow-presentation" scrolling="yes" title="CodePen Preview for Coulomb's Law Circuit Simulation" data-src="https://codepen.io/lilgreenland/fullembedgrid/xprGvr?animations=run&amp;type=embed" src="https://codepen.io/lilgreenland/fullembedgrid/xprGvr?animations=run&amp;type=embed">
+  </iframe>
     </div>
   );
 };

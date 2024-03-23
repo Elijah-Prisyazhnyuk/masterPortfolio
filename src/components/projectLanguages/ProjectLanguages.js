@@ -32,9 +32,9 @@ class ProjectLanguages extends Component {
 
                       ></span>
                     )}
-                    {!logo.iconifyClass && logo.imageSrc && (
+                    {!logo.iconifyClass && logo.imgSrc && (
                       <img
-                        src={`../../../public/skills/pp.png`}
+                        src={`${process.env.PUBLIC_URL}/skills/${logo.imgSrc}`}
                         alt={logo.name}
                       />
                     )}

@@ -23,11 +23,20 @@ class ProjectLanguages extends Component {
                     className="software-skill-inline-languages"
                     name={logo.skillName}
                   >
-                    <span
-                      className="iconify"
-                      data-icon={logo.iconifyClass}
-                      data-inline="false"
-                    ></span>
+                    {logo.iconifyClass && (
+                      <span
+                        className="iconify"
+                        data-icon={logo.iconifyClass}
+                        data-inline="false"
+                      ></span>
+                    )}
+                    {!logo.iconifyClass && logo.imageSrc && (
+                      <img
+                        className="iconify"
+                        src={`${process.env.PUBLIC_URL}/skills/${logo.imgSrc}`}
+                        alt={logo.name}
+                      />
+                    )}
                   </li>
                 </OverlayTrigger>
               );

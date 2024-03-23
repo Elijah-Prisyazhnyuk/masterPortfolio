@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Fade } from "react-reveal";
 import { hobbies } from "../../portfolio";
+import Codepen from "react-codepen-embed";
 import "./HobbiesCard.css";
 
 class HobbiesCard extends Component {
@@ -30,6 +31,12 @@ class HobbiesCard extends Component {
                     </div>
                   </Fade>
                 </div>
+                <Codepen 
+                  hash={hobbiesdata.codepen.hash} 
+                  user={hobbiesdata.codepen.user}
+                  height={hobbiesdata.codepen.height}
+                  defaultTab={hobbiesdata.codepen.defaultTab}
+                  preview={hobbiesdata.codepen.preview}/>
                 <Fade right duration={2000}>
                   <div className="hobbies-card-img">
                     <img

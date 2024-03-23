@@ -992,6 +992,13 @@ const hobbies = {
       description_ru: "Музыка это часть моей жизни. Увлекаюсь игрой на фортепиано, флейтах, изучением генеративной музыки и музыкальной теории. Любимый композитор Рахманинов С.В.",
       description_de: "Musik ist ein Teil meines Lebens. Ich spiele gerne Klavier, Flöten, beschäftige mich mit generativer Musik und Musiktheorie. Mein Lieblingskomponist ist Sergei Rachmaninow.",
       image_path: "Music.png",
+      codepen: {
+        hash: "rGeEbY",
+        user: "gabrielcarol",
+        height: "300",
+        defaultTab: "result",
+        preview: false,
+      },
     },
     {
       title_en: "Visualization & modeling",
@@ -1001,9 +1008,13 @@ const hobbies = {
       description_ru: "Лучше один раз увидеть, чем сто раз услышать! Современные вычислительные CAD системы позволяют наблюдать множество захватывающих процессов детально.",
       description_de: "Einmal sehen ist besser als hundert Mal hören! Moderne rechnergestützte CAD-Systeme ermöglichen es, zahlreiche faszinierende Prozesse im Detail zu beobachten.",
       image_path: "Reading.png",
-      iframe: {
-      
-      }
+      codepen: {
+        hash: "xprGvr",
+        user: "lilgreenland",
+        height: "300",
+        defaultTab: "result",
+        preview: true,
+      },
     },
     {
       title_en: "YouTube",
@@ -1014,6 +1025,13 @@ const hobbies = {
       description_ru: "",
       description_de: "",
       image_path: "Memeing.png",
+      codepen: {
+        hash: "YzqRBVw",
+        user: "yokanjs",
+        height: "300",
+        defaultTab: "result",
+        preview: false,
+      },
     },
     {
       title_en: "Origami",
@@ -1023,6 +1041,13 @@ const hobbies = {
       description_ru: "",
       description_de: "",
       image_path: "Music.png",
+      codepen: {
+        hash: "rpPqGY",
+        user: "o-k-s-a-n-a",
+        height: "300",
+        defaultTab: "result",
+        preview: false,
+      },
     },
   ],
 };

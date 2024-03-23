@@ -2,10 +2,44 @@
   "data": [
     {
       "id": "",
+      "name": "conference",
+      "createdAt": "",
+      "url": "https://github.com/Elijah-Prisyazhnyuk/conference",
+      "description": "Презентация с 59й научно-технической конференции",
+      "isFork": false
+    },
+    {
+      "id": "",
+      "name": "diploma",
+      "createdAt": "",
+      "url": "https://github.com/Elijah-Prisyazhnyuk/masterPortfolio",
+      "description": "Моя дипломная работа",
+      "isFork": true,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        }
+      ]
+    },
+    {
+      "id": "",
       "name": "masterPortfolio Forked",
       "createdAt": "",
       "url": "https://github.com/Elijah-Prisyazhnyuk/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "description": "Этот сайт",
       "isFork": true,
       "languages": [
         {

@@ -76,7 +76,7 @@ const greeting = {
   logo_name: "ElijahPris",
   nickname: "@ElijahPris",
   subTitle_en: "I'm Elijah Prisyazhnyuk, or just Elijah Pris. I'm an embedded engineer with a background in machine learning and industrial electronics. This allows me to understand hardware and software integration more deeply. I am a passionate individual who designs, implements and programs MCU-based, IoT devices to solve real-world industry problems.",
-  subTitle_ru: "Я инженер-электронщик с компетенциями в сфере радиоэлектронники, промышленной электронники и машинного обучения. Это позволяет мне глубже понимать интеграцию аппаратной и программной частей различных устройств. Я увлекаюсь проектированием, сборкой и программированием микропроцессорных устройств для различных применений.",
+  subTitle_ru: "Я инженер-электронщик с компетенциями в сфере радиоэлектронники, промышленной электронники и машинного обучения. Это позволяет мне глубже понимать интеграцию аппаратной и программной части различных устройств. Я увлекаюсь проектированием, сборкой и программированием микропроцессорных устройств для различных применений.",
   subTitle_de: "Ich bin Elias Prisjashnjuk, oder einfach Elias Pris. Ich bin ein Embedded-Ingenieur mit Erfahrung in maschinellem Lernen und industrieller Elektronik. Dies ermöglicht es mir, die Integration von Hardware und Software tiefer zu verstehen. Ich bin eine leidenschaftliche Person, die MCU-basierte IoT-Geräte entwirft, implementiert und programmiert, um reale branchenspezifische Probleme zu lösen.",
   resumeLink:
     "https://drive.google.com/file/d/1FB3FK81IuefThJ8lzdtBsVixxvcrfQqh/view?usp=sharing",
